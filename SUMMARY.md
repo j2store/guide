@@ -83,6 +83,7 @@
 
 ## General
 
+* [General](general/general.md)
 * [How to set cron job on your server](general/how-to-set-cron-job-on-your-server.md)
 
 ---
@@ -277,7 +278,6 @@
 ---
 
 * [Trouble shooting issues](trouble-shooting-easy-checkout.md)
-* [Trouble shooting issues](trouble-shooting-issues.md)
 
 ## Tax configuration
 
