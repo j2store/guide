@@ -361,6 +361,8 @@
   * [How to set cron job on your server](general/general/how-to-set-cron-job-on-your-server.md)
   * [How to create an FTP account and super user account in Joomla](general/general/how-to-create-an-ftp-account-and-super-user-account-in-joomla.md)
 
+## Developer Guide
+
 ## Common overrides
 
 ---
@@ -376,11 +378,6 @@
 ---
 
 * [Canonical URL Plugin](canonical-url-plugin-1.md)
-
-## Developer Guide
-
----
-
 * [Developer Guide](developer-guide-1/README.md)
   * [Introduction](developer-guide-1/introduction.md)
   * [Queue System](developer-guide-1/queue-system.md)
