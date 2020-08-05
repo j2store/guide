@@ -123,6 +123,17 @@
 
 * [Localisation](localisation-1.md)
 
+## Translation
+
+---
+
+* [Translation](translation-1/README.md)
+  * [Translate J2Store into your language](translation-1/translate-j2store-into-your-language.md)
+  * [Setting up the store in your Language](translation-1/setting-up-the-store-in-your-language.md)
+  * [How to write language override for plugin in multilingual site](translation-1/how-to-write-language-override-for-plugin-in-multilingual-site.md)
+  * [Language overrides in Joomla with examples](translation-1/language-overrides-in-joomla-with-examples.md)
+  * [Translating Product Options](translation-1/translating-product-options.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -339,15 +350,6 @@
 * [Design](design/design/README.md)
   * [Email templates](design/design/email-templates.md)
   * [Invoice Template \(Pro Feature\)](design/design/invoice-template-pro-feature.md)
-
-## Translation
-
-* [Translation](translation/translation/README.md)
-  * [Translate J2Store into your language](translation/translation/translate-j2store-into-your-language.md)
-  * [Setting up the store in your Language](translation/translation/setting-up-the-store-in-your-language.md)
-  * [How to write language override for plugin in multilingual site](translation/translation/how-to-write-language-override-for-plugin-in-multilingual-site.md)
-  * [Language overrides in Joomla with examples](translation/translation/language-overrides-in-joomla-with-examples.md)
-  * [Translating Product Options](translation/translation/translating-product-options.md)
 
 ## Common overrides
 
