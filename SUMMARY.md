@@ -352,6 +352,7 @@
 
 ## Subscriptions and Memberships
 
+* [Subscriptions and Memberships](subscriptions-and-memberships/subscriptions-and-memberships.md)
 * [Introduction to subscriptions and memberships in J2Store](subscriptions-and-memberships/introduction-to-subscriptions-and-memberships-in-j2store.md)
 
 ---
