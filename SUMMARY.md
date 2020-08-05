@@ -29,11 +29,11 @@
 ## Frequently Asked Questions
 
 * [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions/README.md)
+  * [Products not aligned properly on list view](frequently-asked-questions/frequently-asked-questions/products-are-not-aligned-properly-on-list-view.md)
   * [Difference between product types](frequently-asked-questions/frequently-asked-questions/difference-between-product-types.md)
   * [Commonly found issues](frequently-asked-questions/frequently-asked-questions/commonly-found-issues.md)
   * [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions/frequently-asked-questions.md)
   * [Quantity Restriction](frequently-asked-questions/frequently-asked-questions/quantity-restriction.md)
-* [Products not aligned properly on list view](frequently-asked-questions/products-are-not-aligned-properly-on-list-view.md)
 * [To show the base price instead of price range in flexivariable products](frequently-asked-questions/to-show-the-base-price-instead-of-price-range-in-flexivariable-products.md)
 * [Unable to save the settings in any app](frequently-asked-questions/not-able-to-save-the-settings-in-any-app.md)
 * [Where do I add the CSS on my site](frequently-asked-questions/where-do-i-add-the-css-on-my-site.md)
