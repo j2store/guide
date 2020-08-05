@@ -74,7 +74,7 @@
   * [Paypal Refrence Transactions for Subscriptions](subscriptions-and-memberships-1/paypal-refrence-transactions-for-subscriptions.md)
   * [Usecases](subscriptions-and-memberships-1/usecases-3.md)
   * [Customizing the subscription mail templates](subscriptions-and-memberships-1/customizing-the-subscription-mail-templates.md)
-  * [Frequently asked questions](subscriptions-and-memberships-1/frequently-asked-questions-1.md)
+  * [Frequently asked questions](subscriptions-and-memberships-1/frequently-asked-questions.md)
 * [Partial Payments](partial-payments-1/README.md)
   * [Introduction to Partial payments](partial-payments-1/introduction-to-partial-payments.md)
   * [Basic Settings](partial-payments-1/basic-settings.md)
