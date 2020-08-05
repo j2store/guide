@@ -366,10 +366,10 @@
 ## Catalog
 
 * [Translating filters to your language](catalog/translating-filters-to-your-language.md)
+* [Where can i find my sub-template](catalog/where-can-i-find-my-sub-template.md)
 
 ---
 
-* [Where can i find my sub-template](where-can-i-find-my-sub-template.md)
 * [How to create options and add them to your products](how-to-create-options-and-add-them-to-your-products.md)
 * [Setting up tax for your products](setting-up-tax-for-your-products.md)
 * [Simple product](simple-product.md)
