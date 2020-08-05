@@ -117,6 +117,12 @@
   * [Category Tree for displaying filters](layout-1/category-tree-for-displaying-filters.md)
   * [Special module positions](layout-1/special-module-positions.md)
 
+## Localisation
+
+---
+
+* [Localisation](localisation-1.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -342,10 +348,6 @@
   * [How to write language override for plugin in multilingual site](translation/translation/how-to-write-language-override-for-plugin-in-multilingual-site.md)
   * [Language overrides in Joomla with examples](translation/translation/language-overrides-in-joomla-with-examples.md)
   * [Translating Product Options](translation/translation/translating-product-options.md)
-
-## Localisation
-
-* [Localisation](localisation/localisation.md)
 
 ## Common overrides
 
