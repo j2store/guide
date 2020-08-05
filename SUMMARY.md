@@ -90,17 +90,14 @@
 ## Integrations
 
 * [Integrations](integrations/integrations/README.md)
+  * [SP Page Builder](integrations/integrations/sp-page-builder.md)
+  * [FLEXIcontent](integrations/integrations/flexicontent.md)
   * [JEvents](integrations/integrations/jevents.md)
   * [Seblod](integrations/integrations/seblod.md)
   * [RS Events Pro for J2Store](integrations/integrations/rs-events-pro-for-j2store.md)
   * [Sobipro](integrations/integrations/sobipro.md)
   * [TZ Portfolio](integrations/integrations/tz-portfolio.md)
   * [Zoo](integrations/integrations/zoo.md)
-* [SP Page Builder](integrations/sp-page-builder.md)
-
----
-
-* [FLEXIcontent](flexicontent.md)
 
 ## Apps
 
