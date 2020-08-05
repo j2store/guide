@@ -72,16 +72,14 @@
 
 ## Developer Guide
 
-* [Sub-templates](developer-guide/sub-templates.md)
-
----
-
-* [Introduction](introduction.md)
-* [Queue System](queue-system.md)
-* [App for J2store](app-for-j2store.md)
-* [Creating an integration plugin for your component](creating-an-integration-plugin-for-your-component.md)
-* [Payment plugin](payment-plugin.md)
-* [Templates](templates.md)
+* [Developer Guide](developer-guide/developer-guide/README.md)
+  * [Introduction](developer-guide/developer-guide/introduction.md)
+  * [Queue System](developer-guide/developer-guide/queue-system.md)
+  * [App for J2store](developer-guide/developer-guide/app-for-j2store.md)
+  * [Sub-templates](developer-guide/developer-guide/sub-templates.md)
+  * [Creating an integration plugin for your component](developer-guide/developer-guide/creating-an-integration-plugin-for-your-component.md)
+  * [Payment plugin](developer-guide/developer-guide/payment-plugin.md)
+  * [Templates](developer-guide/developer-guide/templates.md)
 
 ## General
 
@@ -279,7 +277,6 @@
 ---
 
 * [Trouble shooting issues](trouble-shooting-easy-checkout.md)
-* [Trouble shooting issues](trouble-shooting-issues.md)
 
 ## Tax configuration
 
