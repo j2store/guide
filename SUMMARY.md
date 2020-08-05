@@ -39,6 +39,25 @@
   * [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions/frequently-asked-questions.md)
   * [Quantity Restriction](frequently-asked-questions/frequently-asked-questions/quantity-restriction.md)
 
+## Troubleshooting Guide
+
+* [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
+  * [Products not visible on storefront](troubleshooting-guide/troubleshooting-guide/product-not-visible-on-store-front.md)
+  * [Cart not Working](troubleshooting-guide/troubleshooting-guide/cart-not-working.md)
+  * [Troubleshooting Cart related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-cart-related-issues.md)
+  * [Moving the description](troubleshooting-guide/troubleshooting-guide/moving-the-description.md)
+  * [Troubleshooting Checkout Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-checkout-issues.md)
+  * [Troubleshooting Common Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-common-issues.md)
+  * [How to disable shipping address and payment in checkout](troubleshooting-guide/troubleshooting-guide/how-to-disable-shipping-address-step-and-payment-methods-in-checkout.md)
+  * [Joomla Article Error decoding json data](troubleshooting-guide/troubleshooting-guide/joomla-article-error-decoding-json-data.md)
+  * [Troubleshooting Email Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-email-issues.md)
+  * [Troubleshooting Paypal related Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-paypal-related-issues.md)
+  * [Troubleshooting Product Display Module Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-product-display-module-issues.md)
+  * [How to create a custom thank you message](troubleshooting-guide/troubleshooting-guide/howto-create-a-custom-thank-you-message.md)
+  * [Troubleshooting Shipping Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-shipping-methods.md)
+  * [Troubleshooting Tax Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-tax-issues.md)
+  * [Troubleshooting Translate related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-translate-related-issues.md)
+
 ## Catalog
 
 ---
@@ -204,84 +223,6 @@
   * [Product categories module](modules/modules/product-categories-module.md)
   * [Product display module](modules/modules/product-display-module.md)
 
-## Troubleshooting Guide
-
-* [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
-  * [Products not visible on storefront](troubleshooting-guide/troubleshooting-guide/product-not-visible-on-store-front.md)
-  * [Cart not Working](troubleshooting-guide/troubleshooting-guide/cart-not-working.md)
-  * [Troubleshooting Cart related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-cart-related-issues.md)
-  * [Moving the description](troubleshooting-guide/troubleshooting-guide/moving-the-description.md)
-  * [Troubleshooting Checkout Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-checkout-issues.md)
-  * [Troubleshooting Common Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-common-issues.md)
-  * [How to disable shipping address and payment in checkout](troubleshooting-guide/troubleshooting-guide/how-to-disable-shipping-address-step-and-payment-methods-in-checkout.md)
-  * [Joomla Article Error decoding json data](troubleshooting-guide/troubleshooting-guide/joomla-article-error-decoding-json-data.md)
-  * [Troubleshooting Email Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-email-issues.md)
-  * [Troubleshooting Paypal related Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-paypal-related-issues.md)
-  * [Troubleshooting Product Display Module Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-product-display-module-issues.md)
-  * [How to create a custom thank you message](troubleshooting-guide/troubleshooting-guide/howto-create-a-custom-thank-you-message.md)
-  * [Troubleshooting Shipping Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-shipping-methods.md)
-  * [Troubleshooting Tax Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-tax-issues.md)
-  * [Troubleshooting Translate related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-translate-related-issues.md)
-
-## General
-
-* [General](general/general/README.md)
-  * [How to set cron job on your server](general/general/how-to-set-cron-job-on-your-server.md)
-  * [How to create an FTP account and super user account in Joomla](general/general/how-to-create-an-ftp-account-and-super-user-account-in-joomla.md)
-
-## Apps
-
-* [Apps](apps/apps/README.md)
-  * [Advanced taxrate](apps/apps/advanced-taxrate.md)
-  * [Add to user group](apps/apps/add-to-user-group.md)
-  * [Additional fee](apps/apps/additional-fee.md)
-  * [Additional-terms-and-conditions](apps/apps/additional-terms-and-conditions.md)
-  * [Ask question / quote](apps/apps/ask-question-quote.md)
-  * [Advanced notify](apps/apps/advanced-notify.md)
-  * [Advanced variable](apps/apps/advanced-variable.md)
-  * [Amazon S3](apps/apps/amazon-s3.md)
-  * [Bundled Products](apps/apps/bundled-products.md)
-  * [Google Customer Review App](apps/apps/google-customer-review-app.md)
-  * [Email basket Plugin](apps/apps/email-basket-plugin.md)
-  * [Content Custom field](apps/apps/content-custom-field.md)
-  * [Auto Currency Switch](apps/apps/auto-currency-switch.md)
-  * [AcyMailing Integration App](apps/apps/acymailing-integration-app.md)
-  * [Social Media Share Plugin](apps/apps/social-media-share-plugin.md)
-  * [Twilio SMS](apps/apps/twilio-sms.md)
-  * [Upload file in checkout](apps/apps/upload-file-in-checkout.md)
-  * [Wishlist](apps/apps/wishlist.md)
-  * [google-analytics-ecommerce-tracking](apps/apps/google-analytics-ecommerce-tracking.md)
-  * [Discount for Payment methods](apps/apps/discount-for-payment-methods.md)
-  * [How to send download links through email notifications](apps/apps/how-to-send-download-links-through-email-notifications.md)
-  * [Language based currency](apps/apps/language-based-currency.md)
-  * [Email basket issues](apps/apps/email-basket-issues.md)
-  * [Shipstation](apps/apps/shipstation.md)
-  * [Enhanced e commerce google analytics](apps/apps/enhanced-e-commerce-google-analytics.md)
-  * [Quickbooks Online](apps/apps/quickbooks-online.md)
-  * [Price Suffix Texts](apps/apps/price-suffix-texts.md)
-  * [Quantity dropdown](apps/apps/quantity-dropdown.md)
-  * [Drop-box](apps/apps/drop-box.md)
-  * [GeoIP Product Rules](apps/apps/geoip-product-rules.md)
-  * [Jcomments](apps/apps/jcomments.md)
-  * [Points and Rewards](apps/apps/points-and-rewards.md)
-  * [Image Popup](apps/apps/image-popup.md)
-  * [Simple CSV import and export tool](apps/apps/simple-csv-import-and-export.md)
-  * [PDF Invoices](apps/apps/pdf-invoices.md)
-  * [Open hours \(time based restriction\)](apps/apps/open-hours-time-based-restriction.md)
-  * [CB profile Sync](apps/apps/cb-profile-sync.md)
-  * [Group Products](apps/apps/group-products.md)
-  * [Gift cards](apps/apps/gift-cards.md)
-  * [Facebook conversion pixel tracking](apps/apps/facebook-conversion-pixel-tracking.md)
-  * [availablity -notification](apps/apps/availablity--notification.md)
-  * [Data validation](apps/apps/data-validation.md)
-  * [Bulk discounts](apps/apps/bulk-discounts.md)
-  * [Invoice-prefix-generator](apps/apps/invoice-prefix-generator.md)
-  * [GDPR compliance](apps/apps/gdpr-compliance.md)
-  * [Google merchant center shopping feed](apps/apps/google-merchant-center-shopping-feed.md)
-  * [Product Compare](apps/apps/product-compare.md)
-  * [Pay later pay against invoice](apps/apps/pay-later-pay-against-invoice.md)
-  * [Tax Utilities](apps/apps/tax-utilities.md)
-
 ## Payment Methods
 
 * [Payment Methods](payment-methods/payment-methods/README.md)
@@ -347,6 +288,59 @@
   * [Yandex Money Payment Plugin](payment-methods/payment-methods/yandex-money-payment-plugin.md)
   * [2Checkout Plugin](payment-methods/payment-methods/2checkout-plugin.md)
 
+## Apps
+
+* [Apps](apps/apps/README.md)
+  * [Advanced taxrate](apps/apps/advanced-taxrate.md)
+  * [Add to user group](apps/apps/add-to-user-group.md)
+  * [Additional fee](apps/apps/additional-fee.md)
+  * [Additional-terms-and-conditions](apps/apps/additional-terms-and-conditions.md)
+  * [Ask question / quote](apps/apps/ask-question-quote.md)
+  * [Advanced notify](apps/apps/advanced-notify.md)
+  * [Advanced variable](apps/apps/advanced-variable.md)
+  * [Amazon S3](apps/apps/amazon-s3.md)
+  * [Bundled Products](apps/apps/bundled-products.md)
+  * [Google Customer Review App](apps/apps/google-customer-review-app.md)
+  * [Email basket Plugin](apps/apps/email-basket-plugin.md)
+  * [Content Custom field](apps/apps/content-custom-field.md)
+  * [Auto Currency Switch](apps/apps/auto-currency-switch.md)
+  * [AcyMailing Integration App](apps/apps/acymailing-integration-app.md)
+  * [Social Media Share Plugin](apps/apps/social-media-share-plugin.md)
+  * [Twilio SMS](apps/apps/twilio-sms.md)
+  * [Upload file in checkout](apps/apps/upload-file-in-checkout.md)
+  * [Wishlist](apps/apps/wishlist.md)
+  * [google-analytics-ecommerce-tracking](apps/apps/google-analytics-ecommerce-tracking.md)
+  * [Discount for Payment methods](apps/apps/discount-for-payment-methods.md)
+  * [How to send download links through email notifications](apps/apps/how-to-send-download-links-through-email-notifications.md)
+  * [Language based currency](apps/apps/language-based-currency.md)
+  * [Email basket issues](apps/apps/email-basket-issues.md)
+  * [Shipstation](apps/apps/shipstation.md)
+  * [Enhanced e commerce google analytics](apps/apps/enhanced-e-commerce-google-analytics.md)
+  * [Quickbooks Online](apps/apps/quickbooks-online.md)
+  * [Price Suffix Texts](apps/apps/price-suffix-texts.md)
+  * [Quantity dropdown](apps/apps/quantity-dropdown.md)
+  * [Drop-box](apps/apps/drop-box.md)
+  * [GeoIP Product Rules](apps/apps/geoip-product-rules.md)
+  * [Jcomments](apps/apps/jcomments.md)
+  * [Points and Rewards](apps/apps/points-and-rewards.md)
+  * [Image Popup](apps/apps/image-popup.md)
+  * [Simple CSV import and export tool](apps/apps/simple-csv-import-and-export.md)
+  * [PDF Invoices](apps/apps/pdf-invoices.md)
+  * [Open hours \(time based restriction\)](apps/apps/open-hours-time-based-restriction.md)
+  * [CB profile Sync](apps/apps/cb-profile-sync.md)
+  * [Group Products](apps/apps/group-products.md)
+  * [Gift cards](apps/apps/gift-cards.md)
+  * [Facebook conversion pixel tracking](apps/apps/facebook-conversion-pixel-tracking.md)
+  * [availablity -notification](apps/apps/availablity--notification.md)
+  * [Data validation](apps/apps/data-validation.md)
+  * [Bulk discounts](apps/apps/bulk-discounts.md)
+  * [Invoice-prefix-generator](apps/apps/invoice-prefix-generator.md)
+  * [GDPR compliance](apps/apps/gdpr-compliance.md)
+  * [Google merchant center shopping feed](apps/apps/google-merchant-center-shopping-feed.md)
+  * [Product Compare](apps/apps/product-compare.md)
+  * [Pay later pay against invoice](apps/apps/pay-later-pay-against-invoice.md)
+  * [Tax Utilities](apps/apps/tax-utilities.md)
+
 ## Integrations
 
 ---
@@ -360,6 +354,12 @@
   * [Sobipro](integrations-1/sobipro.md)
   * [TZ Portfolio](integrations-1/tz-portfolio.md)
   * [Zoo](integrations-1/zoo.md)
+
+## General
+
+* [General](general/general/README.md)
+  * [How to set cron job on your server](general/general/how-to-set-cron-job-on-your-server.md)
+  * [How to create an FTP account and super user account in Joomla](general/general/how-to-create-an-ftp-account-and-super-user-account-in-joomla.md)
 
 ## Common overrides
 
