@@ -29,15 +29,15 @@
 ## Frequently Asked Questions
 
 * [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions/README.md)
-  * [Unable to save the settings in any app](frequently-asked-questions/frequently-asked-questions/not-able-to-save-the-settings-in-any-app.md)
   * [Products not aligned properly on list view](frequently-asked-questions/frequently-asked-questions/products-are-not-aligned-properly-on-list-view.md)
+  * [SCA support for payment plugins](frequently-asked-questions/frequently-asked-questions/sca-support-for-payment-plugins.md)
+  * [To show the base price instead of price range in flexivariable products](frequently-asked-questions/frequently-asked-questions/to-show-the-base-price-instead-of-price-range-in-flexivariable-products.md)
+  * [Where do I add the CSS on my site](frequently-asked-questions/frequently-asked-questions/where-do-i-add-the-css-on-my-site.md)
+  * [Unable to save the settings in any app](frequently-asked-questions/frequently-asked-questions/not-able-to-save-the-settings-in-any-app.md)
   * [Difference between product types](frequently-asked-questions/frequently-asked-questions/difference-between-product-types.md)
   * [Commonly found issues](frequently-asked-questions/frequently-asked-questions/commonly-found-issues.md)
   * [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions/frequently-asked-questions.md)
   * [Quantity Restriction](frequently-asked-questions/frequently-asked-questions/quantity-restriction.md)
-* [To show the base price instead of price range in flexivariable products](frequently-asked-questions/to-show-the-base-price-instead-of-price-range-in-flexivariable-products.md)
-* [Where do I add the CSS on my site](frequently-asked-questions/where-do-i-add-the-css-on-my-site.md)
-* [SCA support for payment plugins](frequently-asked-questions/sca-support-for-payment-plugins.md)
 
 ## Troubleshooting Guide
 
