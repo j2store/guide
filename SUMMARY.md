@@ -161,6 +161,26 @@
   * [Easy checkout](easy-checkout-1/easy-checkout.md)
   * [Trouble shooting issues](easy-checkout-1/trouble-shooting-easy-checkout.md)
 
+## Shipping methods
+
+---
+
+* [Shipping methods](shipping-methods-1/README.md)
+  * [How to set up local store pick up shipping method](shipping-methods-1/how-to-set-up-local-store-pick-up-shipping-method.md)
+  * [Australia post shipping plugin](shipping-methods-1/australia-post-shipping-plugin.md)
+  * [Bring shipping plugin](shipping-methods-1/bring-shipping-plugin.md)
+  * [Canadapost shipping plugin](shipping-methods-1/canadapost-shipping-plugin.md)
+  * [DHL shipping plugin](shipping-methods-1/dhl-shipping-plugin.md)
+  * [FedEx shipping plugin](shipping-methods-1/fedex-shipping-plugin.md)
+  * [Purolator](shipping-methods-1/purolator.md)
+  * [Postal Code shipping plugin](shipping-methods-1/postal-code-shipping-plugin.md)
+  * [Royal Mail Shipping](shipping-methods-1/royal-mail-shipping.md)
+  * [Standard shipping methods](shipping-methods-1/standard-shipping-methods.md)
+  * [Table Rate Shipping](shipping-methods-1/table-rate-shipping.md)
+  * [UPS Shipping Plugin](shipping-methods-1/ups-shipping-plugin.md)
+  * [United States postal service Shipping Plugin](shipping-methods-1/united-states-postal-service-shipping-plugin.md)
+  * [USPS Advanced](shipping-methods-1/usps-advanced.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -338,24 +358,6 @@
   * [Vouchers](sales/sales/vouchers.md)
   * [Customers](sales/sales/customers.md)
   * [Orders](sales/sales/orders.md)
-
-## Shipping methods
-
-* [Shipping methods](shipping-methods/shipping-methods/README.md)
-  * [How to set up local store pick up shipping method](shipping-methods/shipping-methods/how-to-set-up-local-store-pick-up-shipping-method.md)
-  * [Australia post shipping plugin](shipping-methods/shipping-methods/australia-post-shipping-plugin.md)
-  * [Bring shipping plugin](shipping-methods/shipping-methods/bring-shipping-plugin.md)
-  * [Canadapost shipping plugin](shipping-methods/shipping-methods/canadapost-shipping-plugin.md)
-  * [DHL shipping plugin](shipping-methods/shipping-methods/dhl-shipping-plugin.md)
-  * [FedEx shipping plugin](shipping-methods/shipping-methods/fedex-shipping-plugin.md)
-  * [Purolator](shipping-methods/shipping-methods/purolator.md)
-  * [Postal Code shipping plugin](shipping-methods/shipping-methods/postal-code-shipping-plugin.md)
-  * [Royal Mail Shipping](shipping-methods/shipping-methods/royal-mail-shipping.md)
-  * [Standard shipping methods](shipping-methods/shipping-methods/standard-shipping-methods.md)
-  * [Table Rate Shipping](shipping-methods/shipping-methods/table-rate-shipping.md)
-  * [UPS Shipping Plugin](shipping-methods/shipping-methods/ups-shipping-plugin.md)
-  * [United States postal service Shipping Plugin](shipping-methods/shipping-methods/united-states-postal-service-shipping-plugin.md)
-  * [USPS Advanced](shipping-methods/shipping-methods/usps-advanced.md)
 
 ## Common overrides
 
