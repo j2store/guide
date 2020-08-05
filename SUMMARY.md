@@ -181,6 +181,17 @@
   * [United States postal service Shipping Plugin](shipping-methods-1/united-states-postal-service-shipping-plugin.md)
   * [USPS Advanced](shipping-methods-1/usps-advanced.md)
 
+## Sales
+
+---
+
+* [Sales](sales-1/README.md)
+  * [How to create coupons for free shipping](sales-1/how-to-create-coupons-for-free-shipping.md)
+  * [Coupons](sales-1/coupons.md)
+  * [Vouchers](sales-1/vouchers.md)
+  * [Customers](sales-1/customers.md)
+  * [Orders](sales-1/orders.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -349,15 +360,6 @@
 ## Reporting
 
 * [Report Sales](reporting/report-sales.md)
-
-## Sales
-
-* [Sales](sales/sales/README.md)
-  * [How to create coupons for free shipping](sales/sales/how-to-create-coupons-for-free-shipping.md)
-  * [Coupons](sales/sales/coupons.md)
-  * [Vouchers](sales/sales/vouchers.md)
-  * [Customers](sales/sales/customers.md)
-  * [Orders](sales/sales/orders.md)
 
 ## Common overrides
 
