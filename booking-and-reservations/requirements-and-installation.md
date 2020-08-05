@@ -1,4 +1,4 @@
-# Requierments and Installation
+# Requirements and Installation
 
 ## Requirements <a id="requirements"></a>
 
