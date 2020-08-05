@@ -90,6 +90,7 @@
 ## Integrations
 
 * [Integrations](integrations/integrations/README.md)
+  * [JEvents](integrations/integrations/jevents.md)
   * [Seblod](integrations/integrations/seblod.md)
   * [RS Events Pro for J2Store](integrations/integrations/rs-events-pro-for-j2store.md)
   * [Sobipro](integrations/integrations/sobipro.md)
@@ -100,7 +101,6 @@
 ---
 
 * [FLEXIcontent](flexicontent.md)
-* [JEvents](jevents.md)
 
 ## Apps
 
