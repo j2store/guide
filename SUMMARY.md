@@ -66,6 +66,33 @@
   * [Adding related products](catalog-1/adding-related-products.md)
   * [Ordering products on your storefront](catalog-1/ordering-products-on-your-storefront.md)
 
+## Subscriptions and Memberships
+
+---
+
+* [Subscriptions and Memberships](subscriptions-and-memberships-1/README.md)
+  * [Introduction to subscriptions and memberships in J2Store](subscriptions-and-memberships-1/introduction-to-subscriptions-and-memberships-in-j2store.md)
+  * [Quickstart](subscriptions-and-memberships-1/quickstart.md)
+  * [Requierments and Installation](subscriptions-and-memberships-1/requierments-and-installation-1.md)
+  * [Basic Settings](subscriptions-and-memberships-1/basic-settings-1.md)
+  * [Creating subscription based products](subscriptions-and-memberships-1/creating-subscription-based-products.md)
+  * [Simple Subscription Product](subscriptions-and-memberships-1/simple-subscription-product.md)
+  * [Paypal Refrence Transactions for Subscriptions](subscriptions-and-memberships-1/paypal-refrence-transactions-for-subscriptions.md)
+  * [Usecases](subscriptions-and-memberships-1/usecases-3.md)
+  * [Customizing the subscription mail templates](subscriptions-and-memberships-1/customizing-the-subscription-mail-templates.md)
+  * [Frequently asked questions](subscriptions-and-memberships-1/frequently-asked-questions-1.md)
+
+## Partial Payments
+
+---
+
+* [Partial Payments](partial-payments-1/README.md)
+  * [Introduction to Partial payments](partial-payments-1/introduction-to-partial-payments.md)
+  * [Basic Settings](partial-payments-1/basic-settings.md)
+  * [Setting up plans for Partial Payments](partial-payments-1/setting-up-plans-for-partial-payments.md)
+  * [Instances](partial-payments-1/instances.md)
+  * [Usecases](partial-payments-1/usecases-2.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -315,29 +342,6 @@
   * [Basic settings and Booking Management](booking-and-reservations/booking-and-reservations/basic-settings-and-booking-management.md)
   * [Creating a Bookable Product](booking-and-reservations/booking-and-reservations/creating-a-bookable-product.md)
   * [Usecases](booking-and-reservations/booking-and-reservations/usecases-1.md)
-
-## Partial Payments
-
-* [Partial Payments](partial-payments/partial-payments/README.md)
-  * [Introduction to Partial payments](partial-payments/partial-payments/introduction-to-partial-payments.md)
-  * [Basic Settings](partial-payments/partial-payments/basic-settings.md)
-  * [Setting up plans for Partial Payments](partial-payments/partial-payments/setting-up-plans-for-partial-payments.md)
-  * [Instances](partial-payments/partial-payments/instances.md)
-  * [Usecases](partial-payments/partial-payments/usecases-2.md)
-
-## Subscriptions and Memberships
-
-* [Subscriptions and Memberships](subscriptions-and-memberships/subscriptions-and-memberships/README.md)
-  * [Introduction to subscriptions and memberships in J2Store](subscriptions-and-memberships/subscriptions-and-memberships/introduction-to-subscriptions-and-memberships-in-j2store.md)
-  * [Quickstart](subscriptions-and-memberships/subscriptions-and-memberships/quickstart.md)
-  * [Requierments and Installation](subscriptions-and-memberships/subscriptions-and-memberships/requierments-and-installation-1.md)
-  * [Basic Settings](subscriptions-and-memberships/subscriptions-and-memberships/basic-settings-1.md)
-  * [Creating subscription based products](subscriptions-and-memberships/subscriptions-and-memberships/creating-subscription-based-products.md)
-  * [Simple Subscription Product](subscriptions-and-memberships/subscriptions-and-memberships/simple-subscription-product.md)
-  * [Paypal Refrence Transactions for Subscriptions](subscriptions-and-memberships/subscriptions-and-memberships/paypal-refrence-transactions-for-subscriptions.md)
-  * [Usecases](subscriptions-and-memberships/subscriptions-and-memberships/usecases-3.md)
-  * [Customizing the subscription mail templates](subscriptions-and-memberships/subscriptions-and-memberships/customizing-the-subscription-mail-templates.md)
-  * [Frequently asked questions](subscriptions-and-memberships/subscriptions-and-memberships/frequently-asked-questions-1.md)
 
 ## Common overrides
 
