@@ -85,10 +85,6 @@
   * [Troubleshooting Tax Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-tax-issues.md)
   * [Troubleshooting Translate related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-translate-related-issues.md)
 
-## Canonical URL Plugin
-
-* [Canonical URL Plugin](canonical-url-plugin/canonical-url-plugin.md)
-
 ## General
 
 * [General](general/general/README.md)
@@ -352,6 +348,12 @@
   * [Moving additional image list to the left of the main image in product view page](common-overrides-1/moving-additional-image-list-to-the-left-of-the-main-image-in-product-view-page.md)
   * [To display the UPCE/BAN/ISBN on the product page](common-overrides-1/to-display-the-upce-ban-isbn-on-the-product-page.md)
   * [To Display Both the main Image and the additional image in the product view page](common-overrides-1/to-display-both-the-main-image-and-the-additional-image-in-the-product-view-page.md)
+
+## Canonical URL Plugin
+
+---
+
+* [Canonical URL Plugin](canonical-url-plugin-1.md)
 
 ## Developer Guide
 
