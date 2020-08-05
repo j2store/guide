@@ -250,6 +250,7 @@
 
 ## Shipping methods
 
+* [Shipping methods](shipping-methods/shipping-methods.md)
 * [How to set up local store pick up shipping method](shipping-methods/how-to-set-up-local-store-pick-up-shipping-method.md)
 
 ---
