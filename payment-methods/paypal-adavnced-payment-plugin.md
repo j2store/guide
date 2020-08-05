@@ -1,4 +1,4 @@
-# Paypal Adavnced Payment plugin¨
+# Paypal Adavnced Payment plugin
 
 PayPal Payments Advanced is a PCI-compliant solution. Even customers without a PayPal account can make purchases through PayPal’s secure payment gateway using the credit card. Accepted cards include Visa, MasterCard, Switch/Maestro, and Solo credit cards in the United States.
 

@@ -1,4 +1,4 @@
-# Paypal Sandbox¨
+# Paypal Sandbox
 
 Using the PayPal Sandbox is not even half as intuitive as you might think. Since most of our users think that our software is broken because they are not able to use the Sandbox, we have documented every single step you have to take in order to use the Sandbox on your site.
 
