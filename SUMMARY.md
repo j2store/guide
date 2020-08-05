@@ -270,12 +270,9 @@
 
 ## Easy Checkout
 
-* [Easy Checkout](easy-checkout/easy-checkout-1.md)
-* [Easy checkout](easy-checkout/easy-checkout.md)
-
----
-
-* [Trouble shooting issues](trouble-shooting-easy-checkout.md)
+* [Easy Checkout](easy-checkout/easy-checkout-1/README.md)
+  * [Easy checkout](easy-checkout/easy-checkout-1/easy-checkout.md)
+  * [Trouble shooting issues](easy-checkout/easy-checkout-1/trouble-shooting-easy-checkout.md)
 
 ## Tax configuration
 
