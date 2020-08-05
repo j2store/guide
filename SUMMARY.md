@@ -353,20 +353,17 @@
 
 ## Subscriptions and Memberships
 
-* [Subscriptions and Memberships](subscriptions-and-memberships/subscriptions-and-memberships.md)
-* [Introduction to subscriptions and memberships in J2Store](subscriptions-and-memberships/introduction-to-subscriptions-and-memberships-in-j2store.md)
-
----
-
-* [Quickstart](quickstart.md)
-* [Requierments and Installation](requierments-and-installation-1.md)
-* [Basic Settings](basic-settings-1.md)
-* [Creating subscription based products](creating-subscription-based-products.md)
-* [Simple Subscription Product](simple-subscription-product.md)
-* [Paypal Refrence Transactions for Subscriptions](paypal-refrence-transactions-for-subscriptions.md)
-* [Usecases](usecases-3.md)
-* [Customizing the subscription mail templates](customizing-the-subscription-mail-templates.md)
-* [Frequently asked questions](frequently-asked-questions-1.md)
+* [Subscriptions and Memberships](subscriptions-and-memberships/subscriptions-and-memberships/README.md)
+  * [Introduction to subscriptions and memberships in J2Store](subscriptions-and-memberships/subscriptions-and-memberships/introduction-to-subscriptions-and-memberships-in-j2store.md)
+  * [Quickstart](subscriptions-and-memberships/subscriptions-and-memberships/quickstart.md)
+  * [Requierments and Installation](subscriptions-and-memberships/subscriptions-and-memberships/requierments-and-installation-1.md)
+  * [Basic Settings](subscriptions-and-memberships/subscriptions-and-memberships/basic-settings-1.md)
+  * [Creating subscription based products](subscriptions-and-memberships/subscriptions-and-memberships/creating-subscription-based-products.md)
+  * [Simple Subscription Product](subscriptions-and-memberships/subscriptions-and-memberships/simple-subscription-product.md)
+  * [Paypal Refrence Transactions for Subscriptions](subscriptions-and-memberships/subscriptions-and-memberships/paypal-refrence-transactions-for-subscriptions.md)
+  * [Usecases](subscriptions-and-memberships/subscriptions-and-memberships/usecases-3.md)
+  * [Customizing the subscription mail templates](subscriptions-and-memberships/subscriptions-and-memberships/customizing-the-subscription-mail-templates.md)
+  * [Frequently asked questions](subscriptions-and-memberships/subscriptions-and-memberships/frequently-asked-questions-1.md)
 
 ## Catalog
 
