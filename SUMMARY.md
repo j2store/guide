@@ -106,6 +106,17 @@
   * [Creating a Bookable Product](booking-and-reservations-1/creating-a-bookable-product.md)
   * [Usecases](booking-and-reservations-1/usecases-1.md)
 
+## Layout
+
+---
+
+* [Layout](layout-1/README.md)
+  * [Product layout](layout-1/product-layout.md)
+  * [Product tag layout](layout-1/product-tag-layout.md)
+  * [Usecases](layout-1/usecases.md)
+  * [Category Tree for displaying filters](layout-1/category-tree-for-displaying-filters.md)
+  * [Special module positions](layout-1/special-module-positions.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -335,15 +346,6 @@
 ## Localisation
 
 * [Localisation](localisation/localisation.md)
-
-## Layout
-
-* [Layout](layout/layout/README.md)
-  * [Product layout](layout/layout/product-layout.md)
-  * [Product tag layout](layout/layout/product-tag-layout.md)
-  * [Usecases](layout/layout/usecases.md)
-  * [Category Tree for displaying filters](layout/layout/category-tree-for-displaying-filters.md)
-  * [Special module positions](layout/layout/special-module-positions.md)
 
 ## Common overrides
 
