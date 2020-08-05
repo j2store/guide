@@ -192,6 +192,10 @@
   * [Customers](sales-1/customers.md)
   * [Orders](sales-1/orders.md)
 
+## Reporting
+
+* [Report Sales](reporting/report-sales.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -356,10 +360,6 @@
   * [Sobipro](integrations-1/sobipro.md)
   * [TZ Portfolio](integrations-1/tz-portfolio.md)
   * [Zoo](integrations-1/zoo.md)
-
-## Reporting
-
-* [Report Sales](reporting/report-sales.md)
 
 ## Common overrides
 
