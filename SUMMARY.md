@@ -278,5 +278,5 @@
   * [Moving additional image list to the left of the main image in product view page](common-overrides/moving-additional-image-list-to-the-left-of-the-main-image-in-product-view-page.md)
   * [To display the UPCE/BAN/ISBN on the product page](common-overrides/to-display-the-upce-ban-isbn-on-the-product-page.md)
   * [To Display Both the main Image and the additional image in the product view page](common-overrides/to-display-both-the-main-image-and-the-additional-image-in-the-product-view-page.md)
-* [Canonical URL Plugin](canonical-url-plugin-1.md)
+* [Canonical URL Plugin](canonical-url-plugin.md)
 
