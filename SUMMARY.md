@@ -248,24 +248,21 @@
 
 ## Shipping methods
 
-* [Shipping methods](shipping-methods/shipping-methods.md)
-* [How to set up local store pick up shipping method](shipping-methods/how-to-set-up-local-store-pick-up-shipping-method.md)
-
----
-
-* [Australia post shipping plugin](australia-post-shipping-plugin.md)
-* [Bring shipping plugin](bring-shipping-plugin.md)
-* [Canadapost shipping plugin](canadapost-shipping-plugin.md)
-* [DHL shipping plugin](dhl-shipping-plugin.md)
-* [FedEx shipping plugin](fedex-shipping-plugin.md)
-* [Purolator](purolator.md)
-* [Postal Code shipping plugin](postal-code-shipping-plugin.md)
-* [Royal Mail Shipping](royal-mail-shipping.md)
-* [Standard shipping methods](standard-shipping-methods.md)
-* [Table Rate Shipping](table-rate-shipping.md)
-* [UPS Shipping Plugin](ups-shipping-plugin.md)
-* [United States postal service Shipping Plugin](united-states-postal-service-shipping-plugin.md)
-* [USPS Advanced](usps-advanced.md)
+* [Shipping methods](shipping-methods/shipping-methods/README.md)
+  * [How to set up local store pick up shipping method](shipping-methods/shipping-methods/how-to-set-up-local-store-pick-up-shipping-method.md)
+  * [Australia post shipping plugin](shipping-methods/shipping-methods/australia-post-shipping-plugin.md)
+  * [Bring shipping plugin](shipping-methods/shipping-methods/bring-shipping-plugin.md)
+  * [Canadapost shipping plugin](shipping-methods/shipping-methods/canadapost-shipping-plugin.md)
+  * [DHL shipping plugin](shipping-methods/shipping-methods/dhl-shipping-plugin.md)
+  * [FedEx shipping plugin](shipping-methods/shipping-methods/fedex-shipping-plugin.md)
+  * [Purolator](shipping-methods/shipping-methods/purolator.md)
+  * [Postal Code shipping plugin](shipping-methods/shipping-methods/postal-code-shipping-plugin.md)
+  * [Royal Mail Shipping](shipping-methods/shipping-methods/royal-mail-shipping.md)
+  * [Standard shipping methods](shipping-methods/shipping-methods/standard-shipping-methods.md)
+  * [Table Rate Shipping](shipping-methods/shipping-methods/table-rate-shipping.md)
+  * [UPS Shipping Plugin](shipping-methods/shipping-methods/ups-shipping-plugin.md)
+  * [United States postal service Shipping Plugin](shipping-methods/shipping-methods/united-states-postal-service-shipping-plugin.md)
+  * [USPS Advanced](shipping-methods/shipping-methods/usps-advanced.md)
 
 ## Easy Checkout
 
