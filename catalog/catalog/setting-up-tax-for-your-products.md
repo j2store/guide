@@ -35,15 +35,15 @@ Tax profile name: US-TAX\*\*
 
 Navigate to J2Store-&gt; Localisation-&gt;Tax rates-&gt;Click new.
 
-![](.gitbook/assets/setting-tax-adding-tax-profile.png)
+![](../../.gitbook/assets/setting-tax-adding-tax-profile.png)
 
 Fill in the name, tax percentage, geozone and publish the tax rate.
 
-![](.gitbook/assets/setting-tax-rate-details.png)
+![](../../.gitbook/assets/setting-tax-rate-details.png)
 
 Navigate to J2Store-&gt;Localisation-&gt;Tax profile-&gt;New.
 
-![](.gitbook/assets/setting-tax-adding-tax-profile.png)
+![](../../.gitbook/assets/setting-tax-adding-tax-profile.png)
 
 Fill in the profile name, set the status and map the tax rate on the profile, choose the associated address.
 
@@ -51,17 +51,17 @@ Fill in the profile name, set the status and map the tax rate on the profile, ch
 
 Navigate to J2Store-&gt;Catalog-&gt;Products\(Or Content-&gt;Articles\).
 
-![](.gitbook/assets/setting-tax-nav-to-pro.png)
+![](../../.gitbook/assets/setting-tax-nav-to-pro.png)
 
 Edit the products for which you wish to collect tax. Navigate to the J2Store cart tab. Choose the tax profile and save.
 
-![](.gitbook/assets/setting-tax-profile-in-pro.png)
+![](../../.gitbook/assets/setting-tax-profile-in-pro.png)
 
 Frontend:
 
-![](.gitbook/assets/setting-tax-front.png)
+![](../../.gitbook/assets/setting-tax-front.png)
 
-![](.gitbook/assets/setting-tax-in-cart-page.png)
+![](../../.gitbook/assets/setting-tax-in-cart-page.png)
 
 Thus tax would be levied on the product as per the configuration.
 
