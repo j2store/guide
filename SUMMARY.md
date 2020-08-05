@@ -89,6 +89,7 @@
 
 ## Integrations
 
+* [Integrations](integrations/integrations.md)
 * [SP Page Builder](integrations/sp-page-builder.md)
 
 ---
