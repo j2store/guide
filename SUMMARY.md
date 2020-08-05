@@ -4,22 +4,24 @@
 
 ## Getting Started
 
-* [Introduction to J2Store](getting-started/introduction.md)
-* [Getting started with J2store](getting-started/getting-started-with-j2store.md)
-* [Technical Requirements](getting-started/technical-requirements.md)
-* [Installation](getting-started/untitled-1-1.md)
-* [Update](getting-started/untitled-1.md)
-* [Upgrade from FREE version to PRO version of J2Store](getting-started/untitled-2.md)
-* [Migrating from 2.x to3.x](getting-started/untitled.md)
+* [Getting Started](getting-started/getting-started/README.md)
+  * [Introduction to J2Store](getting-started/getting-started/introduction.md)
+  * [Getting started with J2store](getting-started/getting-started/getting-started-with-j2store.md)
+  * [Technical Requirements](getting-started/getting-started/technical-requirements.md)
+  * [Installation](getting-started/getting-started/untitled-1-1.md)
+  * [Update](getting-started/getting-started/untitled-1.md)
+  * [Upgrade from FREE version to PRO version of J2Store](getting-started/getting-started/untitled-2.md)
+  * [Migrating from 2.x to3.x](getting-started/getting-started/untitled.md)
 
 ## Set Up
 
+* [Set up](set-up/set-up/README.md)
+  * [Content plugin settings](set-up/set-up/content-plugin-settings.md)
+  * [Configuration](set-up/set-up/untitled.md)
 * [Setup Sample](set-up/setup-sample/README.md)
-  * [Set up multi-currency](set-up/setup-sample/setup-multi-currency.md)
   * [Custom fields](set-up/setup-sample/untitled-1.md)
   * [Currency](set-up/setup-sample/untitled-1-1.md)
-  * [Configuration](set-up/setup-sample/untitled.md)
-  * [Content plugin settings](set-up/setup-sample/content-plugin-settings.md)
+  * [Set up multi-currency](set-up/setup-sample/setup-multi-currency.md)
 
 ## Quick Start
 
