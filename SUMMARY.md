@@ -83,12 +83,9 @@
 
 ## General
 
-* [General](general/general.md)
-* [How to set cron job on your server](general/how-to-set-cron-job-on-your-server.md)
-
----
-
-* [How to create an FTP account and super user account in Joomla](how-to-create-an-ftp-account-and-super-user-account-in-joomla.md)
+* [General](general/general/README.md)
+  * [How to set cron job on your server](general/general/how-to-set-cron-job-on-your-server.md)
+  * [How to create an FTP account and super user account in Joomla](general/general/how-to-create-an-ftp-account-and-super-user-account-in-joomla.md)
 
 ## Integrations
 
