@@ -159,12 +159,12 @@
 
 ## Payment Methods
 
+* [Mollie payment plugin](payment-methods/mollie-payment-plugin.md)
 * [Stripe](payment-methods/stripe.md)
 
 ---
 
 * [Google Customer Review App](google-customer-review-app.md)
-* [Mollie payment plugin](mollie-payment-plugin.md)
 * [Braintree payment plugin](braintree-payment-plugin.md)
 * [GestPay](gestpay.md)
 * [Authorize.Net plugin](authorize.net-plugin.md)
