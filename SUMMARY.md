@@ -270,6 +270,7 @@
 
 ## Easy Checkout
 
+* [Easy Checkout](easy-checkout/easy-checkout-1.md)
 * [Easy checkout](easy-checkout/easy-checkout.md)
 
 ---
