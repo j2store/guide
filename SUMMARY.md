@@ -93,6 +93,19 @@
   * [Instances](partial-payments-1/instances.md)
   * [Usecases](partial-payments-1/usecases-2.md)
 
+## Booking and Reservations
+
+---
+
+* [Booking and Reservations](booking-and-reservations-1/README.md)
+  * [Limitation of the booking products type](booking-and-reservations-1/limitation-of-the-booking-products-type.md)
+  * [how to restrict multiple booking for a product person based restriction](booking-and-reservations-1/how-to-restrict-multiple-booking-for-a-product-person-based-restriction.md)
+  * [Booking and Reservations](booking-and-reservations-1/booking-and-reservations-1.md)
+  * [Requierments and Installation](booking-and-reservations-1/requierments-and-installation.md)
+  * [Basic settings and Booking Management](booking-and-reservations-1/basic-settings-and-booking-management.md)
+  * [Creating a Bookable Product](booking-and-reservations-1/creating-a-bookable-product.md)
+  * [Usecases](booking-and-reservations-1/usecases-1.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -331,17 +344,6 @@
   * [Usecases](layout/layout/usecases.md)
   * [Category Tree for displaying filters](layout/layout/category-tree-for-displaying-filters.md)
   * [Special module positions](layout/layout/special-module-positions.md)
-
-## Booking and Reservations
-
-* [Booking and Reservations](booking-and-reservations/booking-and-reservations/README.md)
-  * [Limitation of the booking products type](booking-and-reservations/booking-and-reservations/limitation-of-the-booking-products-type.md)
-  * [how to restrict multiple booking for a product person based restriction](booking-and-reservations/booking-and-reservations/how-to-restrict-multiple-booking-for-a-product-person-based-restriction.md)
-  * [Booking and Reservations](booking-and-reservations/booking-and-reservations/booking-and-reservations-1.md)
-  * [Requierments and Installation](booking-and-reservations/booking-and-reservations/requierments-and-installation.md)
-  * [Basic settings and Booking Management](booking-and-reservations/booking-and-reservations/basic-settings-and-booking-management.md)
-  * [Creating a Bookable Product](booking-and-reservations/booking-and-reservations/creating-a-bookable-product.md)
-  * [Usecases](booking-and-reservations/booking-and-reservations/usecases-1.md)
 
 ## Common overrides
 
