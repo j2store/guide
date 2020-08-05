@@ -142,6 +142,17 @@
   * [Email templates](design-1/email-templates.md)
   * [Invoice Template \(Pro Feature\)](design-1/invoice-template-pro-feature.md)
 
+## Tax configuration
+
+---
+
+* [Tax configuration](tax-configuration-1/README.md)
+  * [Recommended Tax configuration for US States](tax-configuration-1/recommended-tax-configuration-for-us-states.md)
+  * [Recommended Tax configuration for Canadian Stores](tax-configuration-1/recommended-tax-configuration-for-canadian-stores.md)
+  * [Recommended Tax Configuration for EU stores](tax-configuration-1/recommended-tax-configuration-for-eu-stores.md)
+  * [Setting up European VAT Rules for selling Physical Goods with J2store](tax-configuration-1/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store.md)
+  * [A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Store](tax-configuration-1/a-simplified-guide-for-new-eu-vat-rules-2015-for-digital-goods-and-setting-them-up-in-j2store.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -343,15 +354,6 @@
 * [Easy Checkout](easy-checkout/easy-checkout-1/README.md)
   * [Easy checkout](easy-checkout/easy-checkout-1/easy-checkout.md)
   * [Trouble shooting issues](easy-checkout/easy-checkout-1/trouble-shooting-easy-checkout.md)
-
-## Tax configuration
-
-* [Tax configuration](tax-configuration/tax-configuration/README.md)
-  * [Recommended Tax configuration for US States](tax-configuration/tax-configuration/recommended-tax-configuration-for-us-states.md)
-  * [Recommended Tax configuration for Canadian Stores](tax-configuration/tax-configuration/recommended-tax-configuration-for-canadian-stores.md)
-  * [Recommended Tax Configuration for EU stores](tax-configuration/tax-configuration/recommended-tax-configuration-for-eu-stores.md)
-  * [Setting up European VAT Rules for selling Physical Goods with J2store](tax-configuration/tax-configuration/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store.md)
-  * [A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Store](tax-configuration/tax-configuration/a-simplified-guide-for-new-eu-vat-rules-2015-for-digital-goods-and-setting-them-up-in-j2store.md)
 
 ## Common overrides
 
