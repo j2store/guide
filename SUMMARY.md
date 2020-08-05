@@ -42,6 +42,11 @@
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
+  * [Products not visible on storefront](troubleshooting-guide/troubleshooting-guide/product-not-visible-on-store-front.md)
+  * [Cart not Working](troubleshooting-guide/troubleshooting-guide/cart-not-working.md)
+  * [Troubleshooting Cart related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-cart-related-issues.md)
+  * [Moving the description](troubleshooting-guide/troubleshooting-guide/moving-the-description.md)
+  * [Troubleshooting Checkout Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-checkout-issues.md)
   * [Troubleshooting Common Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-common-issues.md)
   * [How to disable shipping address and payment in checkout](troubleshooting-guide/troubleshooting-guide/how-to-disable-shipping-address-step-and-payment-methods-in-checkout.md)
   * [Joomla Article Error decoding json data](troubleshooting-guide/troubleshooting-guide/joomla-article-error-decoding-json-data.md)
@@ -52,21 +57,14 @@
   * [Troubleshooting Shipping Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-shipping-methods.md)
   * [Troubleshooting Tax Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-tax-issues.md)
   * [Troubleshooting Translate related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-translate-related-issues.md)
-* [Troubleshooting Checkout Issues](troubleshooting-guide/troubleshooting-checkout-issues.md)
-* [Moving the description](troubleshooting-guide/moving-the-description.md)
-* [Troubleshooting Cart related Issues](troubleshooting-guide/troubleshoot-cart-related-issues.md)
-* [Cart not Working](troubleshooting-guide/cart-not-working.md)
-* [Products not visible on storefront](troubleshooting-guide/product-not-visible-on-store-front.md)
 
 ## Common overrides
 
-* [To add options to downloadable products](common-overrides/to-add-options-to-downloadable-products.md)
-
----
-
-* [Moving additional image list to the left of the main image in product view page](moving-additional-image-list-to-the-left-of-the-main-image-in-product-view-page.md)
-* [To display the UPCE/BAN/ISBN on the product page](to-display-the-upce-ban-isbn-on-the-product-page.md)
-* [To Display Both the main Image and the additional image in the product view page](to-display-both-the-main-image-and-the-additional-image-in-the-product-view-page.md)
+* [Common Overrides](common-overrides/common-overrides/README.md)
+  * [To add options to downloadable products](common-overrides/common-overrides/to-add-options-to-downloadable-products.md)
+  * [Moving additional image list to the left of the main image in product view page](common-overrides/common-overrides/moving-additional-image-list-to-the-left-of-the-main-image-in-product-view-page.md)
+  * [To display the UPCE/BAN/ISBN on the product page](common-overrides/common-overrides/to-display-the-upce-ban-isbn-on-the-product-page.md)
+  * [To Display Both the main Image and the additional image in the product view page](common-overrides/common-overrides/to-display-both-the-main-image-and-the-additional-image-in-the-product-view-page.md)
 
 ## Canonical URL Plugin
 
@@ -284,33 +282,27 @@
 
 ## Tax configuration
 
-* [Recommended Tax configuration for US States](tax-configuration/recommended-tax-configuration-for-us-states.md)
-
----
-
-* [Recommended Tax configuration for Canadian Stores](recommended-tax-configuration-for-canadian-stores.md)
-* [Recommended Tax Configuration for EU stores](recommended-tax-configuration-for-eu-stores.md)
-* [Setting up European VAT Rules for selling Physical Goods with J2store](setting-up-european-vat-rules-for-selling-physical-goods-with-j2store.md)
-* [A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Store](a-simplified-guide-for-new-eu-vat-rules-2015-for-digital-goods-and-setting-them-up-in-j2store.md)
+* [Tax configuration](tax-configuration/tax-configuration/README.md)
+  * [Recommended Tax configuration for US States](tax-configuration/tax-configuration/recommended-tax-configuration-for-us-states.md)
+  * [Recommended Tax configuration for Canadian Stores](tax-configuration/tax-configuration/recommended-tax-configuration-for-canadian-stores.md)
+  * [Recommended Tax Configuration for EU stores](tax-configuration/tax-configuration/recommended-tax-configuration-for-eu-stores.md)
+  * [Setting up European VAT Rules for selling Physical Goods with J2store](tax-configuration/tax-configuration/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store.md)
+  * [A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Store](tax-configuration/tax-configuration/a-simplified-guide-for-new-eu-vat-rules-2015-for-digital-goods-and-setting-them-up-in-j2store.md)
 
 ## Design
 
-* [Email templates](design/email-templates.md)
-
----
-
-* [Invoice Template \(Pro Feature\)](invoice-template-pro-feature.md)
+* [Design](design/design/README.md)
+  * [Email templates](design/design/email-templates.md)
+  * [Invoice Template \(Pro Feature\)](design/design/invoice-template-pro-feature.md)
 
 ## Translation
 
-* [Translate J2Store into your language](translation/translate-j2store-into-your-language.md)
-
----
-
-* [Setting up the store in your Language](setting-up-the-store-in-your-language.md)
-* [How to write language override for plugin in multilingual site](how-to-write-language-override-for-plugin-in-multilingual-site.md)
-* [Language overrides in Joomla with examples](language-overrides-in-joomla-with-examples.md)
-* [Translating Product Options](translating-product-options.md)
+* [Translation](translation/translation/README.md)
+  * [Translate J2Store into your language](translation/translation/translate-j2store-into-your-language.md)
+  * [Setting up the store in your Language](translation/translation/setting-up-the-store-in-your-language.md)
+  * [How to write language override for plugin in multilingual site](translation/translation/how-to-write-language-override-for-plugin-in-multilingual-site.md)
+  * [Language overrides in Joomla with examples](translation/translation/language-overrides-in-joomla-with-examples.md)
+  * [Translating Product Options](translation/translation/translating-product-options.md)
 
 ## Localisation
 
@@ -318,38 +310,32 @@
 
 ## Layout
 
-* [Product layout](layout/product-layout.md)
-
----
-
-* [Product tag layout](product-tag-layout.md)
-* [Usecases](usecases.md)
-* [Category Tree for displaying filters](category-tree-for-displaying-filters.md)
-* [Special module positions](special-module-positions.md)
+* [Layout](layout/layout/README.md)
+  * [Product layout](layout/layout/product-layout.md)
+  * [Product tag layout](layout/layout/product-tag-layout.md)
+  * [Usecases](layout/layout/usecases.md)
+  * [Category Tree for displaying filters](layout/layout/category-tree-for-displaying-filters.md)
+  * [Special module positions](layout/layout/special-module-positions.md)
 
 ## Booking and Reservations
 
-* [Limitation of the booking products type](booking-and-reservations/limitation-of-the-booking-products-type.md)
-
----
-
-* [how to restrict multiple booking for a product person based restriction](how-to-restrict-multiple-booking-for-a-product-person-based-restriction.md)
-* [Booking and Reservations](booking-and-reservations-1.md)
-* [Requierments and Installation](requierments-and-installation.md)
-* [Basic settings and Booking Management](basic-settings-and-booking-management.md)
-* [Creating a Bookable Product](creating-a-bookable-product.md)
-* [Usecases](usecases-1.md)
+* [Booking and Reservations](booking-and-reservations/booking-and-reservations/README.md)
+  * [Limitation of the booking products type](booking-and-reservations/booking-and-reservations/limitation-of-the-booking-products-type.md)
+  * [how to restrict multiple booking for a product person based restriction](booking-and-reservations/booking-and-reservations/how-to-restrict-multiple-booking-for-a-product-person-based-restriction.md)
+  * [Booking and Reservations](booking-and-reservations/booking-and-reservations/booking-and-reservations-1.md)
+  * [Requierments and Installation](booking-and-reservations/booking-and-reservations/requierments-and-installation.md)
+  * [Basic settings and Booking Management](booking-and-reservations/booking-and-reservations/basic-settings-and-booking-management.md)
+  * [Creating a Bookable Product](booking-and-reservations/booking-and-reservations/creating-a-bookable-product.md)
+  * [Usecases](booking-and-reservations/booking-and-reservations/usecases-1.md)
 
 ## Partial Payments
 
-* [Introduction to Partial payments](partial-payments/introduction-to-partial-payments.md)
-
----
-
-* [Basic Settings](basic-settings.md)
-* [Setting up plans for Partial Payments](setting-up-plans-for-partial-payments.md)
-* [Instances](instances.md)
-* [Usecases](usecases-2.md)
+* [Partial Payments](partial-payments/partial-payments/README.md)
+  * [Introduction to Partial payments](partial-payments/partial-payments/introduction-to-partial-payments.md)
+  * [Basic Settings](partial-payments/partial-payments/basic-settings.md)
+  * [Setting up plans for Partial Payments](partial-payments/partial-payments/setting-up-plans-for-partial-payments.md)
+  * [Instances](partial-payments/partial-payments/instances.md)
+  * [Usecases](partial-payments/partial-payments/usecases-2.md)
 
 ## Subscriptions and Memberships
 
