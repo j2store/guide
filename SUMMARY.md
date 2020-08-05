@@ -196,6 +196,14 @@
 
 * [Report Sales](reporting/report-sales.md)
 
+## Modules
+
+* [Modules](modules/modules/README.md)
+  * [Product search module](modules/modules/product-search-module.md)
+  * [J2store Detailed Cart](modules/modules/j2store-detailed-cart.md)
+  * [Product categories module](modules/modules/product-categories-module.md)
+  * [Product display module](modules/modules/product-display-module.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -338,14 +346,6 @@
   * [Worldpay Payment Plugin](payment-methods/payment-methods/worldpay-payment-plugin.md)
   * [Yandex Money Payment Plugin](payment-methods/payment-methods/yandex-money-payment-plugin.md)
   * [2Checkout Plugin](payment-methods/payment-methods/2checkout-plugin.md)
-
-## Modules
-
-* [Modules](modules/modules/README.md)
-  * [Product search module](modules/modules/product-search-module.md)
-  * [J2store Detailed Cart](modules/modules/j2store-detailed-cart.md)
-  * [Product categories module](modules/modules/product-categories-module.md)
-  * [Product display module](modules/modules/product-display-module.md)
 
 ## Integrations
 
