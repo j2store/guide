@@ -134,6 +134,14 @@
   * [Language overrides in Joomla with examples](translation-1/language-overrides-in-joomla-with-examples.md)
   * [Translating Product Options](translation-1/translating-product-options.md)
 
+## Design
+
+---
+
+* [Design](design-1/README.md)
+  * [Email templates](design-1/email-templates.md)
+  * [Invoice Template \(Pro Feature\)](design-1/invoice-template-pro-feature.md)
+
 ## Troubleshooting Guide
 
 * [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
@@ -344,12 +352,6 @@
   * [Recommended Tax Configuration for EU stores](tax-configuration/tax-configuration/recommended-tax-configuration-for-eu-stores.md)
   * [Setting up European VAT Rules for selling Physical Goods with J2store](tax-configuration/tax-configuration/setting-up-european-vat-rules-for-selling-physical-goods-with-j2store.md)
   * [A simplified guide for New EU VAT rules 2015 for digital goods and setting them up in J2Store](tax-configuration/tax-configuration/a-simplified-guide-for-new-eu-vat-rules-2015-for-digital-goods-and-setting-them-up-in-j2store.md)
-
-## Design
-
-* [Design](design/design/README.md)
-  * [Email templates](design/design/email-templates.md)
-  * [Invoice Template \(Pro Feature\)](design/design/invoice-template-pro-feature.md)
 
 ## Common overrides
 
