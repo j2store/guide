@@ -279,6 +279,7 @@
 ---
 
 * [Trouble shooting issues](trouble-shooting-easy-checkout.md)
+* [Trouble shooting issues](trouble-shooting-issues.md)
 
 ## Tax configuration
 
