@@ -41,14 +41,15 @@
 
 ## Troubleshooting Guide
 
-* [Troubleshooting Translate related Issues](troubleshooting-guide/troubleshoot-translate-related-issues.md)
-* [Troubleshooting Tax Issues](troubleshooting-guide/troubleshooting-tax-issues.md)
-* [Troubleshooting Shipping Issues](troubleshooting-guide/troubleshooting-shipping-methods.md)
-* [How to create a custom thank you message](troubleshooting-guide/howto-create-a-custom-thank-you-message.md)
-* [Troubleshooting Product Display Module Issues](troubleshooting-guide/troubleshoot-product-display-module-issues.md)
-* [Troubleshooting Paypal related Issues](troubleshooting-guide/troubleshooting-paypal-related-issues.md)
-* [Joomla Article Error decoding json data](troubleshooting-guide/joomla-article-error-decoding-json-data.md)
-* [Troubleshooting Email Issues](troubleshooting-guide/troubleshoot-email-issues.md)
+* [Troubleshooting Guide](troubleshooting-guide/troubleshooting-guide/README.md)
+  * [Troubleshooting Email Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-email-issues.md)
+  * [Troubleshooting Paypal related Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-paypal-related-issues.md)
+  * [Troubleshooting Product Display Module Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-product-display-module-issues.md)
+  * [How to create a custom thank you message](troubleshooting-guide/troubleshooting-guide/howto-create-a-custom-thank-you-message.md)
+  * [Troubleshooting Shipping Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-shipping-methods/README.md)
+    * [Joomla Article Error decoding json data](troubleshooting-guide/troubleshooting-guide/troubleshooting-shipping-methods/joomla-article-error-decoding-json-data.md)
+  * [Troubleshooting Tax Issues](troubleshooting-guide/troubleshooting-guide/troubleshooting-tax-issues.md)
+  * [Troubleshooting Translate related Issues](troubleshooting-guide/troubleshooting-guide/troubleshoot-translate-related-issues.md)
 * [How to disable shipping address and payment in checkout](troubleshooting-guide/how-to-disable-shipping-address-step-and-payment-methods-in-checkout.md)
 * [Troubleshooting Common Issues](troubleshooting-guide/troubleshooting-common-issues.md)
 * [Troubleshooting Checkout Issues](troubleshooting-guide/troubleshooting-checkout-issues.md)
