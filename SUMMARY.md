@@ -363,6 +363,17 @@
 
 ## Developer Guide
 
+---
+
+* [Developer Guide](developer-guide-1/README.md)
+  * [Introduction](developer-guide-1/introduction.md)
+  * [Queue System](developer-guide-1/queue-system.md)
+  * [App for J2store](developer-guide-1/app-for-j2store.md)
+  * [Sub-templates](developer-guide-1/sub-templates.md)
+  * [Creating an integration plugin for your component](developer-guide-1/creating-an-integration-plugin-for-your-component.md)
+  * [Payment plugin](developer-guide-1/payment-plugin.md)
+  * [Templates](developer-guide-1/templates.md)
+
 ## Common overrides
 
 ---
@@ -378,12 +389,4 @@
 ---
 
 * [Canonical URL Plugin](canonical-url-plugin-1.md)
-* [Developer Guide](developer-guide-1/README.md)
-  * [Introduction](developer-guide-1/introduction.md)
-  * [Queue System](developer-guide-1/queue-system.md)
-  * [App for J2store](developer-guide-1/app-for-j2store.md)
-  * [Sub-templates](developer-guide-1/sub-templates.md)
-  * [Creating an integration plugin for your component](developer-guide-1/creating-an-integration-plugin-for-your-component.md)
-  * [Payment plugin](developer-guide-1/payment-plugin.md)
-  * [Templates](developer-guide-1/templates.md)
 
