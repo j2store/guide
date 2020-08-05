@@ -18,7 +18,7 @@ Here are some of the popular guides to get you started quickly
 
 {% page-ref page="quick-start-guide.md" %}
 
-{% page-ref page="catalog-1/" %}
+{% page-ref page="catalog/" %}
 
 
 
