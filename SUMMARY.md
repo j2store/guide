@@ -14,11 +14,12 @@
 
 ## Set Up
 
-* [Content plugin settings](set-up/content-plugin-settings.md)
-* [Configuration](set-up/untitled.md)
-* [Currency](set-up/untitled-1-1.md)
-* [Custom fields](set-up/untitled-1.md)
-* [Set up multi-currency](set-up/setup-multi-currency.md)
+* [Setup Sample](set-up/setup-sample/README.md)
+  * [Set up multi-currency](set-up/setup-sample/setup-multi-currency.md)
+  * [Custom fields](set-up/setup-sample/untitled-1.md)
+  * [Currency](set-up/setup-sample/untitled-1-1.md)
+  * [Configuration](set-up/setup-sample/untitled.md)
+  * [Content plugin settings](set-up/setup-sample/content-plugin-settings.md)
 
 ## Quick Start
 

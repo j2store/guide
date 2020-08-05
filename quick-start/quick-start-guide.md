@@ -84,7 +84,7 @@ Now Go to frontend of your site and check. ![Quickstart-frontend](https://raw.gi
 
 
 
-{% page-ref page="../set-up/content-plugin-settings.md" %}
+{% page-ref page="../set-up/setup-sample/content-plugin-settings.md" %}
 
 
 
