@@ -237,6 +237,7 @@
 
 ## Sales
 
+* [Sales](sales/sales.md)
 * [How to create coupons for free shipping](sales/how-to-create-coupons-for-free-shipping.md)
 
 ---
