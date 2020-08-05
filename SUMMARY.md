@@ -367,6 +367,7 @@
 
 ## Catalog
 
+* [Catalog](catalog/catalog.md)
 * [Translating filters to your language](catalog/translating-filters-to-your-language.md)
 * [Where can i find my sub-template](catalog/where-can-i-find-my-sub-template.md)
 * [How to create options and add them to your products](catalog/how-to-create-options-and-add-them-to-your-products.md)
