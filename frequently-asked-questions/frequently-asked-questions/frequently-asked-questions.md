@@ -182,7 +182,7 @@ Go to menu manager and open the menu which links to J2store &gt; Product List Vi
 
 Please refer the below image which shows the name of the filters.
 
-![](../.gitbook/assets/faq_filter.png) 
+![](../../.gitbook/assets/faq_filter.png) 
 
 **To hide Top bar filter completely:** Set HIDE to Top bar filters.
 

@@ -16,11 +16,11 @@
 ## Set Up
 
 * [Set up](set-up/set-up/README.md)
+  * [Content plugin settings](set-up/set-up/content-plugin-settings.md)
+  * [Configuration](set-up/set-up/untitled.md)
   * [Currency](set-up/set-up/untitled-1-1.md)
   * [Custom fields](set-up/set-up/untitled-1.md)
   * [Set up multi-currency](set-up/set-up/setup-multi-currency.md)
-  * [Content plugin settings](set-up/set-up/content-plugin-settings.md)
-  * [Configuration](set-up/set-up/untitled.md)
 
 ## Quick Start
 
@@ -28,10 +28,11 @@
 
 ## Frequently Asked Questions
 
-* [Quantity Restriction](frequently-asked-questions/quantity-restriction.md)
-* [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions.md)
-* [Commonly found issues](frequently-asked-questions/commonly-found-issues.md)
-* [Difference between product types](frequently-asked-questions/difference-between-product-types.md)
+* [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions/README.md)
+  * [Difference between product types](frequently-asked-questions/frequently-asked-questions/difference-between-product-types.md)
+  * [Commonly found issues](frequently-asked-questions/frequently-asked-questions/commonly-found-issues.md)
+  * [Frequently Asked Questions](frequently-asked-questions/frequently-asked-questions/frequently-asked-questions.md)
+  * [Quantity Restriction](frequently-asked-questions/frequently-asked-questions/quantity-restriction.md)
 * [Products not aligned properly on list view](frequently-asked-questions/products-are-not-aligned-properly-on-list-view.md)
 * [To show the base price instead of price range in flexivariable products](frequently-asked-questions/to-show-the-base-price-instead-of-price-range-in-flexivariable-products.md)
 * [Unable to save the settings in any app](frequently-asked-questions/not-able-to-save-the-settings-in-any-app.md)
