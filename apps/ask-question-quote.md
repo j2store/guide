@@ -8,11 +8,11 @@ This app allows customer to enquire a product or to ask quote for a product thro
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-Site in catalog mode:
+**Switch off catalog mode:**
 
-NOTE: \*\*If you are having the shop in catalog mode, the ask quote button wouldn’t come up on the storefront.
+**NOTE:** **If you are having the shop in catalog mode, the ask quote button wouldn’t come up on the storefront.**
 
-Alternatively, you could turn off the catalog mode and hide the add to cart buttons in the site using the\*\* \***\*Hide add to cart button for all products? \*\*in the basic settings of the Ask quote plugin.**
+Alternatively, you could turn off the catalog mode and hide the add to cart buttons in the site using the **Hide add to cart button for all products?** in the basic settings of the Ask quote plugin.
 
 **Installation**
 
@@ -34,11 +34,11 @@ Select YES or NO to enable and disable the Ask quote button for all products.
 
 Select YES or NO to hide the Add to cart button.
 
-* \*\*Hide Zero Price Cart Button: \*\*
+* **Hide Zero Price Cart Button:**
 
 Select yes or no to hide the cart if the the price of the product in the cart is zero
 
-* \*\*Display form style: \*\*
+* **Display form style:**
 
 Select the view of the Ask Quote form.
 
@@ -46,7 +46,7 @@ POP-UP: Select this to display the ask quote form in a separate pop-up window.
 
 Accordion: Select this to display the ask quote form in an accordian view
 
-* \*\*Display position \*\*
+* **Display position** 
 
 Choose whether you wish to have the add to quote form before or after the cart.
 
