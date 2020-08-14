@@ -24,7 +24,17 @@ Alternatively, you could turn off the catalog mode and hide the add to cart butt
 
 4. Once the app is enabled, open the app to configure the settings.
 
-**Basic Settings**
+**Global level:**
+
+In the global settings of the app, you can configure 
+
+* How and where the ask quote app would appear at the storefront.
+* The look of the email that is triggered when a user submits the ask quote form.
+* The layout of the ask quote modal form.
+
+
+
+#### **Basic Settings**
 
 * **Enable Ask quote button for all products**
 
@@ -34,11 +44,11 @@ Select YES or NO to enable and disable the Ask quote button for all products.
 
 Select YES or NO to hide the Add to cart button.
 
-* **Hide Zero Price Cart Button:**
+* **Hide Zero Price Cart Button**
 
 Select yes or no to hide the cart if the the price of the product in the cart is zero
 
-* **Display form style:**
+* **Display form style**
 
 Select the view of the Ask Quote form.
 
@@ -62,11 +72,21 @@ Selecting display type here will make the text to be displayed in button / link.
 
 * **Display text for button/link**
 
-Change the button text / link text by entering custom text here.Use the language constant PLG_J2STORE_PRODUCTQUOTE_LINK_TEXT to translate the text when you are using multilingual site.
+Change the button text / link text by entering custom text here.
 
-\*\*Email Configuration \*\* - \*\*Include label for custom fields : \*\*
+Use the language constant PLG\_J2STORE\_PRODUCTQUOTE\_LINK\_TEXT to translate the text when you are using multilingual site.
 
-Enter the label of custom field which you wish include the email
+#### Email Configuration
+
+ **Include label for custom fields:** 
+
+If you wish that the label of the custom fields you use should be available on the email, then set this to Yes.
+
+**Mail sent to:**
+
+You could choose whether the user alone or admin alone or both should receive the ask quote email.
+
+**Email body:**
 
 Enter the body of the email here. You can use the below shortcodes in the text editor:
 
@@ -89,15 +109,15 @@ Enter the body of the email here. You can use the below shortcodes in the text e
  \[PRODUCT\_PRICE\]  
 
 
-To display the custom field information enterd by the user when filling form in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor. For example, if you are having text area as a custom field in your product quote form, then copy the field name\(you can get it in custom field section J2Store &gt; Setup &gt; Custom fields\) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, \[message\].
+**To Display the custom field data**
 
-**Email Subject:**
+To display the custom field information entered by the user when filling form in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor. 
 
-Enter the subject of the email here.
+For example, if you are having text area as a custom field in your product quote form, then copy the field name\(you can get it in custom field section J2Store &gt; Setup &gt; Custom fields\) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, \[message\].
 
  Refer the image below,
 
-![Ask quote email config](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-email-config.png)
+![](../.gitbook/assets/screenshot-localhost-2020.08.14-17_37_38.png)
 
 **Layout**
 
