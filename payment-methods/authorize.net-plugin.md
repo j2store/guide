@@ -11,16 +11,48 @@ This Plugin enables you to receive payments via Authorize.Net Payment Gateway. V
 ## Installation Instructions <a id="installation-instructions"></a>
 
 1. Use the Joomla installer to install the plugin.
-2. In the backend, go to Extensions-&gt;Plugin Manager and open the Heartland Payment plugin. \(type = j2store\).
+
+![](../.gitbook/assets/authorize.net-installation1.png)
+
+![](../.gitbook/assets/authorize.net-installation2.png)
+
+2. In the backend, go to J2Store-&gt;Setup-.Payment Methods-&gt;Authorize.net payment
+
+![](../.gitbook/assets/authorize.net-installation3.png)
+
 3. Enable the plugin.
+
+![](../.gitbook/assets/authorize.net-installation4.png)
+
 4. Enter the parameters \(read the explanation about each parameter given below\).
+
 5. Save and close it.
 
 Now you can see the Authorize.net Payments as an option during the Checkout process.
 
 ## Parameters <a id="parameters"></a>
 
-**Authorize.net Login ID**
+**Payment option Title:**
+
+Enter the payment title that you wish to display at the Frontend of your site.
+
+**Image or Logo**
+
+You can insert the image or the Logo that you wish to display at the Frontend of your site.
+
+**Transaction Type**
+
+You can find two types of transaction type in Authorize.net payment.
+
+~~**Authorize Payment:**~~
+
+If you wish to process the payment only after the product is purchased from the store then you can achieve this by using the Authorize payment as the transaction type, as this would let you to approve the purchase manually and then process the payment.
+
+**Capture Payment:**
+
+You can capture the payment directly once the order is placed using the Capture payment in transaction method.
+
+**API Login ID**
 
 This is your Merchant Login Id given by the Authorize.net
 
@@ -28,37 +60,59 @@ This is your Merchant Login Id given by the Authorize.net
 
 Transaction key provided by the authorize.net
 
-**Authorize.net MD5 Hash**
-
-This is an additional security feature of Authorize.net. But use with care. If you dont know what you are doing, pleaseleave this blank. This is optional parameter.
-
-**Use SSL to post back to Authorize.net?**
-
-If you are using SSL certificate \(https\), enable this. If you dont know what SSL is, better leave it as No.
-
 **Use Authorize.net Sandbox**
 
 Authorize.net offers a testing suite called Sandbox. Before going live, it is advised to test your store using the sandbox feature. Read more about Sandbox at Authorize.net.
 
-NOTE: To receive payments \(except during testing\), you DONT have to enable this.
+NOTE: To receive payments \(except during testing\), you DONOT have to enable this.
 
 \*\*IN LIVE SITE, THIS SHOULD BE SET TO NO. \*\*
 
-**Sandbox Login ID**
+Choose Accepted Credit Card Types:
 
-Your sandbox login ID provided by Authorize.net.
-
-**Sandbox Transaction Key**
-
-You transaction key provided by the sandbox.
-
-**Sandbox MD5 Hash**
-
-Md5 has provided in sandbox.
+You can select the desired credit card type that you wish to display at the Frontend of the site.
 
 **Thanks Msg Joomla Article ID**
 
 You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
+
+![](../.gitbook/assets/authorize.net-sc2.png)
+
+~~**Display text on selection**~~
+
+The text entered here will be displayed to the customer at the order summary screen once he selects the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. 
+
+**Display text before payment**
+
+The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. 
+
+**Display text on after payment**
+
+The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+**Display text on error in payment**
+
+The text entered here will be displayed to the customer when there is an error in the payment process.
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+**Display text on cancel payment**
+
+The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\).
+
+You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+
+**Payment Button Text**
+
+The text of the payment button. The button will be displayed at the final checkout step.
+
+**Debug:**
+
+Enable this to log the responses and request of the payment plugin. Do not set this in live site.
+
+![](../.gitbook/assets/an1.png)
+
+
 
 Still have questions? You can post in our support forum: [click here](http://j2store.org/forum/index.html)
 

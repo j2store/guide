@@ -45,7 +45,7 @@ Click Choose IPN Settings to specify your listener’s URL and activate the list
 
 In the Listener’s url enter the following url
 
-> http://DOMAIN&gt;/index.php?option=comj2store&view=checkout&task=confirmPayment&orderpayment_type=payment_paypal&paction=process&tmpl=component
+> [http://DOMAIN](http://domain/)&gt;/index.php?option=com\_j2store&view=checkout&task=confirmPayment&orderpaymenttype=payment\_paypal&paction=process&tmpl=component
 
 NOTE: ReplaceDOMAIN&gt; with your website. E.g:blank” rel=“noopener”&gt; click here
 
@@ -149,4 +149,97 @@ Allow payments sent to me in a currency I do not hold:Set this to: Yes, accept a
 Otherwise, your PayPal account requires you to manually accept each transaction \(by logging in to your Paypal Acount\)
 
 If PayPal sends the payment status as Completed, J2Store will automatically mark the transaction as Confirmed.
+
+## 8. Security Header is not Valid: <a id="7-make-order-status-confirmed-immediately"></a>
+
+This error occurs only when the credentials are not correct. Please remove the API keys\(they are not mandatory fields. You could use Paypal by just mentioning the merchant email\) from Paypal plugin settings.
+
+You can refer the below link for better understanding: [https://help.perfexcrm.com/security-header-not-valid-when-setting-up-paypal/](https://help.perfexcrm.com/security-header-not-valid-when-setting-up-paypal/)
+
+## 9. How do I implement this fail-safe method ? <a id="7-make-order-status-confirmed-immediately"></a>
+
+
+
+In the event of IPN not reaching your site, you can make sure that the transactions at your site and PayPal could be collated using a cron job
+
+Make sure you have J2Store 3.2.21 Login to your hosting cPanel and set up a cron job The cron job command should be: \(You can set this to run at 15 minutes intervals\)
+
+**Non-ssl**
+
+ wget -O /dev/null “http://DOMAINNAME&gt;/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXX” &gt; /dev/null
+
+**SSL**
+
+ wget —no-check-certificate -O /dev/null “https://DOMAINNAME&gt;/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXXX” &gt; /dev/null NOTE: ReplaceDOMAINNAME&gt; with your domain name Replace XXXXXX with your cron secret key, which you can find at Joomla Administration -&gt; J2Store -&gt; Set up -&gt; Configuration -&gt; Store
+
+There could be many reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
+
+### Orders not confirmed. Status shows as incomplete or new <a id="orders-not-confirmed-status-shows-as-incomplete-or-new"></a>
+
+It means you are not getting the Instant Payment Notification \(IPN\) from Paypal. The IPN may not reach your site, if :
+
+The Site is offline The Site is in local server / local host / live in your local machine You have created a menu for the Checkout and set its access level to Registered or Special or Something other than public. You have a firewall installed either in your site or by your host You have disabled IPN in your Paypal account.
+
+**Solutions to above issues :**
+
+1. Go to Joomla admin - Global configuration. Set Site Offline to No
+2. Host your site
+3. Set the Checkout menu access level to Public
+4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host. If you are using the Admin Tools PRO version, you will have to exclude the IPN urls mentioned above\(\#enable-ipn\) If your site or your hosting server has a firewall \(you can check with your host\), then you may have to whitelist the Paypal’s server IPs Here you can get a list of IPs used by the Paypal servers [click here](https://ppmts.custhelp.com/app/answers/detail/a_id/92) Paypal makes a remote post \(IPN\) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
+
+## 10. Things don’t appear to be working at the moment. Please try again later <a id="things-dont-appear-to-be-working-at-the-moment-please-try-again-later"></a>
+
+Paypal has recently rolled out their cool ” New Checkout! ”
+
+With this Paypal also seems to impose certain new technical restrictions
+
+Specified Character length for address fields, Product name and Product options. Length varies based on fields and is specified on their integration guide. Number of product options sent to paypal are limited to 7 options. This could be due to the recent technical restrictions imposed by paypal: \(refer below image\)
+
+![](../.gitbook/assets/paypal-docs-arrtibutes-restriction.png)
+
+**How to fix it ?** We have updated the paypal plugin with fixes for these new technical restrictions. Please make sure you update your paypal plugin to latest \(v.3.4\)With this update if you have used more than 7 options then the first 7 options are passed to paypal and others are ignored. Similarly if the product option character length is larger than allowed by paypal, those values are trimmed \(cut off\). This will make sure you do not get any errors and customers will continue to see checkout screen without any issues.
+
+NOTE: Please take a backup before updating the plugin and test after installing.
+
+**Here is another possible reason \(this might also cause this error\)** You might have enabled the Encrypted Website Payments. Try the following steps to solve this.
+
+* Log in to your PayPal account.
+* Click Profile.
+* From the Selling Preferences column, click Website Payment Preferences.
+* In the Encrypted Website Payments section, select Off.
+* Click Save.
+
+Also check if your PayPal account is approved to receive payments.
+
+## 11. Admin tools PRO exception <a id="admin-tools-pro-exception"></a>
+
+All firewalls including the Admin Tools PRO would normally block any server-to-server remote POST requests. PayPal sends the IPN callback notification as a remote POST request immediately after the customer makes the payment.
+
+In order to allow this request to pass through your firewall, you need to add an exception
+
+Here is a screenshot of the WAF Exception in Admin Tools PRO
+
+![](../.gitbook/assets/waf-exception-1-.png)
+
+Currency you are using
+
+Paypal supports only the following currencies:
+
+https://developer.paypal.com/docs/api/reference/currency-codes/” target=“\_blank”rel=“noopener”&gt; click here
+
+So, if you are trying to receive payment through Paypal, it becomes necessary that your store currency is one among the above listed currencies. All other currencies would return a Things don’t seem to be working at the moment error.
+
+Why the paypal payment form not works ? It seems due to the param “Block non-encrypted Website Payments” has been enabled inside your paypal account settings.
+
+Disabling this param will solve this problem.
+
+Block non-encrypted Website Payments = disable.
+
+ 
+
+
+
+
+
+
 
