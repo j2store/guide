@@ -1,6 +1,8 @@
 # Ask question / quote
 
-This app allows customer to enquire a product or to ask quote for a product through mail. Using this app itself you can use your store as catalog mode since this app has an option to hide the add to cart button. Clicking on single button will enable the communication between store owner and customer.
+This app allows customer to enquire a product or to ask quote for a product through mail.
+
+Using this app itself you can use your store as catalog mode since this app has an option to hide the add to cart button. Clicking on single button will enable the communication between store owner and customer.
 
 **Requirements**
 
@@ -31,8 +33,6 @@ In the global settings of the app, you can configure
 * How and where the ask quote app would appear at the storefront.
 * The look of the email that is triggered when a user submits the ask quote form.
 * The layout of the ask quote modal form.
-
-
 
 #### **Basic Settings**
 
@@ -119,6 +119,12 @@ For example, if you are having text area as a custom field in your product quote
 
 ![](../.gitbook/assets/screenshot-localhost-2020.08.14-17_37_38.png)
 
+**Email subject**
+
+Choose a subject line for the quote email notifications.
+
+With that, the Email configuration is complete.
+
 **Layout**
 
 If you would like to add / remove the fields in product quote form without affecting checkout form fields, it is possible in this section.
@@ -127,7 +133,7 @@ In this section, you can create the custom form by adding field shortcode given 
 
 To add any new fields, go to J2Store &gt; Setup &gt; Custom fields. Click NEW to create new field.
 
-Here is how you could create a new cuso
+Here is how you could create a new custom field.
 
 Now, in form layout add the shortcodes of fields you want to display in product quote form.
 
@@ -141,9 +147,9 @@ To add the custom field shortcode, copy the field name in J2Store &gt; Setup &gt
 
 ![Layout of the fields](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-layout.png)
 
+That's it! The data entered on this custom field at the ask quote form during quote submission would show up at the ask quote email.
 
-
-Enable quote for per product
+#### **Enable quote for per product**
 
 1. This app allows you to enable Ask quote button for specific product.
 2. Go to Article manager and open the article.
@@ -152,11 +158,13 @@ Enable quote for per product
 
 **Frontend**
 
-**SINGLE PRODUCT**
+**Ask quote enabled on a single product- At the product article**
 
   
 
 ![Ask quote frontend](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-frontend.png)
+
+#### Ask quote enabled on All products- on the global settings
 
 ![Ask quote enabled on all products](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-all-pro-front.png)
 
@@ -164,5 +172,5 @@ Enable quote for per product
 
 **Support**
 
-Still have questions? You can post your questions in our support forum: [http://j2store.org/forum/index.html](http://j2store.org/forum/index.html)
+Still have questions? Reach out to us via the Priority ticket system or the Support Request form.
 
