@@ -44,9 +44,9 @@ You can insert the image or the Logo that you wish to display at the Frontend of
 
 You can find two types of transaction type in Authorize.net payment.
 
-~~**Authorize Payment:**~~
+**Authorize Payment:**
 
-If you wish to process the payment only after the product is purchased from the store then you can achieve this by using the Authorize payment as the transaction type, as this would let you to approve the purchase manually and then process the payment.
+The Authorize payment as the transaction type, would let you to approve the purchase manually and then process the payment.
 
 **Capture Payment:**
 
@@ -78,7 +78,7 @@ You can create a Joomla Article to say thanks to the users, who purchased in you
 
 ![](../.gitbook/assets/authorize.net-sc2.png)
 
-~~**Display text on selection**~~
+**Display text on selection**
 
 The text entered here will be displayed to the customer at the order summary screen once he selects the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. 
 
