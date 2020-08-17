@@ -41,11 +41,11 @@ Next is the category view tab where you could find settings for controlling the 
 
 **Image type** Select from the three options : Thumbnail, Main, Both Main and additional images
 
-\*\*Link image to product \*\*
+**Link image to product**
 
  Choose Yes if the image is to be linked with the product
 
-\*\*Enable zoom effect \*\*
+**Enable zoom effect**
 
  Select Yes to enable zoom effect
 
@@ -69,11 +69,11 @@ Next is the category view tab where you could find settings for controlling the 
 
 **Image type** Select from the three options : Thumbnail, Main, Both Main and additional images
 
-\*\*Link image to product \*\*
+**Link image to product**
 
  Choose Yes if the image is to be linked with the product
 
-\*\*Enable zoom effect \*\*
+**Enable zoom effect**
 
  Select Yes to enable zoom effect
 
