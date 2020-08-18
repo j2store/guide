@@ -48,9 +48,9 @@ Choose the callback url to be used for IPN notifications
 
 The URL selected here will be set as dynamic IPN url instead of the URL which you have configured in your PayPal account.
 
-* Default url : The default url is the normal query string url used for IPN Notifications. This will work for 99% of the users. If it does not work in some cases, you could try any one of the following alternative urls.http\(s\)://www.example.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment\_paypal&paction=process
-* Alternative - 1 : It is the alternative callback url that uses the callback view.http\(s\)://www.example.com/index.php?option=com_j2store&view=callback&method=payment_paypal&paction=process
-* Alternative - 2 : It is the Proxy of default url. Sometimes, the PayPal IPN server truncates the query strings. It happens very rarely and you can check the IPN history in your PayPal account to see if PayPal is truncating. Login to your PayPal account and then go to: to view the IPN history. If it does truncates the query strings, you can use this urlhttp\(s\)://www.example.com/plugins/j2store/payment_paypal/payment_paypal/tmpl/notify.php
+* Default url : The default url is the normal query string url used for IPN Notifications. This will work for 99% of the users. If it does not work in some cases, you could try any one of the following alternative urls.http\(s\)://www.example.com/index.php?option=com\__j2store&view=checkout&task=confirmPayment&orderpayment_type=payment\_paypal&paction=process
+* Alternative - 1 : It is the alternative callback url that uses the callback view.http\(s\)://www.example.com/index.php?option=com\__j2store&view=callback&method=payment_paypal&paction=process
+* Alternative - 2 : It is the Proxy of default url. Sometimes, the PayPal IPN server truncates the query strings. It happens very rarely and you can check the IPN history in your PayPal account to see if PayPal is truncating. Login to your PayPal account and then go to: to view the IPN history. If it does truncates the query strings, you can use this url http\(s\)://www.example.com/plugins/j2store/payment_paypal/payment_paypal/tmpl/notify.php
 
 If you are using any firewall like Admin Tools PRO, you might have to add exception to IPN url you have selected to use. PayPal does a server-to-server remote post. Most firewalls will block remote post requests.
 

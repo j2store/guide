@@ -20,21 +20,17 @@ You could find the settings option here:
 
 There is possible to change way of Advanced notify email. For example, if you wish to add store administrator’s email as **BCC, CC**, choose the radio options **Add to BCC** or **Add to CC**.
 
-If you wants to completely replace the recipients list, then choose the **Replace Recipient** option.
+If you want to completely replace the recipients list, then choose the **Replace Recipient** option.
 
 ![an02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Advanced_notify/adv-notify-02.png)
-
-**Relevent Screenshot**
-
-![an03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Advanced_notify/adv-notify-03.png)
 
 ## Email setup <a id="email-setup"></a>
 
 The email notification can be based on following three rules types. The store administrator email can also be changed with this app \(you should specify the store administrator email while defining rule condition\).
 
-* Country basedIf you would like to send an email notification based on customer’s country, then choose Country based as your rule type.
-* Order status basedChoosing this rule type will send the order email notification based on order status.
-* Product basedSometime you may want to send order email for specific products. In this case, choose this rule type.
+* **Country based-** If you would like to send an email notification based on customer’s country, then choose Country based as your rule type.
+* **Order status based -**Choosing this rule type will send the order email notification based on order status.
+* **Product based-** Sometime you may want to send order email for specific products. In this case, choose this rule type.
 
   **Creating Rules and Rule condition**
 
