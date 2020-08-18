@@ -29,13 +29,9 @@ When you try to set a global quantity restriction for all of your products, then
 
 **Screenshot:**
 
- Now for all the products, the above restriction applies. If this has to be overridden, then this could be done at the product level.
+![globalsetting](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/quantity-restrictions/quantityrestglobalsetting.png) Now for all the products, the above restriction applies. If this has to be overridden, then this could be done at the product level.
 
-![globalsetting](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/quantity-restrictions/quantityrestglobalsetting.png)
-
- When the minimum and maximum sale quantity is set on the J2Store Global setting and the in the product profile, the above settings are done, the following error would come up when user tries to add more or less quantities than specified in the global settings.
-
-![globalsettingproduct](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/quantity-restrictions/quantityrestrglobalsettinginproduct.png)
+![globalsettingproduct](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/quantity-restrictions/quantityrestrglobalsettinginproduct.png) When the minimum and maximum sale quantity is set on the J2Store Global setting and the in the product profile, the above settings are done, the following error would come up when user tries to add more or less quantities than specified in the global settings.
 
 ![globalfrontmini](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/quantity-restrictions/quantityrestglobalfrontmini.png)
 

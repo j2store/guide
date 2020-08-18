@@ -102,9 +102,7 @@ Edit the file and remove the highlighted line fully.
 
 Go to J2Store -&gt; Configuration - Tax settingsSet Display tax information below the prices \(in product pages\) to YES.See the screenshot below
 
- 
-
-![tax including](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax_including_text.png)
+![tax including](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax_including_text.png) 
 
 It would display a text like this: \(Incl. XX% tax \)
 
@@ -132,9 +130,7 @@ Save and close.
 
 Here is a screenshot showing the language override
 
- 
-
-![tax override](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax_override.png)
+![tax override](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/frequently-asked-questions/faq/tax_override.png) 
 
 Here is how it looks in the front end
 

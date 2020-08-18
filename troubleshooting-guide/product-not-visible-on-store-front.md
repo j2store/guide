@@ -10,13 +10,19 @@ Product created but is not reflecting in the storefront.
 
 ### Is this product treated as a product : <a id="is-this-product-treated-as-a-product-"></a>
 
-Navigate to J2store Cart.Check if the “Treat as a product” is to Yes. ![Treat as product](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-vis-treatproduct.png)
+Navigate to J2store Cart.Check if the “Treat as a product” is to Yes. 
+
+![Treat as product](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-vis-treatproduct.png)
 
 ### Product Status: <a id="product-status"></a>
 
-Check your product status.Make sure you have the status as Published . ![Publish product](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-vis-publish-product.png)
+Check your product status.Make sure you have the status as Published . 
 
-Make note of the category which you have set for the Article. Navigate to Menu -&gt;All menu items -&gt;Your product menu -&gt;Details -&gt;Choose a category. Check if the category to which the article belongs is chosen. ![Choose category](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-visi-choose-cat.png)
+![Publish product](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-vis-publish-product.png)
+
+Make note of the category which you have set for the Article. Navigate to Menu -&gt;All menu items -&gt;Your product menu -&gt;Details -&gt;Choose a category. Check if the category to which the article belongs is chosen. 
+
+![Choose category](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-visi-choose-cat.png)
 
 ![Choose category in menu](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-visi-choose-cat-menu.png)
 
@@ -24,7 +30,9 @@ Make note of the category which you have set for the Article. Navigate to Menu -
 
 Make note of the category which you have set for the Article.Navigate to Content -&gt;Article-&gt;category and check whether the category to which the article belongs is published.
 
- ![Is category published](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-visi-cat-publi.png)
+ 
+
+![Is category published](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-visi-cat-publi.png)
 
 ![Category published](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/products-not-visible/product-not-visi-cat-publ-cat.png)
 
