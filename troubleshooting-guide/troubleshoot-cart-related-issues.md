@@ -32,21 +32,21 @@ Try to login as a user in the frontend. If you are able to login and stay logged
 
 To change the Add to cart block and style in category view
 
-copy /components/com_j2store/templates/YOUR-SUB-TEMPLATE/default_cart.php
+copy /components/com\__j2store/templates/YOUR-SUB-TEMPLATE/default\__cart.php
 
 to
 
-/templates/TEMPLATE&gt;/html/comj2store/templates/YOUR-SUB-TEMPLATE/default\_cart.php
+/templates/TEMPLATE&gt;/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/default\_cart.php
 
 > IMPORTANT: If you are using bootsrap 3 as a sub-template, replace the default with bootstrap3\(/components/com\_j2store/templates/bootstrap/..\)
 
 To change the Add to cart block and style in item view
 
-copy /components/com_j2store/templates/YOUR-SUB-TEMPLATE/view_cart.php
+copy /components/com\__j2store/templates/YOUR-SUB-TEMPLATE/view\__cart.php
 
 to
 
-/templates/TEMPLATE&gt;/html/comj2store/templates/YOUR-SUB-TEMPLATE/view\_cart.php
+/templates/TEMPLATE&gt;/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/view\_cart.php
 
 Make the changes and save.
 
@@ -78,10 +78,10 @@ It seems to be applying wrong font-awesome class in module settings page.
 
 You can use special module positions in the filter display section to display the cart module to the product filter.
 
-1. j2store-filter-left-topTop of left filter
-2. j2store-filter-left-bottomBottom of left filter
-3. j2store-filter-right-topTop of right filter
-4. j2store-filter-right-bottomBottom of right filter
+1. j2store-filter-left-top -Top of left filter
+2. j2store-filter-left-bottom -Bottom of left filter
+3. j2store-filter-right-top -Top of right filter
+4. j2store-filter-right-bottom -Bottom of right filter
 
 For more details about special module position, please click [Here](http://docs.j2store.org/layout/special-module-positions)
 

@@ -43,7 +43,7 @@ To check if the issue is because of caching, follow the below steps:
 * Visit the Cart page again. It shows no items from cart \(because this page is a photocopy from the caching plugin, say for example Litespeed cache\)
 * Use the non-sef URL of the cart page \(Same page, same logic… just the url is different\)
 
-Non-sef URL format: [https://yoursite.com/index.php?option=com\_j2store&view=carts](https://yoursite.com/index.php?option=com_j2store&view=carts)
+Non-sef URL format: [click here](https://yoursite.com/index.php?option=com_j2store&view=carts)
 
 In our case, LiteSpeed being the caching component used on our site, It looks up for this URL in its cache. None found. So it allows the request to reach the webserver, which then renders the page with its dynamic content.
 
