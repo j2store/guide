@@ -71,7 +71,7 @@
   * [Basic Settings](subscriptions-and-memberships/basic-settings-1.md)
   * [Creating subscription based products](subscriptions-and-memberships/creating-subscription-based-products.md)
   * [Simple Subscription Product](subscriptions-and-memberships/simple-subscription-product.md)
-  * [Paypal Refrence Transactions for Subscriptions](subscriptions-and-memberships/paypal-refrence-transactions-for-subscriptions.md)
+  * [Paypal Reference Transactions for Subscriptions](subscriptions-and-memberships/paypal-refrence-transactions-for-subscriptions.md)
   * [Usecases](subscriptions-and-memberships/usecases-3.md)
   * [Customizing the subscription mail templates](subscriptions-and-memberships/customizing-the-subscription-mail-templates.md)
   * [Frequently asked questions](subscriptions-and-memberships/frequently-asked-questions.md)
