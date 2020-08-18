@@ -68,10 +68,9 @@ Please use the **Conservative caching**.
 
 It seems to be applying wrong font-awesome class in module settings page.
 
-* Open J2Store cart moduleYou can see something like below entered in the Minicart icon class text box
-* fa fa-shoppingcart
-* Change with
-* fa fa-shopping-cart
+* Open J2Store cart module under Extensions-&gt;Modules-&gt;J2Store cart.
+* You can see something like below entered in the Minicart icon class text box **fa fa-shoppingcart**
+* Change with **fa fa-shopping-cart**
 * Save.
 
 ## \[HOW TO\]Add cart module right or left below the product filter? <a id="how-toadd-cart-module-right-or-left-below-the-product-filter"></a>
@@ -91,23 +90,27 @@ Sometimes customers accidently entered wrong credit card / debit card details. H
 
 To overcome this, you can restrict clearing cart items only on order confirmation.
 
-Go to J2Store &gt; Configuration &gt; Cart tabFind the param “Clear cart items”. Set this param to “On Confirmation” and save.
+Go to J2Store &gt; Configuration &gt; Cart tab. Find the param **“Clear cart items”**. Set this param to **“On Confirmation”** and save.
+
+#### **Minicart module not updating the number of items in cart**
 
 J2Store’s Mini Cart is a very handy tool for your customers when they shop. They can check the number of items in their order and the total. The cart module is refreshed in real-time using an AJax request. On a few occasions, the cart may not get updated on a real time. Here is a checklist that should help you solve the problem.
 
-### Cache settings <a id="cache-settings"></a>
+* **Global Cache settings**
 
 Go to Joomla admin - Global configuration - System tab.
 
-Caching is like taking a snapshot of your pages and presenting the same to every visitor coming to your site \(untill the cahce is refreshed again\).
+Caching is like taking a snapshot of your pages and presenting the same to every visitor coming to your site \(until the cache is refreshed again\).
 
-Since the cart module handles dynamic data, it should be excluded from caching. In order to exclude the module from caching, your Global cache setting should be set either to Conservative Caching or Disabled. Check the screenshot below.
+Since the cart module handles dynamic data, it should be excluded from caching. 
 
-If you use Progressive Caching, Joomla will override the Cache settings in the module. The cart module might work fine in smarller sites with Progressive Caching enabled but if you have a larger site with a large number of visitors, then it might cause issues with the module.
+In order to exclude the module from caching, your Global cache setting should be set either to Conservative Caching or Disabled. Check the screenshot below.
+
+If you use Progressive Caching, Joomla will override the Cache settings in the module. The cart module might work fine in smaller sites with Progressive Caching enabled but if you have a larger site with a large number of visitors, then it might cause issues with the module.
 
 ![cache settings](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-cart-related-issues/cache_settings.png)
 
-### Module settings <a id="module-settings"></a>
+* **Module caching**
 
 Go to Joomla admin - Module Manager - J2Store Cart module
 
