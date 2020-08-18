@@ -16,7 +16,7 @@ Following are the steps to be followed:
 ![Menu settings](https://raw.githubusercontent.com/j2store/doc-images/master/frequently-asked-questions/hiding-price-range-in-flexivar/freq-as-que-flexivar-base-price.png)
 
 * Navigate to /templates/your template/html/com\_j2store/templates/ [sub-template](http://docs.j2store.org/catalog/where-can-i-find-my-sub-template)
-* Create a file called “default\_flexiprice.php” and paste the code in the following gist:
+* Create a file called “default\_flexiprice.php” and paste the following code:
 
 
 
@@ -24,7 +24,7 @@ Following are the steps to be followed:
  https://gist.github.com/sowbagyalakshmi/451d33fce24cf111b29e06e23b6be6d1
 ```
 
-* At the same path, create another file called view\_flexiprice.php and paste the code in the following gist:
+* At the same path, create another file called view\_flexiprice.php and paste the following code:
 
 ```text
 https://gist.github.com/sowbagyalakshmi/d1a1749bf17c45c0ca251bde4ba60ed3
