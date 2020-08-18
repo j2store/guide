@@ -10,7 +10,11 @@
 * Set YES to Allow Guest Checkout.
 * Save.
 
-![guest checkout](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-checout-issues/enable-guest-checkout-only.png) ![guest checkout only](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-checout-issues/guest-checkout-only.png)
+ 
+
+![guest checkout only](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-checout-issues/guest-checkout-only.png)
+
+![guest checkout](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-checout-issues/enable-guest-checkout-only.png)
 
 ## Is your layout of checkout form displaying in single column? <a id="is-your-layout-of-checkout-form-displaying-in-single-column"></a>
 
@@ -34,17 +38,17 @@ Simply remove this and leave the text area empty. Save and check.
 
 ## Checkout steps not working ? <a id="checkout-steps-not-working-"></a>
 
-The checkout steps in J2Store use AJAX extensively in order to provide customers with a better online shopping experience. Customers do not have to wait for the checkout pages to refresh. The entire checkout is handled within a SINGLE PAGE and the checkout steps are loaded in an accordin style.
+The checkout steps in J2Store use AJAX extensively in order to provide customers with a better online shopping experience. Customers do not have to wait for the checkout pages to refresh. The entire checkout is handled within a SINGLE PAGE and the checkout steps are loaded in an accordion style.
 
 If your checkout steps are not working, then follow the checklist here to troubleshoot
 
-**Caching and JS optimize**
+* **Caching and JS optimize**
 
 Please check if you have enabled conservation caching in Joomla Global configuration. If yes, disabled caching in global configuration and then check if checkout works.
 
 Also make sure you have not enabled System - Page Cache plugin and System - J2Page Cache plugin. If you are using any JS optimize plugin, that will also cause this issue.
 
-**Javascript conflicts**
+* **Javascript conflicts**
 
 Since checkout steps are loaded in real-time using Ajax, any Javascript conflict in your site might affect the process. You will see the Checkout steps not unfolding or when you press continue button, nothing will happen.
 
@@ -60,7 +64,7 @@ Now Refresh your website, add a product to cart and go to checkout. The Console 
 
 ![troubleshoot console](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-checout-issues/troubleshoot_console.png)
 
-Issue with Account Registration and FreeBSD
+#### **Issue with Account Registration and FreeBSD**
 
 Sometimes, customer will not be able to pass the Account Registration and Billing step. To solve this issue, please make sure that the Allow Registration is set to YES in Joomla Administration - Users - Options
 
@@ -92,7 +96,7 @@ If you still face issues, then there could be several reasons for this behavior.
 
 Make sure you are not having any old template overrides. If you are using a template like JSN One, you might be having template overrides for checkout layout.
 
-* Go to /templates/YOUR_TEMPLATE/html/com_j2store
+* Go to /templates/YOUR_TEMPLATE/html/com\__j2store
 * Do you see a folder named: checkout
 * If yes, rename it as: old\_checkout
 * Now check.
@@ -101,7 +105,7 @@ Make sure you are not having any old template overrides. If you are using a temp
 
 It is because the permission you have given at Joomla global configuration might be wrong.
 
-Go to Joomla global configurationMove to Permissions tabUnder Public, choose Not Set to Site Login.Under Registered tab, choose Allowed to Site Login.Save.
+Go to Joomla global configuration. Move to Permissions tab. Under Public, choose Not Set to Site Login.Under Registered tab, choose Allowed to Site Login.Save.
 
 If you are using the content component K2, then please make sure the K2 user profile has been disabled in confgiuration.
 
@@ -113,13 +117,17 @@ If you are using the content component K2, then please make sure the K2 user pro
 
 ## How to set default payment option in checkout payment step ? <a id="how-to-set-default-payment-option-in-checkout-payment-step-"></a>
 
-Go to J2Store &gt; Configuration &gt; Cart tabYou can see the param named “Default payment method”Choose your payment method from the dropdown listSave.
+Go to J2Store &gt; Configuration &gt; Cart tab. You can see the param named “Default payment method”.
 
-Writing template override for checkout page
+Choose your payment method from the dropdown list. Save.
 
-The below directory path controls the checkout page work flow./components/com\_j2store/views/checkout
+#### **Writing template override for checkout page**
 
-Copy all the file in above folder and paste it in/templates/YOUR-SITE-TEMPLATE/html/com\_j2store/checkout
+The below directory path controls the checkout page work flow.
 
-Edit the files and make your changes and save.
+/components/com\_j2store/views/checkout
+
+Copy the desired file in above folder and paste it in/templates/YOUR-SITE-TEMPLATE/html/com\_j2store/checkout
+
+Edit the files in the overridden path and make your changes and save.
 
