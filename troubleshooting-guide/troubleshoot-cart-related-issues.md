@@ -206,9 +206,9 @@ NOTE: You can also set the param to BOTH. In that case, the cart block will disp
 
 Now go to Joomla admin -&gt; Content -&gt; Article Manager.Either create an article \(product\) and save or open an existing product.
 
-Go to the J2Store Cart tab. You will find the plugin tag to use for the product.\(see the screenshot below\)
+Go to the J2Store Cart tab. You will find the plugin tag to use for the product.\(see the screenshot below\) 
 
-![cart tag](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-cart-related-issues/cart_tag.png) 
+![cart tag](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-cart-related-issues/cart_tag.png)
 
 Either copy the plugin tag and note it down. In this example, the following plugin tag is used {j2storecart 2}
 
