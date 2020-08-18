@@ -1,4 +1,4 @@
-# Paypal Refrence Transactions for Subscriptions
+# Paypal Reference Transactions for Subscriptions
 
 This system makes it possible to sell multiple subscriptions, change recurring totals and billing schedule, and allow customers to switch subscriptions.
 
@@ -21,11 +21,12 @@ You can also contact PayPal via email.
 5. Copy and paste the message below, inserting your PayPal email address and name.
 6. Wait for a reply.
 
-![paypa support](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/paypal-reference-transactions-for-subscriptions/paypal-support-screenshot.png)
+![paypal support](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/paypal-reference-transactions-for-subscriptions/paypal-support-screenshot.png)
 
-## Example Message to send to PayPalHello, <a id="example-message-to-send-to-paypalhello"></a>
+## Example Message to send to PayPal <a id="example-message-to-send-to-paypalhello"></a>
 
 ```text
+Hello,
 I need this feature to sell recurring subscription products via J2Store.
 
 Kind regards,
@@ -63,4 +64,6 @@ Some things that store owners have mentioned PayPal require are:
 
 In terms of revenue forecasts, we have had reports that UK based PayPal accounts may require minimum forecast of £6,000 month or more revenue.
 ```
+
+
 
