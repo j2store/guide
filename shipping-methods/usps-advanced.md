@@ -8,9 +8,9 @@ USPS Advanced The USPS Advanced shipping plugin comes with the feature of Standa
 * Joomla 2.5 or above
 * J2Store 2.7.3 or above
 
-**Installation** You can install this USPS shipping plugin, using joomla installer.The following steps help you for successful installation.
+**Installation** You can install this USPS shipping plugin, using Joomla installer.The following steps help you for successful installation.
 
-**Step 1** In the joomla admin, go to Extensions -&gt; Extension Manager -&gt;install
+**Step 1** In the Joomla admin, go to Extensions -&gt; Extension Manager -&gt;install
 
  **step 2** Click on the Browse button and select USPS Shipping \(type=j2store\) and click on Upload & Install
 
@@ -32,7 +32,7 @@ USPS Advanced The USPS Advanced shipping plugin comes with the feature of Standa
 
 **Configuration** **USPS API SETTINGS** **Web Tools Username** Enter the valid username associated with your USPS account.
 
-**Orgin postal/ Zip code** Enter the Postcode from where you ship.
+**Origin postal/ Zip code** Enter the Postcode from where you ship.
 
 Refer the below image
 
@@ -50,7 +50,7 @@ Refer the below image
 
 **Weight unit** Select the desired unit in which you want to measure the weight, like, kilograms, pounds etc. Preferred unit Pound.
 
-**Display Delivery Time** If you want to show the delivery time means set it yes othewise set it as no.
+**Display Delivery Time** If you want to show the delivery time means set it yes otherwise set it as no.
 
 **Tax class** If shipping is taxable and you want to add tax rate, select a tax profile in this option.
 
@@ -141,7 +141,9 @@ Refer the below images for better understanding
 
 Refer the below images
 
-![prio1](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/priority1.png) !\[prio2\]\([https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/priority](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/priority) \(2\).png\) 
+![prio1](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/priority1.png)
+
+ !\[prio2\]\([https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/priority](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/priority) \(2\).png\) 
 
 ![uspsprio](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/priority2.png)
 
