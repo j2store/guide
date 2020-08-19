@@ -4,7 +4,7 @@ Organizing your products is an important factor to increase the user-friendlines
 
 ## Options available: <a id="options-available"></a>
 
-Ordering options could be found under Menu manager-&gt;Your product’s menu item-&gt;Common options tab-&gt; Article order.
+Ordering options could be found under Menu manager-&gt;Your product’s menu item-&gt;Common options-&gt; Article order.
 
 ### The following are the options: <a id="the-following-are-the-options"></a>
 
