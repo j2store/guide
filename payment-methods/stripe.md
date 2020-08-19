@@ -301,6 +301,22 @@ Following are the steps to be done to test if the Stripe hosted plugin works fin
 * Once the authentication is complete, you would be redirected to the Merchant site. Click on Go to order history button.
 * Or, you can login to the My profile page, where you would see a **Complete Payment** button.
 
+![](../.gitbook/assets/selection_088.png)
+
+* You would again be asked to authenticate. Click on the **Authenticate payment** button.
+
+![](../.gitbook/assets/selection_089.png)
+
+* An authentication popup would come up. Click on Authenticate payment.
+
+![](../.gitbook/assets/selection_090.png)
+
+* Now the payment would be completed and the order status should be confirmed.
+
+![](../.gitbook/assets/selection_091.png)
+
+This indicates that the Stripe checkout plugin works fine with the Subscription product. You can set the payment live.
+
 
 
 **Still got questions?**
