@@ -30,9 +30,9 @@ if you are using french, then your language code is fr-FR and you will be openin
 
 you will find untranslated strings like
 
-;J2STORE_CHECKOUT_OPTIONS=“Checkout Options”
+;J2STORE\_CHECKOUT\_OPTIONS=“Checkout Options”
 
-What you have to do is: Remove the semicolon and add your translation. So the translated string should look like J2STORE_CHECKOUT_OPTIONS=“your translation”
+What you have to do is: Remove the semicolon and add your translation. So the translated string should look like **J2STORE\_CHECKOUT\_OPTIONS=“your translation”**
 
 NOTE: the semicolon is removed.
 
