@@ -87,11 +87,29 @@ You might have already created the INR currency. Open it and make sure its value
 
 **Now, create a new currency**
 
-![currency](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_050.png) Currency Name: USDCurrency Code: USDCurrency Symbol: $Decimal places: 2Decimal Separator: .Thousands separator: ,Value: 0.061 \(You can enter any value less than 1. Once saved, J2Store will automatically contact Yahoo Financial services and update the correct exchange value \)Status: Published
+ Currency Name: USD
+
+Currency Code: USD
+
+Currency Symbol: $
+
+Decimal places: 2
+
+Decimal Separator: .
+
+Thousands separator: ,
+
+Value: 0.061 \(You can enter any value less than 1. Once saved, J2Store will automatically contact Yahoo Financial services and update the correct exchange value \)
+
+Status: Published
+
+![currency](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_050.png)
 
 Save now.
 
-![selection49](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_049.png) You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD.J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
+ You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD.J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
+
+![selection49](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_049.png)
 
 ## 4. Paypal duplicate invoice ID and how to solve it <a id="4-paypal-duplicate-invoice-id-and-how-to-solve-it"></a>
 
@@ -111,7 +129,7 @@ Please follow the steps:
 
 > Note: This step is for V3. If you are using v2, then go to Set Up -&gt; Store Profiles -&gt; your store profile
 
-1. Set the Invoice Prefix in the textbox provided, for e.g., INV-2015- or INV/2015/
+1. Set the Invoice Prefix in the textbox provided, for e.g., INV-2020- or INV/2020/
 2. Save & Close.
 
 **Solution 2: Change settings in Paypal**
@@ -166,11 +184,13 @@ Make sure you have J2Store 3.2.21 Login to your hosting cPanel and set up a cron
 
 **Non-ssl**
 
- wget -O /dev/null “http://DOMAINNAME&gt;/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXX” &gt; /dev/null
+ wget -O /dev/null “http://DOMAINNAME&gt;/index.php?option=com\__j2store&view=cron&command=paypalcollation&cron\__secret=XXXXX” &gt; /dev/null
 
 **SSL**
 
- wget —no-check-certificate -O /dev/null “https://DOMAINNAME&gt;/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXXX” &gt; /dev/null NOTE: ReplaceDOMAINNAME&gt; with your domain name Replace XXXXXX with your cron secret key, which you can find at Joomla Administration -&gt; J2Store -&gt; Set up -&gt; Configuration -&gt; Store
+ wget —no-check-certificate -O /dev/null “https://DOMAINNAME&gt;/index.php?option=com\__j2store&view=cron&command=paypalcollation&cron\__secret=XXXXXX” &gt; /dev/null
+
+ NOTE: ReplaceDOMAINNAME with your domain name Replace XXXXXX with your cron secret key, which you can find at Joomla Administration -&gt; J2Store -&gt; Set up -&gt; Configuration -&gt; Store.
 
 There could be many reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
 
