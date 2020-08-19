@@ -1,4 +1,4 @@
-# How Tax is Calculated:
+# How Tax is Calculated
 
 ## How Tax is Calculated:
 
