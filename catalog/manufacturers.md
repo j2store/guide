@@ -32,11 +32,11 @@ To add the manufacturers to the product, follow the below instructions:
 * Set the option Brand to Yes.
 * This would display the associated brand on the product view as follows:
 
-## Frontend <a id="frontend"></a>
+**Frontend**
 
 ![Frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/manufacturers/manufacturers-frontend.png)
 
-#### **Filtering products based on manufacturers/brands:**
+## **Filtering products based on manufacturers/brands:**
 
 Once you associate manufacturers with the appropriate products, you can also let users filter products based on brands.
 
