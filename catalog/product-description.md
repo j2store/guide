@@ -18,23 +18,7 @@ The Article manager divides the text \(content\) into two and saves it based on 
 
 In J2store, you can enable and disable the display of short description and long description in both category view and product view.
 
-### In version 2 <a id="in-version-2"></a>
-
-Sometimes “short description” is enabled in the setting with “long description” disabled but the list layout shows both text plus read-more text.
-
-The above issue seems to be occuring while triggering the content plugins.
-
-Old content plugins process the $item-text as $item-&gt;introtext
-
-So, the following line \(line number 576\) that is added for old plugin compatibility, might be causing the issue
-
-It assigns the whole text as introtext// Old plugins: Use processed text as introtext$item-&gt;introtext = $item-&gt;text;
-
-### In version 3 <a id="in-version-3"></a>
-
-The read more break works fine.
-
 ### Support <a id="support"></a>
 
-Still have questions? You can post in our support forum: [Click here](http://j2store.org/forum/index.html)
+Still have questions? You can reach us via our support form or the priority ticket system.
 

@@ -54,8 +54,6 @@ Refer the below image
 
 ![](../.gitbook/assets/parameter2.png)
 
-**Machinable :** 
-
 **Send product dimension :** By setting Yes, it will send the product dimension to USPS server and will get you the accurate rate.
 
 **Box Length :** Enter the size of the box length here.
@@ -83,26 +81,4 @@ Refer the below image
 **Use Test Server** USPS Shipping offers a testing suite called test server. Before going live, you can test your store using USPS test server feature.
 
 ![](../.gitbook/assets/parameter3.png)
-
-
-
-\*\*\*\*
-
-
-
-
-
-
-
-
-
-
-
-
-
-\*\*\*\*
-
-
-
-
 

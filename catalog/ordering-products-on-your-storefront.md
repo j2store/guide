@@ -26,6 +26,38 @@ Ordering options could be found under Menu manager-&gt;Your product’s menu ite
 
 ![](../.gitbook/assets/commonoptionstab.png)
 
+**For Example :**                                                                                                                                                                Let us consider that you have a Clothing store and there are two Categories one as Men's Clothing with various products such as Belt, Hat, T-Shirt, Shirt, and so on and other as Women's Clothing with products as Tops, Skirts, Jeans, so on.                                                                                                                                        If your requirement is to display both the Category and the Products within each Category in Ascending order. 
+
+1\) Go to Menu Manager-&gt;YOUR PRODUCT MENU-&gt;Common options tab.
+
+2\) Set the article ordering option to **Consider both category and article ordering.**
+
+![](../.gitbook/assets/ordering1.png)
+
+3\) Set the option Ordering direction to Order ascending in the same tab.
+
+4\) Set the Category ordering direction to Order ascending in the same tab.
+
+![](../.gitbook/assets/ordering2.png)
+
+4\) Navigate to content-&gt;categories, sort the categories in alphabetical order by dragging and dropping them.
+
+![](../.gitbook/assets/ordering3.png)
+
+5\) Set the option **sort table by** in the left top corner to **Ordering ascending**
+
+![](../.gitbook/assets/ordering7.png)
+
+6\) Similarly Navigate to Content-&gt;articles-&gt;set the sort table by option here as **ordering ascending.**
+
+![](../.gitbook/assets/ordering5.png)
+
+7\) Set the option **sort table by** in the right top corner to **Ordering ascending.**
+
+![](../.gitbook/assets/ordering6.png)
+
+8\) Now at the frontend, all the products should be displayed as per the categories ****and products in ascending order.
+
 #### Video Tutorial
 
 {% embed url="https://youtu.be/xV94OQWvpuY" %}
