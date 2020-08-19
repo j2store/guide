@@ -38,7 +38,7 @@ With the above setup, when user buys 2 and more quantities of the given product,
 
 That is when users buys 5 quantities of the product, the total price would be
 
-\*_5\_10=50 instead of 5\*20=100 \*\*
+_5\*_10=50 instead of 5\*20=100
 
 ### How to setup customer group based discounts:  <a id="how-to-setup-customer-group-based-discounts"></a>
 
