@@ -53,7 +53,7 @@ Also, the images set for the options would only be visible for radio type option
 
  NOTE: The variable product type alone does NOT support Text, Textarea, File, Date, Datetime and time option types.
 
-In other words variable product type supports only Radio and Dropdown option types.\*\*
+In other words variable product type supports only Radio and Dropdown option types.
 
 ## Video Tutorials: <a id="video-tutorials"></a>
 
