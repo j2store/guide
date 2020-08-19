@@ -317,6 +317,14 @@ Following are the steps to be done to test if the Stripe hosted plugin works fin
 
 This indicates that the Stripe checkout plugin works fine with the Subscription product. You can set the payment live.
 
+#### How it works for Recurring Payments
+
+Once the initial order for the Subscription is confirmed, a renewal order would be generated under J2Store-&gt;Sales-&gt;Orders.
+
+When the renewal due date approaches, if you have used a test card that requires authentication on all transactions\(some cards mentioned[ here ](https://stripe.com/docs/testing#regulatory-cards)require authentication for all the payments as mentioned in the description\), then you would receive a mail asking you to authenticate the payment.
+
+If you have used a  card that requires a one-time authentication, the initial authentication is good enough. No further authentication would be requested. Once the renewal due date approaches, the payment would go through automatically.
+
 **Still got questions?**
 
 In case of any further queries, please feel free to reach us via the [Priority ticket system](https://www.j2store.org/my-account/priority-ticket-system.html)
