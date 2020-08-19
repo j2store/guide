@@ -422,27 +422,25 @@ Replace this with
 
 ## Frontpage product listing files <a id="frontpage-product-listing-files"></a>
 
-Open your sub-template folder\(/components/com_j2store/templates/YOUR-SUB-TEMPLATE\) where you can find the files with name started with default_\(for example, default_simple.php, default_images.php, etc\). Those files controls all the features displaying in the category listing page.  
+Open your sub-template folder\(/components/com_j2store/templates/YOUR-SUB-TEMPLATE\) where you can find the files with name started with default_\(for example, default\__simple.php, default\__images.php, etc\). Those files controls all the features displaying in the category listing page.  
 
 
-OVERRIDE PATHtemplates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/  
+OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/  
 
 
 **Product view**  
 
 
-Open your sub-template folder where you can find the files with name started with view_\(for example, view_simple.php, view_images.php, view_options.php, view\_notabs.php, etc\). Those files controlled all the features displaying in the Product view page.  
+Open your sub-template folder where you can find the files with name started with view_\(for example, view\__simple.php, view\__images.php, view\__options.php, view\_notabs.php, etc\). Those files controlled all the features displaying in the Product view page.  
 
 
 ![product guide](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/template_guide_product_view.png)
 
- OVERRIDE PATHtemplates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/  
-File location of filter  
+ OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/
 
-
+  
+File location of filter:  
  Following files controls filter section,  
-
-
  /components/com_j2store/templates/YOUR-SUB-TEMPLATE/default\__filters.php  
 
 
@@ -537,7 +535,9 @@ The following article published in the Joomla Magazine throws light on the advan
 When you are searching product using joomla search, clicking on product name in the search results will not take you to the J2Store product view.  
 
 
-SOLUTIONBy default, J2Store has Search plugin included in the package so go to Extensions -&gt; Plugins and choose type Search.  
+SOLUTION:
+
+By default, J2Store has Search plugin included in the package so go to Extensions -&gt; Plugins and choose type Search.  
 
 
 You can find the plugin Search - J2Store.  
@@ -545,7 +545,7 @@ You can find the plugin Search - J2Store.
 
 ![searchj2store1](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/search_j2store_01.png)
 
-Enable / open the plugin and setup the configurationsas like in the below screenshot.  
+Enable / open the plugin and setup the configurations as like in the below screenshot.  
 
 
 ![searchj2store2](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/search_j2store_02.png)
@@ -567,7 +567,7 @@ There 3 reasons behind this warning message.
 When you change the order status to confirmed manually, you will have to do the below,  
 
 
-Go to J2Store &gt; Sales &gt; OrdersOpen the orderOn the left side of order history page, check the checkbox Reset download access expiry date and save.  
+Go to J2Store &gt; Sales &gt; Orders. Open the order. On the left side of order history page, check the checkbox Reset download access expiry date and save.  
 
 
 ![downloadexpiery](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/download_expiry.gif)
@@ -583,7 +583,7 @@ This issue is due to choosing of wrong layout for checkout pages. Following the 
 **Solution**  
 
 
-Go to J2Store &gt; Configuration &gt; Basic settings tabChoose Bootstrap 3.x to Cart and checkout pages should use CSS classesSave.  
+Go to J2Store &gt; Configuration &gt; Basic settings tabChoose Bootstrap 3.x to Cart and checkout pages should use CSS classes. Save.  
 
 
 If it is already set to bootstrap 3.x, change to bootstrap 2.x and check.  
