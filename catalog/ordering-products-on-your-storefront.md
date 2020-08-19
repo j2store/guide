@@ -26,13 +26,7 @@ Ordering options could be found under Menu manager-&gt;Your product’s menu ite
 
 ![](../.gitbook/assets/commonoptionstab.png)
 
-
-
-\*\*\*\*
-
-\*\*\*\*
-
-### Video Tutorial: <a id="video-tutorial"></a>
+#### Video Tutorial
 
 {% embed url="https://youtu.be/xV94OQWvpuY" %}
 
