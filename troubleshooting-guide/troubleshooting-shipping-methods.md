@@ -47,6 +47,32 @@ Shipping method configuration
 
 After creating a shipping method \(by going to J2Store admin -&gt; Set up -&gt; Shipping -&gt; Standard Shipping Methods\), you can see a link named Set Rates. Click on it to set the shipping rates for the chosen shipping type.
 
+## How Box Packing Works
+
+Below mentioned is a common work flow on box packing with J2Store.
+
+1. Finds boxes that fit items being packed \(uses H x W x D\).
+2. Packs all items into boxes \(using volume\).
+3. Uses the largest box fitting 100% of items _or_ uses the highest % packed box, and then passes unpacked items back \(and repeats the process\)
+4. Packs unpackable items alone, using item dimensions.
+5. Returns all packed boxes \(parcels\)
+6. The plugin then sends the parcels to Fedex API
+7. The API returns the rates with applicable shipping services
+8. The returned shipping services and rates are shown to the customer
+
+So according to box packing, dimensions is the primary factor and weight is the secondary one. Both the product dimensions and the Box dimensions entered by you on the shipping plugin would be considered and the products would be enclosed in the best suitable boxes.
+
+### For Example 
+
+Let us assume that you are using Fedex as your shipping carrier and setting up box packing.                When it comes to individual packing, the Fedex API requires item's dimensions and weight.  
+**For example,**  
+1. Consider cart contains 3 items  
+2. Each item in your cart will be sent to Fedex.  
+3. Each item pack individually. Like,  
+Item 1 =&gt; 3x4x5 and weight 10 = its a valid pack =&gt; pack 1  
+Item 2 =&gt; 10x10x10 and weight 20 = its a valid pack =&gt; pack 2  
+Item 3 =&gt; 5x5x5 and weight 4 = its a valid pack =&gt; pack 3                                                                                     4. Now Fedex would send the rate for the above packs.Please note that you should not sum up package weight as it would exceed the maximum limit according to Fedex rule.In box packing method, Fedex considers pre-defined box values \(weight, width, length, height and max-weight\) that you entered in the plugin but also considers item size.
+
 ## Issues specific to plugins like USPS, FedEx, UPS, CanadaPost, Australia Post <a id="issues-specific-to-plugins-like-usps-fedex-ups-canadapost-australia-post"></a>
 
 Shipping carriers have different limitations in the methods offered by them. For example, UPS only accepts Pound / Inch, Kilogram / Centimetre as the weight / dimension combination. A change in this would result in an error and no methods will be shown.
