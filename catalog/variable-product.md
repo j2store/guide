@@ -271,13 +271,11 @@ Here is a video that could help you create a product with variants:
 
 {% embed url="https://youtu.be/etsNdfUYrgw" %}
 
-To know how to manage inventory for variable products, follow the instructions given here:
-
 {% embed url="https://youtu.be/8givojFFolM" %}
 
 {% embed url="https://youtu.be/ipfyi2EtyMo" %}
 
 
 
-
+To know how to manage inventory for variable products, follow the instructions given here:
 
