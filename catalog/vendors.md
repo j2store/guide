@@ -29,3 +29,20 @@ See the image below on adding a new vendor.
 
 ![Vendors](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/vendors/vendor_add_new.png)
 
+## Associating the vendor to products
+
+Once created, you can associate the vendor to your products by navigating to J2Store-&gt;Catalog-&gt;Products-&gt; Your product-&gt; J2Store cart tab-&gt;General and choosing the appropriate vendor for the product.
+
+![](../.gitbook/assets/screenshot-localhost-2020.08.19-13_14_30.png)
+
+* Post associating the Vendor to products, navigate to Menu manager-&gt; Your product menu-&gt;Item view options in category listings tab.
+* Scroll down to the Filter section and enable the options as indicated below:
+
+![](../.gitbook/assets/screenshot-localhost-2020.08.19-13_20_23.png)
+
+Users can now view the available vendors and filter products based on vendors on the storefront:
+
+
+
+![](../.gitbook/assets/screenshot-localhost-2020.08.19-13_10_29.png)
+
