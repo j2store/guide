@@ -82,25 +82,3 @@ Refer the below image
 
 ![](../.gitbook/assets/parameter3.png)
 
-
-
-\*\*\*\*
-
-
-
-
-
-
-
-
-
-
-
-
-
-\*\*\*\*
-
-
-
-
-

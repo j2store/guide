@@ -61,7 +61,7 @@ You can select a shipping method of your choice from the given methods:
 
 ![shipping method](https://raw.githubusercontent.com/j2store/doc-images/master/design/dhl-shipping-plugin/dhl4.png)
 
-**Support** Still have questions? You can reach us via support form.
+**Support** Still have questions? You can reach us in support@j2store.org
 
 Thank you for using our extension.
 
