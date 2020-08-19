@@ -20,8 +20,8 @@ Female -Filter value 2
 
 * Please navigate to J2Store-&gt;Catalog-&gt;Filters/specifications
 * Edit your filter, in our instance, it is the Filter with the title “Gender”
-* Replace the title with the following language constant\(please note that this is custom- defined, you could use any constant on this. Just make sure that you have mentioned the constant in UPPERCASE letters. And make sure that you use the exact constant in the language overrides that we are going to create\): J2STORE_FILTER_GENDER
-* Now, replace the values of the filter with custom language constants like this: J2STORE_GENDER_MALE, J2STORE_GENDER_FEMALE
+* Replace the title with the following language constant\(please note that this is custom- defined, you could use any constant on this. Just make sure that you have mentioned the constant in UPPERCASE letters. And make sure that you use the exact constant in the language overrides that we are going to create\): J2STORE\__FILTER\__GENDER
+* Now, replace the values of the filter with custom language constants like this: J2STORE\__GENDER\__MALE, J2STORE\__GENDER\__FEMALE
 
 ![filterslang](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/filters-lang-const.png)
 
@@ -30,7 +30,7 @@ Female -Filter value 2
 
 ![lagchoose](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/translating-filters-to-your-lang/trans-fil-overr-choose-lang.png)
 
-* Click the new button and create a override for the constant: J2STORE_FILTER_GENDER
+* Click the new button and create a override for the constant: J2STORE\__FILTER\__GENDER
 * Create an override for the other two constants as well in the same language
 
   
