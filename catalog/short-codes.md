@@ -30,7 +30,9 @@ List of shortcodes available and their description
 
 **cart** - Full cart with price, options and add to cart button{j2store}XX\|cart{/j2store}
 
- **Price** - This short code indicates both regular price and selling price{j2store}XX\|price{/j2store} ![Price shortcode](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_price.png)
+ **Price** - This short code indicates both regular price and selling price{j2store}XX\|price{/j2store} 
+
+![Price shortcode](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_price.png)
 
 ![Add to cart shortcode](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/short-codes/shortcode_cart.png)
 
