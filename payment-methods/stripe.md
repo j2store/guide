@@ -60,7 +60,7 @@ The plugin has following options:
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/stripe/stripe-direct-params.png)
 
-**Payment option title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out. If you have a multi-lingual site and wish to translate the title in other languages of your site, you could mention a custom language constant like **J2STORE**_**PAYMENT**_**METHOD**_**STRIPE**_**TITLE** and create a [language override](https://docs.j2store.org/translation/language-overrides-in-joomla-with-examples-using-j2store/) to translate it into the other languages.
+**Payment option title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out. If you have a multi-lingual site and wish to translate the title in other languages of your site, you could mention a custom language constant like **J2STORE\_**_**PAYMENT\_**_**METHOD\_**_**STRIPE\_**_**TITLE** and create a [language override](https://docs.j2store.org/translation/language-overrides-in-joomla-with-examples-using-j2store/) to translate it into the other languages.
 
 **Plugin Display Image** Image chosen here will be displayed when the payment options are listed in the checkout page
 
@@ -123,7 +123,7 @@ Tip - ONLY FOR MULTI-LINGUAL SITES
 
 For example, enter a language constant:
 
-J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION
+J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
 
 Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
 
@@ -262,6 +262,23 @@ After enabling Payment intent on your Stripe direct plugin settings, you could t
 ![Completed order](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/stripe/completed-order.png)
 
 Now, we have tested that your Stripe payment method is compliant with the SCA regulations.
+
+## Subscription Support for Stripe Checkout
+
+We have now introduced Subscription support for the Stripe Checkout plugin.
+
+Here is how you could test subscription support for Stripe checkout plugin.
+
+### Testing Subscription Support for Stripe checkout
+
+**Pre-requisites:**
+
+* Stripe checkout plugin should be installed.
+* API keys should be entered.
+
+
+
+
 
 **Still got questions?**
 
