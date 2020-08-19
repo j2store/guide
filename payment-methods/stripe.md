@@ -54,9 +54,7 @@ J2Store’s Stripe integration doesn’t support the following payments:
 
 Go to Joomla admin → Plugin Manager and open the Stripe plugin. Or you could access the plugin through J2Store-&gt;Setup-&gt;Payment methods-&gt;Stripe.
 
-The plugin has following options:
-
- 
+The plugin has following options: 
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/stripe/stripe-direct-params.png)
 
@@ -119,7 +117,7 @@ By choosing any of the listed option you select the payment form for stripe.
 
 You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below.
 
-Tip - ONLY FOR MULTI-LINGUAL SITES
+**Tip - ONLY FOR MULTI-LINGUAL SITES**
 
 For example, enter a language constant:
 
@@ -195,9 +193,7 @@ Stripe Hosted checkout uses almost the same parameters as the Stripe direct paym
 
 As mentioned above, with Stripe Hosted checkout, all the transactions occur in the Stripe window, so the merchant site has to be informed of the changes that occur with the transaction. Only then the corresponding orders can be updated on the merchant site. Webhooks are for this purpose. They are similar to IPN callbacks that are used as a communication between the Payment gateway and your ecommerce store.
 
-**Update/ Create webhook** This option in the Stripe checkout wouldn’t have any values initially when you have just installed the plugin. However, after you enter the API keys in the plugin and save, a value would apear.
-
- 
+**Update/ Create webhook** This option in the Stripe checkout wouldn’t have any values initially when you have just installed the plugin. However, after you enter the API keys in the plugin and save, a value would appear.
 
 ![No options in webhook](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/stripe/no-options-stripe-hosted.png)
 
@@ -276,7 +272,34 @@ Here is how you could test subscription support for Stripe checkout plugin.
 * Stripe checkout plugin should be installed.
 * API keys should be entered.
 
+**Steps to be done:**
 
+Following are the steps to be done to test if the Stripe hosted plugin works fine with the subscription product.
+
+1. Placing a test order
+2. Authenticating the transaction.
+3. Completing the payment.
+
+#### **Placing a test order**
+
+* Add  a subscription product to the cart.
+* Proceed to checkout and choose Stripe Hosted as the payment method.
+* Once you click on the Place order button, you would be redirected to the Stripe page asking for the card details.
+* Here is the document where you would find the test cards to be used. Click [here](https://stripe.com/docs/testing#regulatory-cards).
+* Use one of the cards found in the above document and click on the Save card button at the popup. **First the card details entered would be saved and payment would not be processed.**
+
+![](../.gitbook/assets/selection_086.png)
+
+#### Authenticating the transaction
+
+* Once you click on Save card, you would see a popup asking for Authentication like this:
+
+![](../.gitbook/assets/selection_087.png)
+
+#### Completing the payment
+
+* Once the authentication is complete, you would be redirected to the Merchant site. Click on Go to order history button.
+* Or, you can login to the My profile page, where you would see a **Complete Payment** button.
 
 
 
