@@ -28,14 +28,27 @@ To add the manufacturers to the product, follow the below instructions:
 
 ![Adding brand to product](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/manufacturers/add_manufacturer-to-pro.png)
 
-* Navigate to Menu manager-&gt;Your product’s menu-&gt;Item view options in category listing.
-* Set the option Manufacturer filter/brand filter option to Show.
-* Choose the **Manufacturer filter listing type** to the appropriate option.
-* Setting the above option to Show all applicable filters would display all filters associated with the available products.
-* Setting this option to Show all filters would display all the manufacturer filters.
-* Navigate to Item view options tab and set the option Brand to Yes.
+* Navigate to Menu manager-&gt;Your product’s menu-&gt;Item view options tab
+* Set the option Brand to Yes.
+* This would display the associated brand on the product view as follows:
 
 ## Frontend <a id="frontend"></a>
 
 ![Frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/manufacturers/manufacturers-frontend.png)
+
+#### **Filtering products based on manufacturers/brands:**
+
+Once you associate manufacturers with the appropriate products, you can also let users filter products based on brands.
+
+* Post linking brands with the concerned products,  navigate to Menu manager-&gt; Your product menu-&gt; Item view in category listings tab.
+* Scroll down to the Filters section. Set the option: **Manufacturer/brand filter** to Show.
+* Set the option **Manufacturer filter listing type** to **Show all filters.**
+
+![](../.gitbook/assets/screenshot-localhost-2020.08.19-12_54_31.png)
+
+* Once the manufacturer filters are enabled, the filters would be listed and users can filter the products based on brands.
+
+![](../.gitbook/assets/screenshot-localhost-2020.08.19-12_58_14.png)
+
+
 
