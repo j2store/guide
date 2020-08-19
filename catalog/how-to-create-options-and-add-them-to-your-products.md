@@ -12,7 +12,7 @@ Now that we know the requirements, let us get into the process of setting the op
 
 ### Creating the options <a id="creating-the-options"></a>
 
-* Navigate to **J2Store-&gt;Catalog-&gt;Options.** Click on the New option.
+* Navigate to \*\*J2Store-&gt;Catalog-&gt;Options. \*\*Click on the New option.
 
 ![Adding new options](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/creating-options-and-adding-them-to-products/options-add-new.png)
 

@@ -14,9 +14,9 @@ Tax geozone: USA
 
 Tax rate: 10%
 
-Tax profile name: US-TAX\*\*
+Tax profile name: US-TAX
 
-\*\*Steps: \*\*
+**Steps:** 
 
 * Navigate to J2Store-&gt;Localisation-&gt;Geozones and create a new geozone.
 
