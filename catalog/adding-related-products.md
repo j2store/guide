@@ -79,12 +79,12 @@ The product Net has to be added as a related product to the product Basket ball.
 ### Steps to be done: <a id="steps-to-be-done-1"></a>
 
 * Navigate to the J2Store cart tab and add the child product in upsell or crosssell field of the relations tab 
-* Navigate to the product article of Basket ball-&gt;J2Store cart tab-&gt;Copy the shortcode **{j2store}17\|cart{/j2store}**
+* Navigate to the product article of Basket ball-&gt;J2Store cart tab-&gt;Copy the shortcode\*\* {j2store}17\|cart{/j2store} \*\*
 * Paste it in the content part and copy the shortcode for displaying the crosssell and upsell product and paste it in the content part of the parent product. The shortcode to be copied is **{j2store}17\|upsells\|crosssells{/j2store}**
 
 ![Shortcodes](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/adding-related-products/rel-pro-addding-content.png)
 
-* Navigate to the article of the related product-&gt;J2Store cart tab-&gt;copy the shortcode to display the product’s add to cart **{j2store}18\|cart{/j2store}**
+* Navigate to the article of the related product-&gt;J2Store cart tab-&gt;copy the shortcode to display the product’s add to cart \*\* {j2store}18\|cart{/j2store}\*\*
 * Paste the shortcode at the content tab
 
 ![Cart shortcode](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/adding-related-products/cart-shortcode.png)
@@ -93,7 +93,7 @@ The product Net has to be added as a related product to the product Basket ball.
 
 ### Frontend display <a id="frontend-display"></a>
 
-![Item view settings](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/adding-related-products/content-plugin-item-view.png)
+![Item view settings](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/adding-related-products/content-plugin-item-view.png) \*\* Frontend display\*\*
 
 ![Parent product on frontend](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/adding-related-products/frontend-parent-pro.png)
 
@@ -101,5 +101,5 @@ The product Net has to be added as a related product to the product Basket ball.
 
 **VERY IMPORTANT NOTE: The above approach would work only if you have all of your products displayed in the Joomla article view and not in the J2Store list or tag view layout.**
 
-You will have to insert the add to cart shortcodes for the other products, if not the add to cart button wouldn’t show up. 
+\*\*You will have to insert the add to cart shortcodes for the other products, if not the add to cart button wouldn’t show up. \*\*
 
