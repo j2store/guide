@@ -42,9 +42,7 @@ Then go to J2Store - Configuration - store settings.
 
 #### **Make sure the Store administrator email is not same as the From email set in the global configuration.**
 
-Many email servers and clients will flag an email as spam if the ‘From’ email and the admin email are the same. So using two different emails solves the problem.
-
-Example: If your from email id is: **myemail1@gmail.com**, then your Admin email could be **someothermail@gmail.com.**
+Many email servers and clients will flag an email as spam if the ‘From’ email and the admin email are the same. So using two different emails solves the problem.Example: If your from email id is: [click here](https://docs.j2store.org/troubleshooting-guide/myemail1@gmail.com) then your Admin email could be [click here](https://docs.j2store.org/troubleshooting-guide/someotheremail@gmail.com)
 
 #### What is the status of the order?
 
@@ -84,5 +82,5 @@ Ask your customer / store administrator to check their SPAM folders. If still no
 * If you are using GoDaddy as your hosting service provider and did not receive the email, then change the subject of your email template. 
 * This broken host introduced unreasonable email filters recently, which prevent sending order notification emails. Refer this [click here](https://www.j2store.org/forum/2-general-questions/5036-solved-order-email-sending-problems-with-godaddy.html)
 
-Still have issues ? Please reach out to us via the support form or ticket system.
+Still have issues ? Post your issues in the community forums if you are a free version user. Subscribers, create a private ticket providing super user logins to your site.
 
