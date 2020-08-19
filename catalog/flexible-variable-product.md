@@ -123,6 +123,8 @@ Custom fields / settings from applications will be displayed in this tab.
 The Flexi variable product comes with a set of limitations as follows:
 
 * The availability of a particular variant combination cannot be previously determined and the particular option cannot be hidden based on the option value chosen in the previous option. 
-* That is if you have options like Color and Size, and if the size S is unavailable for Black color, then it is not possible to hide the option value S when the user chooses Black color.
-* Instead, when the user chooses black color and S size\(which is unavailable\), then there would be a message indicating that the particular variant is unavailable.
+
+**Example:** That is if you have options like Color and Size, and if the size S is unavailable for Black color, then it is not possible to hide the option value S when the user chooses Black color.
+
+Instead, when the user chooses black color and S size\(which is unavailable\), then there would be a message indicating that the particular variant is unavailable.
 
