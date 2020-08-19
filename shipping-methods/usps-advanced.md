@@ -46,7 +46,7 @@ Refer the below image
 
 **Handling cost** If you need to charge a handling cost for the shipping, you can enter here.
 
-**Dimension unit** Select the desired unit in which you want to measure the dimension, like, inch, milimeter and centi metre. Preferred unit Inch.
+**Length unit** Select the desired unit in which you want to measure the dimension, like, inch, milimeter and centi metre. Preferred unit Inch.
 
 **Weight unit** Select the desired unit in which you want to measure the weight, like, kilograms, pounds etc. Preferred unit Pound.
 
@@ -66,7 +66,7 @@ Refer the below image
 
 ![common](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/common.png)
 
-**Enable standard api service** Set this to YES will enable the standard API service of USPS \(i.e\) once standard API enabled, it will pass to the USPS server and get the standard rates from USPS server.
+**Enable standard API service** Set this to YES will enable the standard API service of USPS \(i.e\) once standard API enabled, it will pass to the USPS server and get the standard rates from USPS server.
 
 **Shipping rate based on ?** There are 2 options available
 
@@ -80,7 +80,7 @@ Refer the below image
 
 ![std](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/standard.png)
 
-Output will diplayed as like below image
+Output will displayed as like below image
 
 ![output](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/usps-advanced/out.png)
 
