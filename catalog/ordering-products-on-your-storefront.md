@@ -22,11 +22,28 @@ Ordering options could be found under Menu manager-&gt;Your product’s menu ite
 
 **Article order**- The order in which they are sorted in the Content-&gt;articles part would be the order of the products at the **F**rontend.
 
-**Consider both Category and Article ordering :** This option you could sort your Categories and also the products/articles within the Category either in Ascending or Descending order. This option would be reflected only if the Following option is also set as Ascending or Descending depending on your requirement under **Menu manager-&gt;Your product’s menu item-&gt;Common options tab-&gt;**Ordering direction and the Category ordering direction.
+**Consider both Category and Article ordering :** This option you could sort your products based on the ordering of the Categories and also the products/articles within the Category either in Ascending or Descending order. 
 
 ![](../.gitbook/assets/commonoptionstab.png)
 
-**For Example :**                                                                                                                                                                Let us consider that you have a Clothing store and there are two Categories one as Men's Clothing with various products such as Belt, Hat, T-Shirt, Shirt, and so on and other as Women's Clothing with products as Tops, Skirts, Jeans, so on.                                                                                                                                        If your requirement is to display both the Category and the Products within each Category in Ascending order. 
+**Ordering Direction& Category Ordering Direction:**
+
+ Choose whether the Product Articles should be ordered alphabetically from A to Z\(ascending\) or from Z to A\(descending\).
+
+The value you choose here should be the same as the one chosen under Content-&gt;Articles-&gt;Sort Table by:
+
+![](../.gitbook/assets/selection_092.png)
+
+Similarly for the category ordering direction, the value chosen at the menu should match the one chosen at the Content-&gt;Categories-&gt;Sort table by option.
+
+**For Example :**                                                                                                                                                                Let us consider that you have a Clothing store and there are two Categories one as Men's Clothing with various products such as Belt, Hat, T-Shirt, Shirt, and so on and other as Women's Clothing with products as Tops, Skirts, Jeans, so on.                                                                                                                                        
+
+Let us assume that you wish to create a menu which displays all the products of all the above categories in the following category order:
+
+* The products of Men's category should be displayed in ascending order.
+* Then the products of Women's category should be listed in ascending order.
+
+Let us learn how this ordering can be achieved.
 
 1\) Go to Menu Manager-&gt;YOUR PRODUCT MENU-&gt;Common options tab.
 
