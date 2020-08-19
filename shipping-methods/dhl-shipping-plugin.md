@@ -19,6 +19,12 @@ This plugin integrates DHL Shipping Rate API with J2Store.
 
 ![](../.gitbook/assets/dhl_new_02.png)
 
+## **To Create a DHL Express Account :**
+
+Opening a DHL Express personal account online is straightforward. Simply visit the [DHL website ](https://www.dhl.com/en.html)and click on the “Express" link at the top of the page. From there, you'll be directed to select your country from a drop-down menu.
+
+Once you are directed to your country page, you'll be asked whether you wish to open a personal or business account. Personal accounts can be established online. If you opt for a business account, you'll need to provide your business information as well as telephone number. A DHL representative will be in touch with you to learn about your business, discuss DHL account cost issues, and get you signed up and in their system.
+
 **Params :** With the help of the below image, you can set the parameters for the DHL Shipping Plugin:
 
 ![](../.gitbook/assets/dhl_new_04.png)
