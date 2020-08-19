@@ -59,7 +59,9 @@ All the shipping carriers use the weight and the dimension of your product \(Len
 
 You should select the weight and the length measurement unit from the drop down list.
 
-![weight and dimensions](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-shipping-methods/weight_and_dimensions.png) Also make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
+ Also make sure that you choose the correct measurement units in the plugin settings as well. If the measurement units used in the products does not match with the settings in the plugin, then J2Store will attempt to convert the values to the measurement unit set in the plugin.
+
+![weight and dimensions](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-shipping-methods/weight_and_dimensions.png)
 
 ### API credentials <a id="api-credentials"></a>
 
@@ -81,11 +83,9 @@ In your plugin settings, set the Debug mode to YES. This will allow the plugin t
 
 The log is stored in the /cache folder of your Joomla Root. You can use your Hosting CPanel’s file manager or an FTP program like FileZilla to access the log file. The log should give you a lot of information.
 
-VERY IMPORTANT: Debug mode SHOULD NOT be enabled in LIVE / PRODUCTION sites.
+VERY IMPORTANT: Debug mode SHOULD NOT be enabled in LIVE / PRODUCTION sites. 
 
->
-
-![debug mode](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-shipping-methods/debug_mode.png) 
+![debug mode](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-shipping-methods/debug_mode.png)
 
 Still not working, please create a private ticket or email us the log file. We will help you troubleshoot.
 

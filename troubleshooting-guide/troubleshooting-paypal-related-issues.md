@@ -29,7 +29,7 @@ It means you are not getting the Instant Payment Notification \(IPN\) from Paypa
 
 if your site or your hosting server has a firewall \(you can check with your host\), then you may have to whitelist the Paypal’s server IPs
 
-Here you can get a list of IPs used by the Paypal servers [click here](https://ppmts.custhelp.com/app/answers/detail/a_id/92)
+Here you can get a list of IPs used by the Paypal servers [click here](https://www.paypal.com/lc/smarthelp/article/what-are-the-ip-addresses-for-live-paypal-servers-ts1056)
 
 Paypal makes a remote post \(IPN\) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
 
@@ -87,11 +87,29 @@ You might have already created the INR currency. Open it and make sure its value
 
 **Now, create a new currency**
 
-![currency](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_050.png) Currency Name: USDCurrency Code: USDCurrency Symbol: $Decimal places: 2Decimal Separator: .Thousands separator: ,Value: 0.061 \(You can enter any value less than 1. Once saved, J2Store will automatically contact Yahoo Financial services and update the correct exchange value \)Status: Published
+ Currency Name: USD
+
+Currency Code: USD
+
+Currency Symbol: $
+
+Decimal places: 2
+
+Decimal Separator: .
+
+Thousands separator: ,
+
+Value: 0.061 \(You can enter any value less than 1. Once saved, J2Store will automatically contact Yahoo Financial services and update the correct exchange value \)
+
+Status: Published
+
+![currency](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_050.png)
 
 Save now.
 
-![selection49](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_049.png) You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD.J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
+ You are all set now. Prices in your store will now display in INR. When the customer is redirected to paypal, he will be asked to pay in USD.J2Store will automatically do the currency conversion depending on the prevailing exchange rate.
+
+![selection49](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-paypal-related-issues/Selection_049.png)
 
 ## 4. Paypal duplicate invoice ID and how to solve it <a id="4-paypal-duplicate-invoice-id-and-how-to-solve-it"></a>
 
@@ -111,7 +129,7 @@ Please follow the steps:
 
 > Note: This step is for V3. If you are using v2, then go to Set Up -&gt; Store Profiles -&gt; your store profile
 
-1. Set the Invoice Prefix in the textbox provided, for e.g., INV-2015- or INV/2015/
+1. Set the Invoice Prefix in the textbox provided, for e.g., INV-2020- or INV/2020/
 2. Save & Close.
 
 **Solution 2: Change settings in Paypal**
@@ -166,26 +184,15 @@ Make sure you have J2Store 3.2.21 Login to your hosting cPanel and set up a cron
 
 **Non-ssl**
 
- wget -O /dev/null “http://DOMAINNAME&gt;/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXX” &gt; /dev/null
+ wget -O /dev/null “http://DOMAINNAME&gt;/index.php?option=com\__j2store&view=cron&command=paypalcollation&cron\__secret=XXXXX” &gt; /dev/null
 
 **SSL**
 
- wget —no-check-certificate -O /dev/null “https://DOMAINNAME&gt;/index.php?option=com_j2store&view=cron&command=paypalcollation&cron_secret=XXXXXX” &gt; /dev/null NOTE: ReplaceDOMAINNAME&gt; with your domain name Replace XXXXXX with your cron secret key, which you can find at Joomla Administration -&gt; J2Store -&gt; Set up -&gt; Configuration -&gt; Store
+ wget —no-check-certificate -O /dev/null “https://DOMAINNAME&gt;/index.php?option=com\__j2store&view=cron&command=paypalcollation&cron\__secret=XXXXXX” &gt; /dev/null
+
+ NOTE: Replace DOMAINNAME with your domain name Replace XXXXXX with your cron secret key, which you can find at Joomla Administration -&gt; J2Store -&gt; Set up -&gt; Configuration -&gt; Store.
 
 There could be many reasons why your Paypal Plugin is not working. This guide lists most common reasons and solutions for them.
-
-### Orders not confirmed. Status shows as incomplete or new <a id="orders-not-confirmed-status-shows-as-incomplete-or-new"></a>
-
-It means you are not getting the Instant Payment Notification \(IPN\) from Paypal. The IPN may not reach your site, if :
-
-The Site is offline The Site is in local server / local host / live in your local machine You have created a menu for the Checkout and set its access level to Registered or Special or Something other than public. You have a firewall installed either in your site or by your host You have disabled IPN in your Paypal account.
-
-**Solutions to above issues :**
-
-1. Go to Joomla admin - Global configuration. Set Site Offline to No
-2. Host your site
-3. Set the Checkout menu access level to Public
-4. If you have a firewall like Admin Tools, then you can add Exceptions. Please consult with your firewall provider or with your host. If you are using the Admin Tools PRO version, you will have to exclude the IPN urls mentioned above\(\#enable-ipn\) If your site or your hosting server has a firewall \(you can check with your host\), then you may have to whitelist the Paypal’s server IPs Here you can get a list of IPs used by the Paypal servers [click here](https://ppmts.custhelp.com/app/answers/detail/a_id/92) Paypal makes a remote post \(IPN\) to your site when a payment is made to inform us that payment has been made and you can mark the order complete. Firewalls normally block remote posts. So we may have to whitelist the IPs allowing them to do the remote post.
 
 ## 10. Things don’t appear to be working at the moment. Please try again later <a id="things-dont-appear-to-be-working-at-the-moment-please-try-again-later"></a>
 
@@ -221,15 +228,17 @@ Here is a screenshot of the WAF Exception in Admin Tools PRO
 
 ![](../.gitbook/assets/waf-exception-1-.png)
 
-Currency you are using
+#### **Currency you are using**
 
 Paypal supports only the following currencies:
 
-https://developer.paypal.com/docs/api/reference/currency-codes/” target=“\_blank”rel=“noopener”&gt; click here
+ [click here](https://developer.paypal.com/docs/api/reference/currency-codes/)
 
 So, if you are trying to receive payment through Paypal, it becomes necessary that your store currency is one among the above listed currencies. All other currencies would return a Things don’t seem to be working at the moment error.
 
-Why the paypal payment form not works ? It seems due to the param “Block non-encrypted Website Payments” has been enabled inside your paypal account settings.
+#### Why the paypal payment form not works ? 
+
+It seems due to the param “Block non-encrypted Website Payments” has been enabled inside your paypal account settings.
 
 Disabling this param will solve this problem.
 
@@ -237,7 +246,7 @@ Block non-encrypted Website Payments = disable.
 
  
 
-
+If you still have issues with Paypal plugin, please reach us through the support form or the ticket system.
 
 
 

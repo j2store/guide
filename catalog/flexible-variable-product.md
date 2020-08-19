@@ -118,7 +118,7 @@ Custom fields / settings from applications will be displayed in this tab.
 
 {% embed url="https://youtu.be/yu1JKOjPba8" %}
 
-#### Limitations:
+#### Limitation:
 
 The Flexi variable product comes with a set of limitations as follows:
 
@@ -126,5 +126,7 @@ The Flexi variable product comes with a set of limitations as follows:
 
 **Example:** That is if you have options like Color and Size, and if the size S is unavailable for Black color, then it is not possible to hide the option value S when the user chooses Black color.
 
-Instead, when the user chooses black color and S size\(which is unavailable\), then there would be a message indicating that the particular variant is unavailable.
+Instead, when the user chooses black color and S size\(which is unavailable\), then there would be a message indicating that the particular variant is unavailable as shown below:
+
+![](../.gitbook/assets/screenshot-localhost-2020.08.19-12_25_44.png)
 

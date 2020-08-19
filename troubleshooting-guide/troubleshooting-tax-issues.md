@@ -26,10 +26,11 @@ Set YES to Display tax information below the prices \(in product pages\).
 
 For example, do you want to setup the tax rate for california ?
 
-1. First thing is you have to create Geozone for californiaGo to J2store -&gt; Localisation -&gt; Geozones and click NEW button on top left.Enter the Geo Zone Name in the text box.Select Enable.Click on Add Country/Zone button then you will get two dropdowns for choosing country and zone.Choose the country name and zone name from the dropdown list.Click Save & Close.
-2. Add the Geozone to the tax rate you have createdOpen the tax rate you have created and the geozone you have created will be listed in the Geo Zone list.
+1. First thing is you have to create Geozone for californiaGo to J2store -&gt; Localisation -&gt; Geozones and click NEW button on top left.
+2. Enter the Geo Zone Name in the text box.Select Enable.Click on Add Country/Zone button then you will get two dropdowns for choosing country and zone.Choose the country name and zone name from the dropdown list.Click Save & Close.
+3. Add the Geozone to the tax rate you have created.. Open the tax rate you have created and the geozone you have created will be listed in the Geo Zone list.
 
-Configured all the things properly but still tax is not showing.Why?
+#### Configured all the things properly but still tax is not showing.Why?
 
 You might have missed one most important step. You should add the tax profile to the product.
 
@@ -67,7 +68,7 @@ Now assign this geozone to your tax rate.
 
 ### Step-1 Enable tax information to be displayed on product page <a id="step-1-enable-tax-information-to-be-displayed-on-product-page"></a>
 
-Go to J2Store -&gt; Configuration - Tax settingsSet Display tax information below the prices \(in product pages\) to YES.See the screenshot below
+Go to J2Store -&gt; Configuration - Tax settings. Set Display tax information below the prices \(in product pages\) to YES.See the screenshot below
 
 ![tax including text](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-tax-issues/tax_including_text.png)
 
@@ -75,7 +76,7 @@ It would display a text like this: \(Incl. XX% tax \)
 
 This might be in English.
 
-You can change this with a language override for below language constantLanguage constant is: J2STORE_PRICE_INCLUDING\_TAX
+You can change this with a language override for below language constantLanguage constant is: J2STORE\_PRICE\_INCLUDING\_TAX
 
 ### Step-2 Creating language override <a id="step-2-creating-language-override"></a>
 
@@ -83,7 +84,7 @@ Go to Extensions -&gt; Language\(s\) -&gt; select Overrides.
 
 Choose your language\(For example, English\(en-GB-Administrator\)\) in filter section and click new on top left.
 
-Add J2STORE_PRICE_INCLUDING\_TAX in Language constant text box.
+Add J2STORE\_PRICE\_INCLUDING\_TAX in Language constant text box.
 
 In Text box, add Inkl %s MwSt \(add the link using html anchor tag\). For example,
 
@@ -95,7 +96,9 @@ Save and close.
 
 Here is a screenshot showing the language override
 
-![tax override](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-tax-issues/tax_override.png) Here is how it looks in the front end
+ Here is how it looks in the front end
+
+![tax override](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-tax-issues/tax_override.png)
 
 ![front end](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-tax-issues/front_end_display.png)
 
