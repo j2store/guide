@@ -46,7 +46,7 @@ All other options are same as simple product.
 
 \*\*VERY IMPORTANT NOTE: This parameter must have a value. If no value is inserted in this field, the downloadable product wouldn’t appear at the My downloads section even if the user has paid successfully for the order. \*\*
 
-## A Step-by-step example to create a downloadable product\* <a id="a-step-by-step-example-to-create-a-downloadable-product"></a>
+## A Step-by-step example to create a downloadable product <a id="a-step-by-step-example-to-create-a-downloadable-product"></a>
 
 **J2Store** implements an innovative concept in creating products. It uses the Joomla articles as products. So to create a product is to create an article.
 
@@ -163,7 +163,9 @@ And select the file and click the create button, and you will get the product li
 
 ![Download files list](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down-pro-files-list.png)
 
-Set the download limit \(0 for unlimited downloads\) and expiry of the download, in days, as shown in the picture below: ![Limit for download](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_files_limit.png)
+Set the download limit \(0 for unlimited downloads\) and expiry of the download, in days, as shown in the picture below: 
+
+![Limit for download](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_files_limit.png)
 
 Let us create a Downloads Area for the customers
 
@@ -192,13 +194,17 @@ And when ‘Downloads’ tab is clicked, it will show the download link like thi
 
 The filters will help to narrow the product search, for specific products. For e.g., if you add filter with value ‘music’, the search will display only music files.
 
-See the image below: ![Files](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_filters.png)
+See the image below: 
+
+![Files](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_filters.png)
 
 ### Relations <a id="relations"></a>
 
 The next tab is Relations. Here, you can add products of higher value than the one being viewed by the customer and recommend the customer to buy that product, citing its advantages and additional features. This is an upsell.
 
-Refer the image below: ![Relations](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_relations.png)
+Refer the image below: 
+
+![Relations](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_relations.png)
 
 Also, you can add some other products to convince the customer to buy theses products additionally. This is cross sell.
 
@@ -206,7 +212,9 @@ For more detailed explanation, refer to the **Relations** section of the **Downl
 
 ### Apps <a id="apps"></a>
 
-In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features. ![Apps](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_apps.png)
+In this tab, you can add third party tools or plugins, that are available, to enhance the J2Store functionality, like adding additional fields, applications, functions or features. 
+
+![Apps](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/downloadable-product/down_apps.png)
 
 Now, lets have a look on how your product is viewed in your online store. Check the image below:
 
@@ -214,15 +222,13 @@ Now, lets have a look on how your product is viewed in your online store. Check 
 
 ## How to sell files that are stored externally? <a id="how-to-sell-files-that-are-stored-externally"></a>
 
-If you have files stored externally, like on your Dropbox account or on your Amazon S3 bucket, then you could sell them on your store using the following extensions respectively:\*\*
+If you have files stored externally, like on your Dropbox account or on your Amazon S3 bucket, then you could sell them on your store using the following extensions respectively:
 
 To sell files stored on the Dropbox account:
 
-Use the app found
+Use the app found [here](https://www.j2store.org/extensions/apps/dropbox.html)
 
-here\*\*
-
-To sell files stored on the Amazon S3 bucket: \*\*Use the app found [here](https://www.j2store.org/extensions/apps/amazon-s3.html)
+To sell files stored on the Amazon S3 bucket: Use the app found [here](https://www.j2store.org/extensions/apps/amazon-s3.html)
 
 ## How to reset the download limit for a single user: <a id="how-to-reset-the-download-limit-for-a-single-user"></a>
 
@@ -255,8 +261,14 @@ The user should have paid for the order successfully and the order should be in 
 In the product article, the following parameters shouldn’t be left empty:
 
 1. **Download limit**
-2. \*\*Download expiry\(in days\) \*\*
+2. **Download expiry\(in days\)**
 3. **File**
+
+* **The Folder path for digital goods should not have a slash in the path**
+
+Under J2Store-&gt;setup-&gt;configuration-&gt;basic settings tab, the path you set should not start with a slash.
+
+Example: the path should be set as: media/j2store and **not** /media/j2store.
 
 ## Video Tutorial <a id="video-tutorial"></a>
 
