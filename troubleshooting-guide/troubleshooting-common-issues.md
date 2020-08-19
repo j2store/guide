@@ -75,7 +75,11 @@ Around line 33, you will find $document-&gt;addScript\(JURI::root\(true\).’/me
 
 Change this to if\($mainframe-&gt;isSite\(\)\) {$document-&gt;addScript\(JURI::root\(true\).’/media/j2store/js/j2storejqui.js’\);}
 
-Save.Logout. Clear browser cache and test.This should fix the issue.
+Save.
+
+Logout. Clear browser cache and test.
+
+This should fix the issue.
 
 ## Writing template override for the frontend order view and print layouts <a id="writing-template-override-for-the-frontend-order-view-and-print-layouts"></a>
 
@@ -87,13 +91,11 @@ Let us see how to override the orderitems.php
 
 Copy /components/com\_j2store/views/myprofile/tmpl/orderitems.php
 
-to
+to  /templates/YOUR_TEMPLATE/html/com\__j2store/myprofile/orderitems.php
 
-/templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
+Edit the file /templates/YOUR_TEMPLATE/html/com\__j2store/myprofile/orderitems.php
 
-Edit the file /templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
-
-Make your changes / overrides. Save. You need to do the same if you want to override
+Make your changes on overrides. Save. You need to do the same if you want to override.
 
 ## HOW TO make checkout address field labels language friendly <a id="how-to-make-checkout-address-field-labels-language-friendly"></a>
 
@@ -103,7 +105,13 @@ Still if you do not see the translation, please check your language pack for the
 
 language file location /administrator/language/en-GB/en-GB.com\_j2store.ini
 
-J2STORE_ADDRESS_TYPE=“Address type” J2STORE_BILLING_ADDRESS=“Billing Address” J2STORE_SHIPPING_ADDRESS=“Shipping Address” J2STORE_ADDRESS_DETAILS=“Address Details” J2STORE_ADDRESS_FIRSTNAME=“First name” J2STORE_FIRST_NAME=“First Name” J2STORE_ADDRESS_LASTNAME=“Last name” J2STORE_LAST_NAME=“Last Name” J2STORE_ADDRESS_USER_ID=“User ID” J2STORE_ADDRESS_USERNAME=“Username” J2STORE_ADDRESS_LINE1=“Address Line 1” J2STORE_ADDRESS1=“Address Line 1” J2STORE_ADDRESS_LINE2=“Address Line 2” J2STORE_ADDRESS2=“Address Line 2” J2STORE_ADDRESS_CITY=“City” J2STORE_CITY=“City” J2STORE_ADDRESS_ZIP=“Zip / Postal code” J2STORE_ADDRESS_STATE=“State” J2STORE_ADDRESS_COUNTRY=“Country” J2STORE_ADDRESS_PHONE=“Phone” J2STORE_ADDRESS_MOBILE=“Mobile” J2STORE_ADDRESS_FAX=“Fax” J2STORE_ADDRESS_COMPANY_NAME=“Company” J2STORE_ADDRESS_TAX_NUMBER=“Tax Number” J2STORE_ADDRESS_ZONE=“Zone / Region” J2STORE_TELEPHONE=“Telephone” J2STORE_ADDRESS_EDIT=“View/Edit Address” J2STORE_SHOPPER\_ADDRESSES=“Shopper Addresses”
+**J2STORE\_ADDRESS\_TYPE="Address type" J2STORE\_BILLING\_ADDRESS="Billing Address" J2STORE\_SHIPPING\_ADDRESS="Shipping Address" J2STORE\_ADDRESS\_DETAILS="Address Details" J2STORE\_ADDRESS\_FIRSTNAME="First name" J2STORE\_FIRST\_NAME="First Name" J2STORE\_ADDRESS\_LASTNAME="Last name" J2STORE\_LAST\_NAME="Last Name" J2STORE\_ADDRESS\_USER\_ID="User ID" J2STORE\_ADDRESS\_USERNAME="Username" J2STORE\_ADDRESS\_LINE1="Address Line 1" J2STORE\_ADDRESS1="Address Line 1" J2STORE\_ADDRESS\_LINE2="Address Line 2" J2STORE\_ADDRESS2="Address Line 2" J2STORE\_ADDRESS\_CITY="City"** 
+
+**J2STORE\_CITY="City"** 
+
+**J2STORE\_ADDRESS\_ZIP="Zip / Postal code" J2STORE\_ADDRESS\_STATE="State" J2STORE\_ADDRESS\_COUNTRY="Country" J2STORE\_ADDRESS\_PHONE="Phone" J2STORE\_ADDRESS\_MOBILE="Mobile"** 
+
+**J2STORE\_ADDRESS\_FAX="Fax" J2STORE\_ADDRESS\_COMPANY\_NAME="Company" J2STORE\_ADDRESS\_TAX\_NUMBER="Tax Number" J2STORE\_ADDRESS\_ZONE="Zone / Region" J2STORE\_TELEPHONE="Telephone" J2STORE\_ADDRESS\_EDIT="View/Edit Address" J2STORE\_SHOPPER\_ADDRESSES="Shopper Addresses"**
 
 ## Selling Digital Goods Online with J2Store <a id="selling-digital-goods-online-with-j2store"></a>
 
