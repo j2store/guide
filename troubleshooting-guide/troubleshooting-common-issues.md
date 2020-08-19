@@ -126,7 +126,7 @@ You can use your Hosting Providers CPanel File manager or an FTP client like Fil
 We do not want people to access this folder using their browser and download files. So let us protect this folder using a .htaccess file.
 
 * Create a file called htaccess.txt in your computer and open it with your favorite text editorAdd the following lines to it
-* order deny, allowdeny form all
+* order deny, allow or deny form all
 * Save the file. Now upload it to the folder we just have created in our web root. In our example, it is myfiles
 
 > IMPORTANT: Rename it as .htaccess
@@ -382,13 +382,13 @@ Then create language override for the constant J2STORE_MYCUSTOM_PAYMENTOPTION_TI
 
 Copy the following files:
 
-/components/com_j2store/templates/default/default_simple.php
+/components/com\__j2store/templates/default/default\__simple.php
 
-/components/com_j2store/templates/default/default_variable.php
+/components/com\__j2store/templates/default/default\__variable.php
 
-/components/com_j2store/templates/default/default_configurable.php
+/components/com\__j2store/templates/default/default\__configurable.php
 
-/components/com_j2store/templates/default/default_downloadable.php  
+/components/com\__j2store/templates/default/default\__downloadable.php  
 
 
 to  
