@@ -317,8 +317,6 @@ Following are the steps to be done to test if the Stripe hosted plugin works fin
 
 This indicates that the Stripe checkout plugin works fine with the Subscription product. You can set the payment live.
 
-
-
 **Still got questions?**
 
 In case of any further queries, please feel free to reach us via the [Priority ticket system](https://www.j2store.org/my-account/priority-ticket-system.html)
