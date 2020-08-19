@@ -203,7 +203,7 @@ Open the field, the label of which you want to change, and enter your translatio
 
 if you are running multi-lingual site, you can enter a language constant in the label field.Example: J2STORE_MY_FIELD\_NAME
 
-* Then you can go to Language manager and create an OverrideIMPORTANT: Set the Filter to Administrator before you create an override.
+* Then you can go to Language manager and create an Override. IMPORTANT: Set the Filter to Administrator before you create an override.
 * Click New
 * Language Constant: J2STORE_MY_FIELD\_NAME
 * Text: Your translation
@@ -401,13 +401,15 @@ Find the below line in all the files
 
 
 ```text
-loadTemplate('options'); ?>
-loadTemplate('cart'); ?>
+	<?php echo $this->loadTemplate('options'); ?>
+	<?php echo $this->loadTemplate('cart'); ?>
+
 
 Replace this with
 
-loadTemplate('options'); ?>
-loadTemplate('cart'); ?>
+	<?php //echo $this->loadTemplate('options'); ?>
+	<?php //echo $this->loadTemplate('cart'); ?>
+
 ```
 
 **Override Product Layout**  
