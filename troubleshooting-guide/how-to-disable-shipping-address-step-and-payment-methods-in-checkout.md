@@ -46,5 +46,5 @@ You cannot disable the Billing address entirely. However, you can reduce the num
 
 You can disable the fields via the Custom Fields manager.
 
-**IMPORTANT: You should at least have the Email field enabled. The remaining could be disabled.di**
+**IMPORTANT: You should at least have the Email field enabled. The remaining could be disabled.**
 

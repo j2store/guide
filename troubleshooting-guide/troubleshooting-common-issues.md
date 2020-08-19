@@ -75,11 +75,7 @@ Around line 33, you will find $document-&gt;addScript\(JURI::root\(true\).’/me
 
 Change this to if\($mainframe-&gt;isSite\(\)\) {$document-&gt;addScript\(JURI::root\(true\).’/media/j2store/js/j2storejqui.js’\);}
 
-Save.
-
-Logout. Clear browser cache and test.
-
-This should fix the issue.
+Save.Logout. Clear browser cache and test.This should fix the issue.
 
 ## Writing template override for the frontend order view and print layouts <a id="writing-template-override-for-the-frontend-order-view-and-print-layouts"></a>
 
@@ -91,11 +87,13 @@ Let us see how to override the orderitems.php
 
 Copy /components/com\_j2store/views/myprofile/tmpl/orderitems.php
 
-to  /templates/YOUR_TEMPLATE/html/com\__j2store/myprofile/orderitems.php
+to
 
-Edit the file /templates/YOUR_TEMPLATE/html/com\__j2store/myprofile/orderitems.php
+/templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
 
-Make your changes on overrides. Save. You need to do the same if you want to override.
+Edit the file /templates/YOUR_TEMPLATE/html/com_j2store/myprofile/orderitems.php
+
+Make your changes / overrides. Save. You need to do the same if you want to override
 
 ## HOW TO make checkout address field labels language friendly <a id="how-to-make-checkout-address-field-labels-language-friendly"></a>
 
@@ -105,13 +103,7 @@ Still if you do not see the translation, please check your language pack for the
 
 language file location /administrator/language/en-GB/en-GB.com\_j2store.ini
 
-**J2STORE\_ADDRESS\_TYPE="Address type" J2STORE\_BILLING\_ADDRESS="Billing Address" J2STORE\_SHIPPING\_ADDRESS="Shipping Address" J2STORE\_ADDRESS\_DETAILS="Address Details" J2STORE\_ADDRESS\_FIRSTNAME="First name" J2STORE\_FIRST\_NAME="First Name" J2STORE\_ADDRESS\_LASTNAME="Last name" J2STORE\_LAST\_NAME="Last Name" J2STORE\_ADDRESS\_USER\_ID="User ID" J2STORE\_ADDRESS\_USERNAME="Username" J2STORE\_ADDRESS\_LINE1="Address Line 1" J2STORE\_ADDRESS1="Address Line 1" J2STORE\_ADDRESS\_LINE2="Address Line 2" J2STORE\_ADDRESS2="Address Line 2" J2STORE\_ADDRESS\_CITY="City"** 
-
-**J2STORE\_CITY="City"** 
-
-**J2STORE\_ADDRESS\_ZIP="Zip / Postal code" J2STORE\_ADDRESS\_STATE="State" J2STORE\_ADDRESS\_COUNTRY="Country" J2STORE\_ADDRESS\_PHONE="Phone" J2STORE\_ADDRESS\_MOBILE="Mobile"** 
-
-**J2STORE\_ADDRESS\_FAX="Fax" J2STORE\_ADDRESS\_COMPANY\_NAME="Company" J2STORE\_ADDRESS\_TAX\_NUMBER="Tax Number" J2STORE\_ADDRESS\_ZONE="Zone / Region" J2STORE\_TELEPHONE="Telephone" J2STORE\_ADDRESS\_EDIT="View/Edit Address" J2STORE\_SHOPPER\_ADDRESSES="Shopper Addresses"**
+J2STORE_ADDRESS_TYPE=“Address type” J2STORE_BILLING_ADDRESS=“Billing Address” J2STORE_SHIPPING_ADDRESS=“Shipping Address” J2STORE_ADDRESS_DETAILS=“Address Details” J2STORE_ADDRESS_FIRSTNAME=“First name” J2STORE_FIRST_NAME=“First Name” J2STORE_ADDRESS_LASTNAME=“Last name” J2STORE_LAST_NAME=“Last Name” J2STORE_ADDRESS_USER_ID=“User ID” J2STORE_ADDRESS_USERNAME=“Username” J2STORE_ADDRESS_LINE1=“Address Line 1” J2STORE_ADDRESS1=“Address Line 1” J2STORE_ADDRESS_LINE2=“Address Line 2” J2STORE_ADDRESS2=“Address Line 2” J2STORE_ADDRESS_CITY=“City” J2STORE_CITY=“City” J2STORE_ADDRESS_ZIP=“Zip / Postal code” J2STORE_ADDRESS_STATE=“State” J2STORE_ADDRESS_COUNTRY=“Country” J2STORE_ADDRESS_PHONE=“Phone” J2STORE_ADDRESS_MOBILE=“Mobile” J2STORE_ADDRESS_FAX=“Fax” J2STORE_ADDRESS_COMPANY_NAME=“Company” J2STORE_ADDRESS_TAX_NUMBER=“Tax Number” J2STORE_ADDRESS_ZONE=“Zone / Region” J2STORE_TELEPHONE=“Telephone” J2STORE_ADDRESS_EDIT=“View/Edit Address” J2STORE_SHOPPER\_ADDRESSES=“Shopper Addresses”
 
 ## Selling Digital Goods Online with J2Store <a id="selling-digital-goods-online-with-j2store"></a>
 
@@ -126,7 +118,7 @@ You can use your Hosting Providers CPanel File manager or an FTP client like Fil
 We do not want people to access this folder using their browser and download files. So let us protect this folder using a .htaccess file.
 
 * Create a file called htaccess.txt in your computer and open it with your favorite text editorAdd the following lines to it
-* order deny, allow or deny form all
+* order deny, allowdeny form all
 * Save the file. Now upload it to the folder we just have created in our web root. In our example, it is myfiles
 
 > IMPORTANT: Rename it as .htaccess
@@ -203,7 +195,7 @@ Open the field, the label of which you want to change, and enter your translatio
 
 if you are running multi-lingual site, you can enter a language constant in the label field.Example: J2STORE_MY_FIELD\_NAME
 
-* Then you can go to Language manager and create an Override. IMPORTANT: Set the Filter to Administrator before you create an override.
+* Then you can go to Language manager and create an OverrideIMPORTANT: Set the Filter to Administrator before you create an override.
 * Click New
 * Language Constant: J2STORE_MY_FIELD\_NAME
 * Text: Your translation
@@ -382,13 +374,13 @@ Then create language override for the constant J2STORE_MYCUSTOM_PAYMENTOPTION_TI
 
 Copy the following files:
 
-/components/com\__j2store/templates/default/default\__simple.php
+/components/com_j2store/templates/default/default_simple.php
 
-/components/com\__j2store/templates/default/default\__variable.php
+/components/com_j2store/templates/default/default_variable.php
 
-/components/com\__j2store/templates/default/default\__configurable.php
+/components/com_j2store/templates/default/default_configurable.php
 
-/components/com\__j2store/templates/default/default\__downloadable.php  
+/components/com_j2store/templates/default/default_downloadable.php  
 
 
 to  
@@ -401,15 +393,13 @@ Find the below line in all the files
 
 
 ```text
-	<?php echo $this->loadTemplate('options'); ?>
-	<?php echo $this->loadTemplate('cart'); ?>
-
+loadTemplate('options'); ?>
+loadTemplate('cart'); ?>
 
 Replace this with
 
-	<?php //echo $this->loadTemplate('options'); ?>
-	<?php //echo $this->loadTemplate('cart'); ?>
-
+loadTemplate('options'); ?>
+loadTemplate('cart'); ?>
 ```
 
 **Override Product Layout**  
@@ -422,25 +412,27 @@ Replace this with
 
 ## Frontpage product listing files <a id="frontpage-product-listing-files"></a>
 
-Open your sub-template folder\(/components/com_j2store/templates/YOUR-SUB-TEMPLATE\) where you can find the files with name started with default_\(for example, default\__simple.php, default\__images.php, etc\). Those files controls all the features displaying in the category listing page.  
+Open your sub-template folder\(/components/com_j2store/templates/YOUR-SUB-TEMPLATE\) where you can find the files with name started with default_\(for example, default_simple.php, default_images.php, etc\). Those files controls all the features displaying in the category listing page.  
 
 
-OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/  
+OVERRIDE PATHtemplates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/  
 
 
 **Product view**  
 
 
-Open your sub-template folder where you can find the files with name started with view_\(for example, view\__simple.php, view\__images.php, view\__options.php, view\_notabs.php, etc\). Those files controlled all the features displaying in the Product view page.  
+Open your sub-template folder where you can find the files with name started with view_\(for example, view_simple.php, view_images.php, view_options.php, view\_notabs.php, etc\). Those files controlled all the features displaying in the Product view page.  
 
 
 ![product guide](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/template_guide_product_view.png)
 
- OVERRIDE PATH: templates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/
+ OVERRIDE PATHtemplates/YOUR-TEMPLATE/html/com\_j2store/templates/YOUR-SUB-TEMPLATE/  
+File location of filter  
 
-  
-File location of filter:  
+
  Following files controls filter section,  
+
+
  /components/com_j2store/templates/YOUR-SUB-TEMPLATE/default\__filters.php  
 
 
@@ -535,9 +527,7 @@ The following article published in the Joomla Magazine throws light on the advan
 When you are searching product using joomla search, clicking on product name in the search results will not take you to the J2Store product view.  
 
 
-SOLUTION:
-
-By default, J2Store has Search plugin included in the package so go to Extensions -&gt; Plugins and choose type Search.  
+SOLUTIONBy default, J2Store has Search plugin included in the package so go to Extensions -&gt; Plugins and choose type Search.  
 
 
 You can find the plugin Search - J2Store.  
@@ -545,7 +535,7 @@ You can find the plugin Search - J2Store.
 
 ![searchj2store1](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/search_j2store_01.png)
 
-Enable / open the plugin and setup the configurations as like in the below screenshot.  
+Enable / open the plugin and setup the configurationsas like in the below screenshot.  
 
 
 ![searchj2store2](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/search_j2store_02.png)
@@ -567,7 +557,7 @@ There 3 reasons behind this warning message.
 When you change the order status to confirmed manually, you will have to do the below,  
 
 
-Go to J2Store &gt; Sales &gt; Orders. Open the order. On the left side of order history page, check the checkbox Reset download access expiry date and save.  
+Go to J2Store &gt; Sales &gt; OrdersOpen the orderOn the left side of order history page, check the checkbox Reset download access expiry date and save.  
 
 
 ![downloadexpiery](https://raw.githubusercontent.com/j2store/doc-images/master/troubleshooting-guide/troubleshooting-common-issues/download_expiry.gif)
@@ -583,7 +573,7 @@ This issue is due to choosing of wrong layout for checkout pages. Following the 
 **Solution**  
 
 
-Go to J2Store &gt; Configuration &gt; Basic settings tabChoose Bootstrap 3.x to Cart and checkout pages should use CSS classes. Save.  
+Go to J2Store &gt; Configuration &gt; Basic settings tabChoose Bootstrap 3.x to Cart and checkout pages should use CSS classesSave.  
 
 
 If it is already set to bootstrap 3.x, change to bootstrap 2.x and check.  
