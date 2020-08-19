@@ -204,7 +204,6 @@
   * [Worldpay Payment Plugin](payment-methods/worldpay-payment-plugin.md)
   * [Yandex Money Payment Plugin](payment-methods/yandex-money-payment-plugin.md)
   * [2Checkout Plugin](payment-methods/2checkout-plugin.md)
-  * [Limitations of PayPal Standard with Subscriptions](payment-methods/limitations-of-paypal-standard-with-subscriptions.md)
 * [Apps](apps/README.md)
   * [Advanced taxrate](apps/advanced-taxrate.md)
   * [Add to user group](apps/add-to-user-group.md)
