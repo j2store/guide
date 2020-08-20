@@ -24,12 +24,12 @@ Enter the number of days to send the remember mail to customer for notifying tha
 
 ## Display settings <a id="display-settings"></a>
 
-* **Show Duration** -This option allows you to show / hide duration displaying below the product price.
-* **Show recurring total-** Setting NO to this option will hide displaying recurring total column from the cart total table.
-* **Show non recurring total -**This option helps you to show / hide non recurring total displaying in cart page.
-* **Show renewal date-** If you would like to not show the next renewal date to users, just set this option NO.
-* **Renewal date format-** This is the text box allows you to change the format of renewal date displaying in item table.
-* **Show renew button-** This option is used to show / hide renew button on profile page &gt; Subscription tab.
+* Show Duration This option allows you to show / hide duration displaying below the product price.
+* Show recurring total Setting NO to this option will hide displaying recurring total column from the cart total table.
+* Show non recurring total This option helps you to show / hide non recurring total displaying in cart page.
+* Show renewal date If you would like to not show the next renewal date to users, just set this option NO.
+* Renewal date format This is the text box allows you to change the format of renewal date displaying in item table.
+* Show renew button This option is used to show / hide renew button on profile page &gt; Subscription tab.
 
 ## Renewal settings <a id="renewal-settings"></a>
 

@@ -60,7 +60,11 @@ It allows you to add one option with multiple variants. For example, Subscriptio
 
 ![subs frontend](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/creating-subscription-based-products/subscription-frontend.png)
 
-![subs cart](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/creating-subscription-based-products/subscription-cart.png) ![subs payment checkout](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/creating-subscription-based-products/subscription-payment-checkout.png)
+ 
+
+![subs payment checkout](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/creating-subscription-based-products/subscription-payment-checkout.png)
+
+![subs cart](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/creating-subscription-based-products/subscription-cart.png)
 
 ![subs frontend profile](https://raw.githubusercontent.com/j2store/doc-images/master/subscriptions-and-memberships/creating-subscription-based-products/subscription-frontend-profile.png)
 
