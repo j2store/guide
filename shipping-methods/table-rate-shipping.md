@@ -61,7 +61,13 @@ You have to create shipping zones and its rules for calculating the shipping cor
 
 **Maximum cost per item** Set a maximum cost to the calculated item. The item calculated could be an individual item or shipping class based on above settings.
 
-![shippingmethod](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shippingmethod.png) **Creating shipping rule** After filling all the fields on shipping method, click save and you will be asking to create shipping rule for the shipping method you created.
+ 
+
+![shippingmethod](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shippingmethod.png)
+
+\*\*\*\*
+
+**Creating shipping rule** After filling all the fields on shipping method, click save and you will be asking to create shipping rule for the shipping method you created.
 
 Click on Add Rule button to create shipping rule.
 
