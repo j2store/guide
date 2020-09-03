@@ -292,4 +292,5 @@
   * [Language](video-tutorials/language.md)
   * [Apps](video-tutorials/apps.md)
   * [Email and Invoice Template](video-tutorials/email-and-invoice-template.md)
+  * [Checkout and Payment](video-tutorials/checkout-and-payment.md)
 
