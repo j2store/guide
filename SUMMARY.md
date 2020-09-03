@@ -286,4 +286,5 @@
   * [Subscriptions](video-tutorials/subscriptions.md)
   * [Booking and Reservation](video-tutorials/booking-and-reservation.md)
   * [Partial Payments](video-tutorials/partial-payments.md)
+  * [Tax](video-tutorials/tax.md)
 
