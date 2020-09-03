@@ -281,5 +281,6 @@
   * [To Display Both the main Image and the additional image in the product view page](common-overrides/to-display-both-the-main-image-and-the-additional-image-in-the-product-view-page.md)
 * [Canonical URL Plugin](canonical-url-plugin.md)
 * [Video Tutorials](video-tutorials/README.md)
+  * [Quick Start](video-tutorials/quick-start.md)
   * [Catalog Management](video-tutorials/catalog-management.md)
 
