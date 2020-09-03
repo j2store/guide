@@ -280,6 +280,6 @@
   * [To display the UPCE/BAN/ISBN on the product page](common-overrides/to-display-the-upce-ban-isbn-on-the-product-page.md)
   * [To Display Both the main Image and the additional image in the product view page](common-overrides/to-display-both-the-main-image-and-the-additional-image-in-the-product-view-page.md)
 * [Canonical URL Plugin](canonical-url-plugin.md)
-* [Video Tutorials](video-tutorials.md)
-* [Catalog Management](catalog-management.md)
+* [Video Tutorials](video-tutorials/README.md)
+  * [Catalog Management](video-tutorials/catalog-management.md)
 
