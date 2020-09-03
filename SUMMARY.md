@@ -283,4 +283,5 @@
 * [Video Tutorials](video-tutorials/README.md)
   * [Quick Start](video-tutorials/quick-start.md)
   * [Catalog Management](video-tutorials/catalog-management.md)
+  * [Subscriptions](video-tutorials/subscriptions.md)
 
