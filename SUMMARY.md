@@ -290,4 +290,5 @@
   * [Shipping Methods](video-tutorials/shipping-methods.md)
   * [Discounts](video-tutorials/discounts.md)
   * [Language](video-tutorials/language.md)
+  * [Apps](video-tutorials/apps.md)
 
