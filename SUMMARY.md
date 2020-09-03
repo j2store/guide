@@ -289,4 +289,5 @@
   * [Tax](video-tutorials/tax.md)
   * [Shipping Methods](video-tutorials/shipping-methods.md)
   * [Discounts](video-tutorials/discounts.md)
+  * [Language](video-tutorials/language.md)
 
