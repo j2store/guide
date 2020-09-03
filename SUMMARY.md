@@ -287,4 +287,5 @@
   * [Booking and Reservation](video-tutorials/booking-and-reservation.md)
   * [Partial Payments](video-tutorials/partial-payments.md)
   * [Tax](video-tutorials/tax.md)
+  * [Shipping Methods](video-tutorials/shipping-methods.md)
 
