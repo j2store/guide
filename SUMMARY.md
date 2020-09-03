@@ -288,4 +288,5 @@
   * [Partial Payments](video-tutorials/partial-payments.md)
   * [Tax](video-tutorials/tax.md)
   * [Shipping Methods](video-tutorials/shipping-methods.md)
+  * [Discounts](video-tutorials/discounts.md)
 
