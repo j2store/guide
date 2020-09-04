@@ -294,4 +294,5 @@
   * [Email and Invoice Template](video-tutorials/email-and-invoice-template.md)
   * [Checkout and Payment](video-tutorials/checkout-and-payment.md)
   * [Sales and Orders](video-tutorials/sales-and-orders.md)
+  * [Migration](video-tutorials/migration.md)
 
