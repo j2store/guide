@@ -295,4 +295,5 @@
   * [Checkout and Payment](video-tutorials/checkout-and-payment.md)
   * [Sales and Orders](video-tutorials/sales-and-orders.md)
   * [Migration](video-tutorials/migration.md)
+  * [J2Store CPanel](video-tutorials/j2store-cpanel.md)
 
