@@ -37,7 +37,7 @@ Before proceeding with with setup for the app, make sure you defined a local fol
 
 **Known Limitations**
 
-* When you are using Dropbox for selling digital files, do set Download limit and Download expire days. 
+* When you are using dropbox for selling digital files, don’t set Download limit and Download expire days. Because these features are not supported by Dropbox API.
 
 **Requirements**
 

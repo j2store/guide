@@ -6,7 +6,16 @@
 2. Export once -Export your products into .csv format once, to see how the format looks like. Check for field names. They should match.
 3. Importing New Products -If you want to import new products, then you can ignore the product\_id field. And just make sure your products have a unique SKU. If an existing product has the same SKU as your new product, then the app will only update the existing product instead of creating a new one.
 4. Unique SKU of the products MUST be unique. If there is a duplicate, it will result in an error.The app depends on SKU to find a product. So, if an SKU is found when searched, the existing product will be updated with the imported product details. If a match is not found, a new product will be created with the SKU.
-5. 6. Support for importing product options and / or product variants are not available.
+5. Support for importing product options and / or product variants are not available.
+
+## **Limitations**
+
+Please note that the Simple CSV app does not support exporting of the Variable products, although you can import data like price after you created the variants manually
+
+* It only supports Joomla articles as products. It DOES NOT support other catalog sources like K2, Zoo etc.
+* Product options, categories cannot be imported.
+* Support for importing product options and / or product variants are not available.
+* It only supports the importing of the product data.
 
 ## Parameters <a id="parameters"></a>
 
