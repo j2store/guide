@@ -174,7 +174,13 @@ An important area. Please think twice before you configure. Read the description
 
 Cart and checkout settings for your store.
 
-**Add to Cart Placement** This option is for placing the add to cart button. Three options are available to choose. Default Position f this option is selected, the add to cart button will be shown at the bottom of the product.Within Article using TagA tag can be added with article id \(e.g., {j2store}5\|cart{/j2store}\) inside the text in a desired location, and j2store will place the add to cart button in that location. Both Selecting this option will display the add to cart both at the bottom and also parse the tag, provided one \(e.g., {j2store}5\|cart{/j2store}\) is added in the article text.
+**Add to Cart Placement** This option is for placing the add to cart button. Three options are available to choose. 
+
+**Default Position:** If this option is selected, the add to cart button will be shown at the bottom of the product.
+
+**Within Article using Tag:** A tag can be added with article id \(e.g., {j2store}5\|cart{/j2store}\) inside the text in a desired location, and j2store will place the add to cart button in that location. 
+
+**Both:** Selecting this option will display the add to cart both at the bottom and also parse the tag, provided one \(e.g., {j2store}5\|cart{/j2store}\) is added in the article text.
 
 **Add to cart action** This option helps to decide on what has to be done when the add to cart button is clicked by the customer. Two options has been provided. Stay in the same page and show an inline link to a predefined location Redirect to default view of the cart
 
