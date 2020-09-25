@@ -110,9 +110,17 @@ These configuration will be loaded when shipping is selected.
 
 ### Options <a id="options"></a>
 
-Pay a close attention when you add options. Because you can configure parent - child relationship between the options. ![Adding options](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/configurable-product/config-pro-adding-options.png)
+Pay a close attention when you add options. Because you can configure parent - child relationship between the options. 
 
-Once you select the option from the dropdown list, it will be added as you can see in the image below. ![Setting option values](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/configurable-product/config-pro-set-option-values.png)
+![Adding options](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/configurable-product/config-pro-adding-options.png)
+
+
+
+Once you select the option from the dropdown list, it will be added as you can see in the image below. 
+
+![Setting option values](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/configurable-product/config-pro-set-option-values.png)
+
+
 
 Now, save the image and your option will be saved. Now, you will get a link ’**Set option values**’ near the option name. Click this link to get a pop-up window, where you can set values specific for the newly created options. Here is how it happens, as shown below:
 
