@@ -38,7 +38,9 @@ The main tag chosen in the product article is as follows:
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/canonical-url-plugin/screenshot-localhost-2018-07-25-18-27-58.png)
 
-Now the tag displayed on the meta tag of the frontend would be as follows: ![meta tag](https://raw.githubusercontent.com/j2store/doc-images/master/canonical-url-plugin/Selection_079.png)
+Now the tag displayed on the meta tag of the frontend would be as follows: 
+
+![meta tag](https://raw.githubusercontent.com/j2store/doc-images/master/canonical-url-plugin/Selection_079.png)
 
 When the canonical type is chosen as Current URL on the plugin parameters, a validation would be done if there are any tags associated on the menu parameters. If so, then the tag associated with the menu parameter would take effect. If not, then a check would be done if there is any main tag associated on the product, and if not, the current URL itself would be used.
 
