@@ -53,5 +53,3 @@ Don’t have an account yet ? Sign up now.
 
 **Debug** If you set this to Yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory.Set this to No in Live websites.
 
-**Support** You can post your questions, if any, in [http://j2store.org/forum/index.html](http://j2store.org/forum/index.html).
-
