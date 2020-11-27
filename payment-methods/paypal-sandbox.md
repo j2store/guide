@@ -4,21 +4,21 @@ Using the PayPal Sandbox is not even half as intuitive as you might think. Since
 
 **A. Signing up for Sandbox access**
 
-1. Go to the PayPal Sandbox site [click here](https://www.sandbox.paypal.com/)
+1. Go to the PayPal Sandbox site click here
 2. Click on Sign Up. Important: do not use your regular PayPal email address to subscribe!
 3. You get an email. Click on the link to activate your Sandbox access.
 4. Log in to the Sandbox using the email and password you created
 
 **A.1. Create a seller account**
 
-1. Go to the main Sandbox page 
+1. Go to the main Sandbox page click here
 2. Click on Create a preconfigured account. Warning: MAJOR SUPER DUPER IMPORTANT PITFALL WARNING!!! Choose a country with the same currency as your site. For example United States for transactions in USD.
 3. Set the account type to Seller
 4. Optional: set the login email to “seller”. It will make it easier for you to remember what you’re doing
 5. Note down your password. This will not be visible anywhere else.
 6. Set Add Bank Account to Yes and set the Account Balance to something like 100.00 USD
-7. Click on Create account Important: Make sure that Payment Review and Negative Test Mode are set to Disabled \(that’s the default\)
-8. PITFALL: PayPal will modify your email address, appending a random number and biz to it. Please verify it at the Test Accounts section of your Sandbox Account. Note down your email and password, you will need them!
+7. Click on Create accountImportantMake sure that Payment Review and Negative Test Mode are set to Disabled \(that’s the default\)
+8. PITFALL: PayPal will modify your email address, appending a random number and biz to it. Please verify it atthe Test Accounts section of your Sandbox Account. Note down your email and password, you will need them!
 
 **A.2. Create a buyer account**
 
@@ -42,7 +42,7 @@ Using the PayPal Sandbox is not even half as intuitive as you might think. Since
 
 1. Make sure you have at least one published article\(product\) with price value of AT LEAST 1. Smaller values WILL NOT go through!
 2. Go ahead with buying the product
-3. When you click Confirm and Make Payment button, Make sure the URL begins with \([https://www.sandbox.paypal.com/](https://www.sandbox.paypal.com/)\) . If not, you are doing something wrong and you have to set up the plugin again.
+3. When you click Confirm and Make Payment button, Make sure the URL begins with [click here](https://docs.j2store.org/payment-methods/www.sandbox.paypal.com) . If not, you are doing something wrong and you have to set up the plugin again.
 4. Make sure that in the top left corner you see the name you registered with Paypal Sandbox followed by the words “Test Store”. If not, you are doing something wrong and you have to set up the plugin again.
 5. Login using the Sandbox buyer email and password and go through with the payment.
 6. Go to your site’s back-end, Components, J2Store, Orders
