@@ -12,9 +12,17 @@ Login to your Merchant Interface and go to Installation → Integration Setup
 
 ![response](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/worldpay-payment-plugin/payment_response_worldpay.png)
 
-http://yourdomainname.com/index.php?option=com\_j2store&view=checkout&task=confirmPayment&orderpayment\_type=payment\_worldpay&paction=process&tmpl=component”target = ¨\_blank”rel = ¨noopener¨&gt; click here
 
+
+```text
+https://yourdomainname.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_worldpay&paction=process&tmpl=component
+```
+
+
+
+{% hint style="danger" %}
 Replace “yourdomainname.com” with your domain name.
+{% endhint %}
 
 **Payment Response Enabled** Check this check box. Only then the order status will be updated automatically, if payment is successful. Otherwise, you will see incomplete orders.
 
