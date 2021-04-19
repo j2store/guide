@@ -80,6 +80,10 @@ Sometimes, it might also be because of a small misconfiguration. Please make sur
 
 > VERY IMPORTANT: This option should be set to Yes only if you have shipping methods configured and want to stop the user from creating an order without selecting the shipping costs. If not, this might block the checkout process.
 
+**Campaign Rabbit Plugin:** 
+
+Please ensure that the Campaign Rabbit plugin is disabled that should solve the issue.
+
 ## Checkout goes in Loop <a id="checkout-goes-in-loop"></a>
 
 Sometimes, customers will be redirected from the Shipping and Payment step to the first step \(Loop\). Or you may not be able to proceed when you click Continue at the Billing or the Shipping step.
