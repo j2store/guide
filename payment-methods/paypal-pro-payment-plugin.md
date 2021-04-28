@@ -10,21 +10,37 @@ TIP: Set the type filter to J2Store to quickly get to the plugin
 
 **Payment Option Title** Enter a title for this payment option. Customers can see this title while selecting the payment.
 
+**Plugin Display Image** Image to be shown while PayPal PRO option in listed in checkout page.
+
 **API User Name** The API username provided by Paypal. You can get this under the options in Profile settings.
 
 **API Password** The API password provided by Paypal. You can get this under the options in Profile settings.
 
 **API Signature** The unique signature provided by Paypal. You can get this under the options in Profile settings.
 
+**Enable PSD2 for UK customer** The UK Customers require additional authentication, hence enter the PSD2 for the same.
+
+**Message version** Please enter the message version in case if it is changed in feature.
+
+**Processor ID** Enter  process id associated with your CardinalCommerce account
+
+**Merchant ID** Enter  merchant id associated with your CardinalCommerce account
+
+**Transaction Password** Enter transaction password associated with your CardinalCommerce account
+
 **Card Types** Select the allowed card types for your store. Paypal has some regional differences. In USA&lt; it accepts all card types, while in Canada only Visa and Mastercard are accepted. Check the regional differences here: &lt;link-text url ="https://developer.paypal.com/docs/classic/paypal-payments-pro/integration-guide/WPWebsitePaymentsPro/\#id25a6cc16-bbc4-4070-a575-9fad358f2b95” target = “\_blank”rel = “noopener”&gt; click here
 
 **Payment Action** Set the type of payment you wanted to take. The default and RECOMMENDED setting is Sale. This will enable you to get the payment instantly credited to your account.
 
-**Authorisation:** An authorization payment action represents an agreement to pay and places the buyer’s funds on hold for up to three days. Choose this payment action if you need to ship the goods before capturing the payment or if there is some reason not to accept the payment immediately. After shipping, you have to login to your Paypal account and manually capture the payment.
+**Authorization:** An authorization payment action represents an agreement to pay and places the buyer’s funds on hold for up to three days. Choose this payment action if you need to ship the goods before capturing the payment or if there is some reason not to accept the payment immediately. After shipping, you have to login to your Paypal account and manually capture the payment.
 
 **Use Paypal Sandbox** Set this to yes if you want to test the integration with a Paypal Sandbox account. To create a sandbox account you need to sign up for it athttp://developer.paypal.com” target = “\_blank”rel = “noopener”&gt; click here
 
 **Geozone** By selecting a geozone here, you can restrict this payment method from showing to customers from only that geo-region. Choose All geozones to show this method to all customers
+
+**Refund Status** By when refund action processed in order page, then the order status will be changed to whatever order status you have set here.
+
+**Geozone** By selecting a geozone here you can restrict this payment method from being shown to customers of only that geo-zone/region. Choose all geozone to show this payment method to all customers.
 
 **Article ID for Thanks Message** You can create an article and enter its ID here to show to the customer after the transaction is completed.
 
