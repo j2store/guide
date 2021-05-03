@@ -106,5 +106,5 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 * Year : 2019
 * cvv : 012
 
-![frontend](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/paypal-plus/frontend.png)
+![](../.gitbook/assets/paypalplus-frontend.png)
 
