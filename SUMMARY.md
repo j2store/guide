@@ -191,7 +191,6 @@
   * [Payfast Payment plugin](payment-methods/payfast-payment-plugin.md)
   * [Payflow Pro Payment plugin](payment-methods/payflow-pro-payment-plugin.md)
   * [Paygate Payment](payment-methods/paygate-payment.md)
-  * [Paymill Payment plugin](payment-methods/paymill-payment-plugin.md)
   * [Paypal Sandbox](payment-methods/paypal-sandbox.md)
   * [Paypal Adavnced Payment plugin](payment-methods/paypal-adavnced-payment-plugin.md)
   * [Paypal Express Checkout](payment-methods/paypal-express-checkout.md)
