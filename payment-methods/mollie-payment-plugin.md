@@ -29,14 +29,6 @@ Process secure iDEAL, credit card, bank transfer, SOFORT payments, paysafecard, 
 
 ![api](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/mollie-api.png)
 
-\*\*Webhook url \*\*
-
-In some cases, the J2Store sends request to Mollie with Webhook url which is not acceptable by Mollie API. In that case, you would not receive IPN notifications properly to your website and so the order status remains Incomplete even the payment is successful.
-
-In this case, you could set the following webhook url in your Mollie account’s backend that should solve the problem.
-
-[https://www.example.com/index.php?option=com\_j2store&view=checkout&task=confirmPayment&orderpayment\_type=payment\_mollie&paction=process](https://www.example.com/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_mollie&paction=process)
-
 ## Configuration <a id="configuration"></a>
 
 **Payment option title**
