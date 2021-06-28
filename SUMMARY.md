@@ -132,6 +132,7 @@
   * [Easy checkout](easy-checkout/easy-checkout.md)
   * [Trouble shooting issues](easy-checkout/trouble-shooting-easy-checkout.md)
 * [Shipping methods](shipping-methods/README.md)
+  * [Free Shipping](shipping-methods/free-shipping.md)
   * [How to set up local store pick up shipping method](shipping-methods/how-to-set-up-local-store-pick-up-shipping-method.md)
   * [Australia post shipping plugin](shipping-methods/australia-post-shipping-plugin.md)
   * [Bring shipping plugin](shipping-methods/bring-shipping-plugin.md)
