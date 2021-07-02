@@ -8,6 +8,8 @@ The only different is that this product type does not generate variants automati
 
 Since adding / removing a single variant will be possible with this product type, it will be more easy for you manage variants which are out of stock.
 
+## How to create FlexiVariable Product:
+
 ## General <a id="general"></a>
 
 ![Flexivariable product type](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-product-type.png)
