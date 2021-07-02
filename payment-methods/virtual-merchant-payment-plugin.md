@@ -1,4 +1,4 @@
-# Virtual Merchant Payment Plugin
+# Elavon Coverage/Virtual Merchant Payment Plugin
 
 **Introduction**
 

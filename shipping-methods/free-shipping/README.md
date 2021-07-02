@@ -38,7 +38,7 @@ For Example: If you wish to apply the Free shipping charge to order of total bel
 
 **Do not offer free shipping to members of these user groups:** The members of the selected user groups here will not be able to choose free shipping.
 
-![Free Shipping Parms](../.gitbook/assets/freeshipping.png)
+![Free Shipping Parms](../../.gitbook/assets/freeshipping.png)
 
 ## \*\*\*\* <a id="methods"></a>
 

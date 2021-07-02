@@ -1,4 +1,4 @@
-# Sermepa Payment Plugin
+# Redsys/Servired/Sermepa Payment Plugin
 
 This plugin integrates the TPV RedSys / Servired / Sermepa payment system used by Spanish banks. It supports banks including - La Caixa, Banco Sabadell, Caixa Penedes, Caja Rural, Unnim, Deutsche Bank.
 
