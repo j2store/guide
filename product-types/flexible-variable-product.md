@@ -130,3 +130,78 @@ Instead, when the user chooses black color and S size\(which is unavailable\), t
 
 ![](../.gitbook/assets/screenshot-localhost-2020.08.19-12_25_44.png)
 
+## **How to set One variant with multiple variants:**
+
+With the Flexivariable product type you can sell a product of a particular variant that has the price and stock varying based on the another variant.       
+
+ **For Example:** Let us consider you are selling a T-shirt of Color "Red" and that the Red color T-shirt has multiple sizes like Small, Medium and Large . So you would want the customer who choose the Red color T-shirt to select the sizes from the frontend.
+
+You can achieve this requirement with the Flexivariable product type by following the below steps:
+
+#### Step:1
+
+Create an Article under Content-Articles-&gt;New.
+
+![Flexivariable Product Image](../.gitbook/assets/flexivariableproduct-image.png)
+
+As given in the above illustration, click in the top menu or in the left pane of the control panel. You will get a new screen like this
+
+* Enter the name for your product.
+* Since you are creating article, you need to tell that the article be treated as product. So, select ‘Yes’.
+* Select the type of the product, i.e., ‘FlexiVariable’.
+* Now, click the ‘Save and Continue’ button.
+
+Your product is successfully created and a message will be displayed like this.
+
+![Success message for creating Flexivariable product](../.gitbook/assets/article.png)
+
+## General <a id="general"></a>
+
+![Flexivariable product type](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-product-type.png)
+
+* **Visible in Storefront** - First select whether the product is to be displayed in front of the store. If it is, set the option to ‘Yes’
+* **Brand or Manufacturer** - Select the brand or manufacturer of the product from the available list
+* **Vendor** - Select the vendor from whom the product is available for purchase - This is J2Store PRO feature
+* **Tax Profile** - Specify whether the product is taxable and if it is, select the taxprofile relevant to the product
+* **Cart button text** - It allows you to define the custom text to be displayed in the add to cart button
+
+## Variants
+
+Variants are products of same type and nature but with different attributes. For e.g., consider a T-shirt of a particular Color with certain Size attributes, say
+
+* Color - RED
+* Size - Small
+
+This is a variant of the particular Color. Now, the same product with same Color , will be another variant with some attributes changed, like
+
+* Color - RED
+* Size - Large
+
+For both the items, Color will be same, but the attributes like Size differs. These are two variants of a particular Tshirt Color.
+
+Lets discuss it with some image illustrations:
+
+Select Color option from the dropdown list and then click on Add option. The size will be added as variant option.
+
+And then choose the Size option and add it to the variant options list in same way.
+
+![Adding options](https://raw.githubusercontent.com/j2store/doc-images/master/catalog/flexible-variable/flexi-var-options.png)
+
+After adding color and size, your screen will look like below:
+
+![Options List](../.gitbook/assets/options-list.png)
+
+ Now you will get options to add variants to the product. Choose Color from the drop down “Red” and then choose the Size as "Any Size" and click on **Add variant** button.
+
+![Adding variants](../.gitbook/assets/adding-variants.png)
+
+Now the screen will look like below:
+
+![Variant list](../.gitbook/assets/variant.png)
+
+Below is the screenshot of how flexivariable product with one Color and various Size would be displayed in site’s frontend.
+
+![Frontend](../.gitbook/assets/frontend-flexivariablecase1.png)
+
+##  <a id="filters"></a>
+
