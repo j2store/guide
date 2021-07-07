@@ -179,6 +179,7 @@
   * [Sofort Banking](payment-methods/sofort-banking.md)
   * [Squareup Payments](payment-methods/squareup-payments.md)
   * [Tranzila Payment Plugin](payment-methods/tranzila-payment-plugin.md)
+  * [USAePay Payment Plugin](payment-methods/usaepay-payment-plugin.md)
   * [Voguepay Payment Plugin](payment-methods/voguepay-payment-plugin.md)
   * [Worldpay Payment Plugin](payment-methods/worldpay-payment-plugin.md)
   * [Yandex Money Payment Plugin](payment-methods/yandex-money-payment-plugin.md)
