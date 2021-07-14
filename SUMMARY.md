@@ -175,6 +175,7 @@
   * [Redsys/Servired/Sermepa Payment Plugin](payment-methods/sermepa-payment-plugin.md)
   * [Sagepay Form Payment Plugin](payment-methods/sagepay-form-payment-plugin.md)
   * [Secure Trading Plugin](payment-methods/secure-trading-plugin.md)
+  * [Sisow Payment for J2Store](payment-methods/sisow-payment-for-j2store.md)
   * [Skrill Payment Plugin](payment-methods/skrill-payment-plugin.md)
   * [Sofort Banking](payment-methods/sofort-banking.md)
   * [Stripe](payment-methods/stripe.md)
