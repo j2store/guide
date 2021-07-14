@@ -31,6 +31,8 @@ The plugin integrates First Data Global Gateway e4℠ Hosted Payment Pages with 
 
 **First Data Transaction Key:** Please enter the First Data transaction key associated with your First Data account.
 
+![FirstData payment plugin Configuration-Image1](../.gitbook/assets/firstdata-configuration-img1.png)
+
 **First Data Test page ID:** Please enter the First Data page ID associated with your First Data account.
 
 **First Data Test Transaction Key:** Please enter the First Data transaction key associated with your First Data account.
@@ -55,6 +57,8 @@ J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
 
 Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
 
+![FirstData payment plugin Configuration-Image2](../.gitbook/assets/firstdata-configuration-img2.png)
+
 **Display Text before Payment:** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Display Text on Error in Payment:** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
@@ -64,6 +68,8 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 **Payment Button Text:** The text of the payment button. The button will be displayed at the final checkout step.
 
 Thus, once you have mentioned the necessary details for the above parameters, you are ready to receive payments via Paymate on your store.
+
+![FirstData payment plugin Configuration-Image3](../.gitbook/assets/firstdata-configuration-img3.png)
 
 
 
