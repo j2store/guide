@@ -169,6 +169,7 @@
   * [Payson Invoice Payment Plugin](payment-methods/payson-invoice-payment-plugin.md)
   * [Paymate](payment-methods/paymate.md)
   * [Pay U Latam](payment-methods/pay-u-latam.md)
+  * [Poli Payment Plugin](payment-methods/poli-payment-plugin.md)
   * [Post Finance](payment-methods/post-finance.md)
   * [QuickPay](payment-methods/quickpay.md)
   * [Razorpay](payment-methods/razorpay.md)
