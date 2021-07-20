@@ -150,6 +150,7 @@
   * [Paypal Sandbox](payment-methods/paypal-sandbox.md)
   * [Paypal Adavnced Payment plugin](payment-methods/paypal-adavnced-payment-plugin.md)
   * [Payment Express for J2Store](payment-methods/payment-express-for-j2store.md)
+  * [Payment Sense](payment-methods/payment-sense.md)
   * [Paypal Express Checkout](payment-methods/paypal-express-checkout.md)
   * [Paypal payment plugin](payment-methods/paypal-payment-plugin.md)
   * [Paypal Pro Payment Plugin](payment-methods/paypal-pro-payment-plugin.md)

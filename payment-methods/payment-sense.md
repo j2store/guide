@@ -1,6 +1,8 @@
-# Paysera Payment Plugin
+---
+description: Payment Sense payment gateway is integrated with J2Store using this plugin.
+---
 
-Paysera payment plugin for j2store. It integrates with the Paysera Payment gateway.
+# Payment Sense
 
 ## Requirements
 
@@ -10,8 +12,8 @@ Paysera payment plugin for j2store. It integrates with the Paysera Payment gatew
 
 ## Installation <a id="installation"></a>
 
-1. Download Paysera payment plugin package from our site’s extensions section and install it using Joomla installer.
-2. After installing plugin, go to J2Store &gt; Setup &gt; Payment methods and enable Paysera 
+1. Download PaymentSense plugin package from our site’s extensions section and install it using Joomla installer.
+2. After installing plugin, go to J2Store &gt; Setup &gt; Payment methods and enable PaymentSense 
 
    for J2Store.
 
@@ -23,23 +25,19 @@ Paysera payment plugin for j2store. It integrates with the Paysera Payment gatew
 
 **Plugin Display Image:** You may consider adding an image for the payment method to be listed in the checkout page next to the payment method in frontend.
 
-**Project ID:** Please enter your project ID associated with your Paysera account.
+**Merchant ID:** Please enter the Merchant ID associated with your Payamentsense account
 
-**Sign Password:** Please enter your sign password associated with your Paysera account.
+**Password:** Please enter the password associated with your Payamentsense account
 
-**Surcharge percentage:** You can specify a percentage here. Surcharge will be calculated based on the percentage of the total order and the cost will be added to the order.
+**PreShareKey:** Please enter the PreShareKey associated with your Payamentsense account
 
-**Surcharge fixed value:** You can spcify a value here. The fixed value will be added to the order total.
+**Encription Method:** Choose your Encription Method here from the available options.
 
-**Test Mode:** This option allows you to test the Paysera gateway using  Paysera server instead of live one. Use this option to test the plugin.
+**PaymentSense Communication:** You may select the payment response method here from the provided options.
 
 **Article ID for Thankyou page:** This article is displayed after the payment is processed. It can include anything \(including the plugins\) and should at the very least tell your customer what to do next.
 
-**Geozone:** You can restrict showing this payment method only to the customers who belong to the selected geozone. Choose All in order to display this payment option to all customers.
-
-![Paysera Payment Configuration- Image1](../.gitbook/assets/paysera-configuration-image1.png)
-
-**Display Text on Selection:** The text entered here will be displayed when customer selects this payment method. You can ~~enter~~ a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below.
+**Display Text on Selection:** The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below.
 
 **Tip - ONLY FOR MULTI-LINGUAL SITES**
 
@@ -48,6 +46,8 @@ For example, enter a language constant:
 J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
 
 Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+
+![Paymentsense Configuration- Image1](../.gitbook/assets/paymentsense-configuration-image1.png)
 
 **Display Text before Payment:** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
@@ -61,11 +61,11 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **DEBUG :** This option is chosen in order to enable or disable the display of log file. This should be in disable for live sites.
 
-Thus, once you have mentioned the necessary details for the above parameters, you are ready to receive payments via Paysera on your store.
+Thus, once you have mentioned the necessary details for the above parameters, you are ready to receive payments via Paymentsense on your store.
 
-![Paysera Payment Configuration- Image2](../.gitbook/assets/paysera-configuration-image2.png)
+![Paymentsense Configuration- Image2](../.gitbook/assets/paymentsense-configuration-image2.png)
 
+\*\*\*\*
 
-
-
+\*\*\*\*
 
