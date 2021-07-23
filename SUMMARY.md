@@ -160,6 +160,7 @@
   * [Payson Payment Plugin](payment-methods/payson-payment-plugin.md)
   * [Payson Invoice Payment Plugin](payment-methods/payson-invoice-payment-plugin.md)
   * [Pay U Latam](payment-methods/pay-u-latam.md)
+  * [PayUMoney plugin](payment-methods/payumoney-plugin.md)
   * [Poli Payment Plugin](payment-methods/poli-payment-plugin.md)
   * [Post Finance](payment-methods/post-finance.md)
   * [QuickPay](payment-methods/quickpay.md)
