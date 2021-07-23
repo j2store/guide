@@ -2,7 +2,22 @@
 
 This plugin integrates the ICICI Payseal Payment gateway with J2Store.
 
-**Configuration** The following parameters are need to be addressed to configure the payment plugin.
+## Requirements
+
+1. PHP version 5.4 or higher
+2. Joomla 3.x and above
+3. J2Store 3.2.7 +
+
+## Installation <a id="installation"></a>
+
+1. Download Paysera payment plugin package from our site’s extensions section and install it using Joomla installer.
+2. After installing plugin, go to J2Store &gt; Setup &gt; Payment methods and enable Paysera 
+
+   for J2Store.
+
+3. Once enabled, open / edit the plugin and configure the basic settings of the app.
+
+## Configuration <a id="configuration"></a>
 
 **Payment Option Title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out.
 
@@ -26,6 +41,8 @@ J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION
 
 Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
 
+![PaySeal configuration-Image1](../.gitbook/assets/payseal-configuration-image1.png)
+
 **Display Text before Payment** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Display Text after Payment/Order** The text entered here will be displayed to the customer after he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
@@ -36,7 +53,5 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **Payment Button Text** The text of the payment button. The button will be displayed at the final checkout step.
 
-**Support**
-
-Still have questions? You can post your questions in our support forum: [click here](http://j2store.org/forum/index.html) sss
+![PaySeal configuration-Image2](../.gitbook/assets/payseal-configuration-image2.png)
 
