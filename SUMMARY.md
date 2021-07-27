@@ -165,6 +165,7 @@
   * [Post Finance](payment-methods/post-finance.md)
   * [QuickPay](payment-methods/quickpay.md)
   * [Razorpay](payment-methods/razorpay.md)
+  * [Rabobank Omnikassa](payment-methods/rabobank-omnikassa.md)
   * [RealEx Payment Plugin](payment-methods/realex-payment-plugin.md)
   * [Redsys/Servired/Sermepa Payment Plugin](payment-methods/sermepa-payment-plugin.md)
   * [Sagepay Form Payment Plugin](payment-methods/sagepay-form-payment-plugin.md)

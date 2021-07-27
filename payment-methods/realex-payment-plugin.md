@@ -68,7 +68,5 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **Debug** Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
 
-**Support** Still have questions? You can post in our support forum: [click here](http://j2store.org/forum/index.html)
 
-Thank you for using our extension.
 
