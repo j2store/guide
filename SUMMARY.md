@@ -286,7 +286,6 @@
   * [Email and Invoice Template](video-tutorials/email-invoice-template.md)
   * [Checkout and Payment](video-tutorials/payment.md)
   * [Sales and Orders](video-tutorials/sales-orders.md)
-  * [Migration](video-tutorials/migration.md)
   * [J2Store CPanel](video-tutorials/j2store-cpanel.md)
 * [General](general/README.md)
   * [How to set cron job on your server](general/how-to-set-cron-job-on-your-server.md)
