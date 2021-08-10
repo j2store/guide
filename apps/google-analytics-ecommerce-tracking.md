@@ -1,4 +1,4 @@
-# google-analytics-ecommerce-tracking
+# Google-analytics-ecommerce-tracking
 
 The apps allows you to track the sales, your customers and their behaviour. This helps you understand your customers and implement better marketing efforts.
 
