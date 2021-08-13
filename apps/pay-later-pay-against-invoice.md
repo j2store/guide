@@ -1,4 +1,4 @@
-# Pay later pay against invoice
+# Pay later/Pay against invoice
 
 Invoice your customers and allow them to pay for the order online at a later date. There can be a number of situations when you want to send the invoice to the customer, complete the terms and then collect payments.
 
