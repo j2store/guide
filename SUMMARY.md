@@ -227,7 +227,7 @@
   * [Jcomments](apps/jcomments.md)
   * [Language based currency](apps/language-based-currency.md)
   * [Open hours \(time based restriction\)](apps/open-hours-time-based-restriction.md)
-  * [Pay later pay against invoice](apps/pay-later-pay-against-invoice.md)
+  * [Pay later/Pay against invoice](apps/pay-later-pay-against-invoice.md)
   * [PDF Invoices](apps/pdf-invoices.md)
   * [Points and Rewards](apps/points-and-rewards.md)
   * [Price Suffix Texts](apps/price-suffix-texts.md)
