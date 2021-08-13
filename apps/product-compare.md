@@ -1,4 +1,4 @@
-# Product Compare
+# Compare Product
 
 This app will add a product compare feature to your online store. It allows customers to add products to a list for comparison. Customers can view the products and compare their features in a neat table.
 

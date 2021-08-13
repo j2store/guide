@@ -231,7 +231,7 @@
   * [PDF Invoices](apps/pdf-invoices.md)
   * [Points and Rewards](apps/points-and-rewards.md)
   * [Price Suffix Texts](apps/price-suffix-texts.md)
-  * [Product Compare](apps/product-compare.md)
+  * [Compare Product](apps/product-compare.md)
   * [Shipstation](apps/shipstation.md)
   * [Simple CSV import and export tool](apps/simple-csv-import-and-export.md)
   * [Social Media Share Plugin](apps/social-media-share-plugin.md)
