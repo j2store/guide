@@ -15,7 +15,7 @@ Joomla 3.x J2Store 3.2.5 or higher PHP version 5.4 or higher
 
 **Configuration**
 
-Opening the app will show you 3 coulmn table.
+Opening the app will show you 3 column table.
 
 * Custom fields
 * Rules Apply for

@@ -211,6 +211,7 @@
   * [Compare Product](apps/product-compare.md)
   * [Content Custom field](apps/content-custom-field.md)
   * [Change Password](apps/change-password.md)
+  * [Custom Tabs](apps/custom-tabs.md)
   * [Data validation](apps/data-validation.md)
   * [Discount for Payment methods](apps/discount-for-payment-methods.md)
   * [Drop-box](apps/drop-box.md)
