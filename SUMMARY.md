@@ -228,7 +228,7 @@
   * [Google merchant center shopping feed](apps/google-merchant-center-shopping-feed.md)
   * [How to send download links through email notifications](apps/how-to-send-download-links-through-email-notifications.md)
   * [Image Popup](apps/image-popup.md)
-  * [Invoice-prefix-generator](apps/invoice-prefix-generator.md)
+  * [Invoice Prefix Generator](apps/invoice-prefix-generator.md)
   * [Jcomments](apps/jcomments.md)
   * [Language based currency](apps/language-based-currency.md)
   * [Open hours \(time based restriction\)](apps/open-hours-time-based-restriction.md)

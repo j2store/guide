@@ -1,4 +1,4 @@
-# Invoice-prefix-generator
+# Invoice Prefix Generator
 
 This app allows you to generate a sequential invoice number for orders with **Confirmed** status using the prefix you have entered in the app.
 
