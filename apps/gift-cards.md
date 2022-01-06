@@ -2,29 +2,29 @@
 
 Offer Gift Card purchase to your customers. Providing Gift cards widens your window of sales. With this plugin, Store Owners will be able to create and sell Gift cards. A gift card or cash card is automatically generated and sent as email.
 
-Gift Card app generates PDF and attached to the order email notification. This app requires DOMPDF library to generate and send PDF. You can download the DOMPDF library plugin and install it from here: [https://bitbucket.org/j2store/plg\_lib\_dompdf/downloads/plg\_library\_dompdf.zip](https://bitbucket.org/j2store/plg_lib_dompdf/downloads/plg_library_dompdf.zip)
+Gift Card app generates PDF and attached to the order email notification. This app requires DOMPDF library to generate and send PDF. You can download the DOMPDF library plugin and install it from here: [https://bitbucket.org/j2store/plg\_lib\_dompdf/downloads/plg\_library\_dompdf.zip](https://bitbucket.org/j2store/plg\_lib\_dompdf/downloads/plg\_library\_dompdf.zip)
 
 **NOTE: The gift card app works only with the PRO version of J2Store since the vouchers are a PRO feature.**
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-## Installation Instructions <a id="installation-instructions"></a>
+## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
-1. Use the Joomla installer to install the app.
+1\. Use the Joomla installer to install the app.
 
-2. In the backend, go to J2Store Dashboard -&gt; Apps as shown in the image below.
+2\. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 
-![Dashboard-enabling the app](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/app_giftcertificate_dashboard.png)
+![Dashboard-enabling the app](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/app\_giftcertificate\_dashboard.png)
 
-3. Click Enable in the Gift certificate app.
+3\. Click Enable in the Gift certificate app.
 
-4. Once the app is enabled, click on Open to set the configuration for the app.
+4\. Once the app is enabled, click on Open to set the configuration for the app.
 
-## Parameters <a id="parameters"></a>
+## Parameters <a href="#parameters" id="parameters"></a>
 
 **BASIC SETTINGS:**
 
@@ -64,9 +64,9 @@ A prefix can be added to the voucher code or gift card to make it more relevant.
 
 **Need to remove the voucher for gift product?:**
 
-If you need to remove the voucher from the gift product, then set it to Yes. 
+If you need to remove the voucher from the gift product, then set it to Yes.&#x20;
 
-**Round gift card / voucher value by** \*\* Would you like to round the voucher value ? Then, enter the value by which the voucher value should be rounded. For example, if point is in decimal\(0.60\), it will change the decimal to whole number.
+**Round gift card / voucher value by** \*\* Would you like to round the voucher value ? Then, enter the value by which the voucher value should be rounded. For example, if point is in decimal(0.60), it will change the decimal to whole number.
 
 **Can the gift voucher / code can be applied to the shipping cost as well?**
 
@@ -74,11 +74,11 @@ This setting is used to allow voucher for including shipping cost
 
 **Should voucher value include the tax as well?**
 
-This helps for those merchants who have gift voucher prices including tax. If set to NO, it would create a gift voucher with a value minus tax. NOTE: This might cause confusion to your customers. They would see the price of the voucher as 500. If you send a voucher with a value minus tax \(example: 500 - 10% tax\), he might come back to you and question.
+This helps for those merchants who have gift voucher prices including tax. If set to NO, it would create a gift voucher with a value minus tax. NOTE: This might cause confusion to your customers. They would see the price of the voucher as 500. If you send a voucher with a value minus tax (example: 500 - 10% tax), he might come back to you and question.
 
-**Multiple voucher \(Product Quantity Based\):**
+**Multiple voucher (Product Quantity Based):**
 
-Allows the customer to have multiple voucher based on the product quantity.
+Allows the customer to have multiple voucher based on the product quantity. When this option is enabled, make sure to replace the short code \[VOUCHER\_CODE] __ with \[VOUCHER\_CODES] . Since the customers may order multiple quantities, the plural short code should be used.
 
 **Send a copy of the gift voucher to the store administrators?**
 
@@ -86,7 +86,7 @@ As a store admin, if you would like to receive a copy of gift certificate email,
 
 **Store administrator emails**
 
-If you have enabled above option, you will have to give the administrator email here. You could also enter multiple emails separated with comma \(,\).
+If you have enabled above option, you will have to give the administrator email here. You could also enter multiple emails separated with comma (,).
 
 ![Basic setting second part](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/gift-cad-basic-sec.png)
 
@@ -102,11 +102,11 @@ If set to YES it generates a PDF of the below voucher Body and sends an email to
 
 Name of the file that is attached with the email.
 
-**Would you like to set a background image to the PDF? \(optional\)**
+**Would you like to set a background image to the PDF? (optional)**
 
 Choose YES to this option, if you would like to add background image to the PDF voucher.
 
-**Choose a background image \(optional\)**
+**Choose a background image (optional)**
 
 If you set YES to above parameter, choose the background image here. Make sure the image you have uploaded is optimized and small.
 
@@ -114,11 +114,11 @@ If you set YES to above parameter, choose the background image here. Make sure t
 
 Add CSS class name. If not sure about it, please leave it blank.
 
- 
+&#x20;
 
 ![Custom css](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/gift-card-store-admin.png)
 
-## Gift Form settings: <a id="gift-form-settings"></a>
+## Gift Form settings: <a href="#gift-form-settings" id="gift-form-settings"></a>
 
 **Show confirm gift receiver email**
 
@@ -154,17 +154,17 @@ If you want to display the receiver last name ,set this option to yes.
 
 **Make last name mandatory?**
 
-Setting this option to YES will make the last name field as required field. 
+Setting this option to YES will make the last name field as required field.&#x20;
 
 ![Form settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/gift-card-form-settings.png)
 
-## How to add subject and body of the email ? <a id="how-to-add-subject-and-body-of-the-email-"></a>
+## How to add subject and body of the email ? <a href="#how-to-add-subject-and-body-of-the-email" id="how-to-add-subject-and-body-of-the-email"></a>
 
 The subject and body of the email could be added by navigating to the tab next to basic settings tab. If you are having multiple languages in your site, you could also add different content for different languages.
 
 ![Email](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/gift-card-lang-sett.png)
 
- 
+&#x20;
 
 ![Email settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/gift-card-email.png)
 
@@ -172,24 +172,24 @@ The subject and body of the email could be added by navigating to the tab next t
 
 **Tags:**
 
-1. \[VOUCHER\_CODE\] - used to display voucher code.
-2. \[VOUCHER\_VALUE\] - used to display voucher price.
-3. \[EMAIL\] - used to display user email.
-4. \[SITENAME\] - used to display site name.
-5. \[VOUCHER\_PURCHASE\_DATE\] - used to display voucher created date.
-6. \[GIFT\_NOTE\] - used to display gift note.
-7. \[GIFT\_SENDER\_FULL\_NAME\] used to display gift sender name \(Billing address first name and last name\)
-8.  \[GIFT\_RECEIVER\_FIRST\_NAME\] used to display gift receiver first name.
-9.  \[GIFT\_RECEIVER\_LAST\_NAME\] used to display gift receiver last name.
-10. \[GIFT\_RECEIVER\_FULL\_NAME\] used to display gift receiver full name.
-11.  \[EXPIRATION\_DATE\] used to display expiration date. 
-12.  \[GIFT\_CONTENT\] used to display gift content from article.
-13.  \[PRODUCT\_NAME\] used to display product title.
-14.  \[VOUCHER\_CODES\] used to display list of voucher code\(Only Quantity based multiple voucher\), can use invoice template also.
-15.  \[VOUCHER\_QUANTITY\] used to display number of voucher code available for multiple voucher\(Only Quantity based multiple voucher\).
-16. \[GIFT\_PRODUCT\_QUANTITY\] used to display product quantity of single voucher.
+1. \[VOUCHER\_CODE] - used to display voucher code.
+2. \[VOUCHER\_VALUE] - used to display voucher price.
+3. \[EMAIL] - used to display user email.
+4. \[SITENAME] - used to display site name.
+5. \[VOUCHER\_PURCHASE\_DATE] - used to display voucher created date.
+6. \[GIFT\_NOTE] - used to display gift note.
+7. \[GIFT\_SENDER\_FULL\_NAME] used to display gift sender name (Billing address first name and last name)
+8. &#x20;\[GIFT\_RECEIVER\_FIRST\_NAME] used to display gift receiver first name.
+9. &#x20;\[GIFT\_RECEIVER\_LAST\_NAME] used to display gift receiver last name.
+10. \[GIFT\_RECEIVER\_FULL\_NAME] used to display gift receiver full name.
+11. &#x20;\[EXPIRATION\_DATE] used to display expiration date.&#x20;
+12. &#x20;\[GIFT\_CONTENT] used to display gift content from article.
+13. &#x20;\[PRODUCT\_NAME] used to display product title.
+14. &#x20;\[VOUCHER\_CODES] used to display list of voucher code(Only Quantity based multiple voucher), can use invoice template also.
+15. &#x20;\[VOUCHER\_QUANTITY] used to display number of voucher code available for multiple voucher(Only Quantity based multiple voucher).
+16. \[GIFT\_PRODUCT\_QUANTITY] used to display product quantity of single voucher.
 
-Note: If you want to send test email, Please enter email address in Store administrator emails \(Basic Setting Tab\)
+Note: If you want to send test email, Please enter email address in Store administrator emails (Basic Setting Tab)
 
 **Send Test Email :**
 
@@ -197,15 +197,15 @@ If you wish to see a sample of the mail and how it looks then click on the SEND 
 
 ![Gift card email settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/gift-card-email-config.png)
 
-### How to sell gift card or cash card in my online shop ? <a id="how-to-sell-gift-card-or-cash-card-in-my-online-shop-"></a>
+### How to sell gift card or cash card in my online shop ? <a href="#how-to-sell-gift-card-or-cash-card-in-my-online-shop" id="how-to-sell-gift-card-or-cash-card-in-my-online-shop"></a>
 
-Most of the online shops / ecommerce stores have the option to buy a [Gift card](https://en.wikipedia.org/wiki/Gift_card) . It is one of the opputunities for store owners to widen their chance of sales.
+Most of the online shops / ecommerce stores have the option to buy a [Gift card](https://en.wikipedia.org/wiki/Gift\_card) . It is one of the opputunities for store owners to widen their chance of sales.
 
 * Create a cash card product and start selling [Create a J2Store product](http://j2store.org/support/user-guide/simple-product.html) with product type as “Simple product”. Configure all basic options such as price and navigate to the apps tab.
 
 You could find an option that says “Treat this product as Gift card and Send a Gift Card on purchase”Tick the checkbox as shown in below screenshot.
 
- 
+&#x20;
 
 ![Creating a gift card](https://raw.githubusercontent.com/j2store/doc-images/master/apps/gift-cards/gift-card-pro.png)
 
@@ -215,11 +215,9 @@ If you wanted to provide a gift card or cash card in different rates, you can cr
 
 A Customer purchases this gift card. A voucher is created for this order placed with the value of the product. For example if the gift card product price is $100, then a voucher of value $100 is generated and an email is sent to the customer. That email subject and body could be configured in above section.
 
-The Store admin should Enable Gift Vouchers under J2Store Setup &gt; Configurations &gt; Discount tab &gt; Enable Gift Vouchers, set this to Yes. Save the configurations. Store starts accepting vouchers in the cart section. The customer can enter the voucher code in the cart section to redeem the gift card value.
+The Store admin should Enable Gift Vouchers under J2Store Setup > Configurations > Discount tab > Enable Gift Vouchers, set this to Yes. Save the configurations. Store starts accepting vouchers in the cart section. The customer can enter the voucher code in the cart section to redeem the gift card value.
 
-## Video Tutorial: <a id="video-tutorial"></a>
+## Video Tutorial: <a href="#video-tutorial" id="video-tutorial"></a>
 
-{% embed url="https://www.youtube.com/watch?v=g7epaBKOOuE&feature=emb\_logo" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=g7epaBKOOuE&feature=emb_logo" %}
 
