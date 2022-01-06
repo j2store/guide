@@ -172,7 +172,7 @@ The subject and body of the email could be added by navigating to the tab next t
 
 **Tags:**
 
-1. \[VOUCHER\_CODE] - used to display voucher code.
+1. \[VOUCHER\_CODE] - used to display voucher code.\*
 2. \[VOUCHER\_VALUE] - used to display voucher price.
 3. \[EMAIL] - used to display user email.
 4. \[SITENAME] - used to display site name.
@@ -189,7 +189,9 @@ The subject and body of the email could be added by navigating to the tab next t
 15. &#x20;\[VOUCHER\_QUANTITY] used to display number of voucher code available for multiple voucher(Only Quantity based multiple voucher).
 16. \[GIFT\_PRODUCT\_QUANTITY] used to display product quantity of single voucher.
 
-Note: If you want to send test email, Please enter email address in Store administrator emails (Basic Setting Tab)
+Note: If you want to send test email, Please enter email address in Store administrator emails (Basic Setting Tab)&#x20;
+
+\*Note: When "Multiple Voucher" parameter is enabled, you should use \[VOUCHER\_CODES]
 
 **Send Test Email :**
 
