@@ -124,25 +124,6 @@
 
 {% embed url="https://youtu.be/Qactg1ckdao" %}
 
-## Import / Export options using Advanced CSV
-
-{% embed url="https://youtu.be/b7w9toXBxu4" %}
-
-## Import / Export categories using Advanced CSV
-
-{% embed url="https://youtu.be/NgWOlX4-xd4" %}
-
-## Import / Export products using Advanced CSV
-
-{% embed url="https://youtu.be/vvUdzrOqacA" %}
-
-## Import / Export product options using Advanced CSV
-
-{% embed url="https://youtu.be/HVSNS\_5i2Mo" %}
-
-## Import / Export variants using Advanced CSV
-
-{% embed url="https://youtu.be/afQwu8qNItw" %}
 
 ## Data Validation
 
