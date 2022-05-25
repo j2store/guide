@@ -4,10 +4,6 @@
 
 {% embed url="https://youtu.be/5KkqoN\_P508" %}
 
-## Importing and exporting Flexivariable product options using Advanced CSV import and export tool
-
-{% embed url="https://youtu.be/T8QmpKJ2yoM" %}
-
 ## Bulk Discount
 
 {% embed url="https://youtu.be/EGW0Ol5o3jA" %}
@@ -144,14 +140,4 @@
 ## Advanced notify
 
 {% embed url="https://youtu.be/HKVHj9diN4Y" %}
-
-## Importing and exporting Flexivariable products using Advanced CSV import and Export tool
-
-{% embed url="https://youtu.be/9DQTRIUY\_to" %}
-
-## Importing and exporting Flexivariable product variants using Advanced CSV import and export tool
-
-{% embed url="https://youtu.be/4VivY7GO9Qw" %}
-
-
 
