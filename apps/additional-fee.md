@@ -1,28 +1,28 @@
 # Additional fee
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
 1. PHP 5.4 or higher
 2. Joomla 3.3 or above
 3. J2Store 3.2.x or above
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 1. Use the Joomla installer to install the app.
-2. In the backend, go to J2Store Dashboard -&gt; Apps as shown in the image below.
+2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 3. Click Enable in the Additional Fee app.
 
-![Additional fee enable](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_enable.png)
+![Additional fee enable](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_enable.png)
 
-4. Once the app is enabled, open the app to configure the settings and to setup the additional fee.
+4\. Once the app is enabled, open the app to configure the settings and to setup the additional fee.
 
-![Additional fee open](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_open.png)
+![Additional fee open](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_open.png)
 
-## Settings <a id="settings"></a>
+## Settings <a href="#settings" id="settings"></a>
 
 Open the app and click the settings button on top to configure the app settings.
 
-![Click settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_clicksettings.png)
+![Click settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_clicksettings.png)
 
 **Additional fee should be calculated per**
 
@@ -47,21 +47,21 @@ You can change the position of checkbox by selecting either **Display before shi
 
 Select your tax profile to display the additional fee as taxable.
 
- 
+&#x20;
 
 ![Settings](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/add-fee-settings.png)
 
-## Additional Fee Setup <a id="additional-fee-setup"></a>
+## Additional Fee Setup <a href="#additional-fee-setup" id="additional-fee-setup"></a>
 
 Open the app and click **Add New** button to create new one.
 
-![Adding new rule](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_clickaddnew.png)
+![Adding new rule](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_clickaddnew.png)
 
 **Name of the fee:** Enter the name for additional fee. The value given here will be displayed during checkout.
 
 **Geozone:** Restrict applying additional charge based region. If you wants to apply extra charge only for customers from United States, then create the geozone for US and assign it here.
 
-**User IDs:** You could also apply the charge only to specific customer by adding user id of the customers here. You can add multiple user ids with comma\(,\) separated.
+**User IDs:** You could also apply the charge only to specific customer by adding user id of the customers here. You can add multiple user ids with comma(,) separated.
 
 **User groups:** It is also possible to restrict additional fee by user group. The additional fee will be applicable to the customers belongs to the user group selected here.
 
@@ -81,27 +81,26 @@ Open the app and click **Add New** button to create new one.
 
 **Apply if total order value is less than or equal to:** Additional fee will be applied when the total order price reaches the value entered here. For example, set value **40**. So the charge will be applied when order value becomes **40** or **less than 40**.
 
- 
+&#x20;
 
-![Addnew](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_new.png)
+![Addnew](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_new.png)
 
-## Additional Fee Setup at product level <a id="additional-fee-setup-at-product-level"></a>
+## Additional Fee Setup at product level <a href="#additional-fee-setup-at-product-level" id="additional-fee-setup-at-product-level"></a>
 
 * Go to Article manager.
-* Open the article / product &gt; J2Store cart tab.
+* Open the article / product > J2Store cart tab.
 * Navigate to the Apps tab and click add new button to setup the additional fee for that product. Refer the below screenshot.
 
-![Add new item](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_lineitem.png)
+![Add new item](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_lineitem.png)
 
-### Frontend <a id="frontend"></a>
+### Frontend <a href="#frontend" id="frontend"></a>
 
 If Auto apply additional fee in checkout is set to **NO**,
 
-![Frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_frontview.png)
+![Frontend view](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_frontview.png)
 
 If Auto apply additional fee in checkout is set to **YES**,
 
- 
+&#x20;
 
-![Cart page with additional fee enabled](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee_front_cart.png)
-
+![Cart page with additional fee enabled](https://raw.githubusercontent.com/j2store/doc-images/master/apps/additional-fee/addfee\_front\_cart.png)

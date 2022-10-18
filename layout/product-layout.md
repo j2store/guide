@@ -4,11 +4,11 @@ Product Layout is a powerful feature that enables the user to customize the disp
 
 Note: Product layout works only with Joomla articles. If you use SEBLOD / FLEXIcontent / or any other catlog systems, then you may need to configure the product layouts using their menu items.
 
-## Create a Product Layout <a id="create-a-product-layout"></a>
+## Create a Product Layout <a href="#create-a-product-layout" id="create-a-product-layout"></a>
 
-To create a product layout, go to joomla control panel and click on the menu item **Menus -&gt; Main Menu** as shown in the image below.
+To create a product layout, go to joomla control panel and click on the menu item **Menus -> Main Menu** as shown in the image below.
 
- 
+&#x20;
 
 ![Layout-menu-manager](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-menu-manager.png)
 
@@ -22,9 +22,9 @@ To create a new item, click on the **New** button and you will get this page.
 
 First you need to enter the title of the item you create. For example, it is entered with **Shop**. The alias will be automatically generated based on the title. Then, you have several tabs in this page. Let us see one by one. First is the **Details** tab.
 
-## Details Tab <a id="details-tab"></a>
+## Details Tab <a href="#details-tab" id="details-tab"></a>
 
-Here, you choose the **Menu Item Type** by clicking on the ‘Select’ button. You will get a pop-up window like this: 
+Here, you choose the **Menu Item Type** by clicking on the ‘Select’ button. You will get a pop-up window like this:&#x20;
 
 ![Layout-menu-type](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-menu-type.png)
 
@@ -36,7 +36,7 @@ Your menu item is selected and the link is also created automatically. click on 
 
 Now, go to next tab, **Common Options**.
 
-## Common Options Tab <a id="common-options-tab"></a>
+## Common Options Tab <a href="#common-options-tab" id="common-options-tab"></a>
 
 ![.Layout-common-options-tab](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-common-options.png)
 
@@ -46,11 +46,11 @@ Note: In Sub-Template option, you have to choose **bootstrap3** if your bootstra
 
 If you do not want to show product option price in front end, you can set the option to **Hide** as shown in the image below: ![Layout-common-options-tab-second](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-common-options-tab-second.png)
 
-## Item View options in category listings <a id="item-view-options-in-category-listings"></a>
+## Item View options in category listings <a href="#item-view-options-in-category-listings" id="item-view-options-in-category-listings"></a>
 
 Check the image below:
 
- 
+&#x20;
 
 ![Layout-item-view-in-category-listings](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-item-view-cat-list.png)
 
@@ -58,7 +58,7 @@ In this tab, you are setting the configuration for how to display the product in
 
 You can display any number of products as you like in the shop. Enter the no of products to be displayed in the text box provided and the number of columns in which the product display is divided. As the no of products increases, the image display size will be decreased.
 
-Also, select all other options as per your choice. Refer the next image.  
+Also, select all other options as per your choice. Refer the next image. &#x20;
 
 ![Layout-item-view-in-category-listings-image-cart](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-item-view-cat-list-second.png)
 
@@ -68,7 +68,7 @@ CAUTION: SKU Show/Hide setting can be done in two places, i.e., in configuration
 
 Next image shows the filters.
 
- 
+&#x20;
 
 ![Layout-item-view-in-category-list-filters](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-item-view-cat-list-filters.png)
 
@@ -86,13 +86,13 @@ Filters help narrow the search for a particular product. There are many filters 
 
 One or more filters can be applied as per the needs of the customer.
 
-## Item View Options Tab <a id="item-view-options-tab"></a>
+## Item View Options Tab <a href="#item-view-options-tab" id="item-view-options-tab"></a>
 
 In this tab, you will set the configuration for what to display with the product, like price, description, image etc.
 
 See the image below:
 
- 
+&#x20;
 
 ![Layout-item-view-tab](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-item-view-tab.png)
 
@@ -118,7 +118,8 @@ This image shows the options you have to set the configuration for a product on 
 * Show Specification
 * Show description and specifications
 * Show link to product list
-* 
+* &#x20;
+
 ![Layout-item-view-image-description-](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-item-view-image-desc.png)
 
 Using this parameters, you can determine what are the details and how they should be displayed in the online shop.
@@ -139,7 +140,7 @@ In this page, you can see the product layout features. The filters are positione
 
 Let us see how images are added in the backend and how they are displayed in frontend view. Consider the image below:
 
- 
+&#x20;
 
 ![Layout-adding-product-images](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-add-pro-image.png)
 
@@ -147,19 +148,19 @@ In the image, you can see Main and Additional images added to the product config
 
 Check the image below:
 
-  
+&#x20;&#x20;
 
 ![Layout-product-images-in-frontend](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-frontend-images.png)
 
 When you click on the product, it will be displayed with large image and additional images displayed below in small size. When you hover over the small images, you can see them in place of the main image. The below image explains this activity.
 
- 
+&#x20;
 
 ![Layout-frontend-additional-images-hover](https://raw.githubusercontent.com/j2store/doc-images/master/layout/product-layout/pro-layout-frontend-addi-images.png)
 
 Like this, you can set different product layouts according to your wish and needs.
 
-## Special Module Positions <a id="special-module-positions"></a>
+## Special Module Positions <a href="#special-module-positions" id="special-module-positions"></a>
 
 J2store offers special module positions to place the Joomla’s custom HTML module.Following are the custom module positions :
 
@@ -176,9 +177,9 @@ J2store offers special module positions to place the Joomla’s custom HTML modu
 11. j2store-checkout-top - Top of checkout page
 12. j2store-checkout-bottom - Bottom of checkout page
 
-## Avoid Zoom effect and open the main image in popup <a id="avoid-zoom-effect-and-open-the-main-image-in-popup"></a>
+## Avoid Zoom effect and open the main image in popup <a href="#avoid-zoom-effect-and-open-the-main-image-in-popup" id="avoid-zoom-effect-and-open-the-main-image-in-popup"></a>
 
-To avoid the zomm effect and to bring the image in pop up, first thing you have to do is disable the zoom effect in admin backend.  
+To avoid the zomm effect and to bring the image in pop up, first thing you have to do is disable the zoom effect in admin backend.\
 
 
 **Disable zoom in J2store product layout**
@@ -191,7 +192,7 @@ Set **NO** to Enable Zoom effect.
 
 **Disable zoom in Category blog layout**
 
-Go to Extensions &gt; Plugins.
+Go to Extensions > Plugins.
 
 Select type **content**.
 
@@ -213,7 +214,7 @@ Open the file and on around line no 22 find the below code:
 
 
 
-```text
+```
 <span class="<?php echo $class; ?>"     id="j2store-item-main-image-<?php echo $this->product->j2store_product_id; ?>"><br>		 &nbsp;	 <img itemprop="image"<br>		 &nbsp;	 alt="<?php echo $this->product->product_name ;?>"<br>		 &nbsp;	 class="j2store-product-main-image j2store-img-responsive" src="/<?php echo $image_path.$main_image;?>"<br>		 &nbsp;	 width="<?php echo intval($main_image_width); ?>"<br>		 &nbsp;	 /><br>		 &nbsp;	 </span>
 ```
 
@@ -221,17 +222,17 @@ Change this with
 
 
 
-```text
+```
 &nbsp;<span class="<?php echo $class; ?>" id="j2store-item-main-image-<?php echo $this->product->j2store_product_id; ?>"><br>		 &nbsp; <?php JHTML::_('behavior.modal', 'a.modal'); ?><br>		 &nbsp;	 <a href="<?php echo $this->product->main_image;?>" class="modal"><img itemprop="image"<br>		 &nbsp;	 alt="<?php echo $this->product->product_name ;?>"<br>		 &nbsp;	 class="j2store-product-main-image j2store-img-responsive"<br>		 &nbsp;	 src="<?php echo $image_path.$main_image;?>"<br>		 &nbsp;	 width="<?php echo intval($main_image_width); ?>"<br>		 &nbsp;	 /></a><br>		 &nbsp;	 </span>
 ```
 
-## Common Problems <a id="common-problems"></a>
+## Common Problems <a href="#common-problems" id="common-problems"></a>
 
 **Grid layout not working/columns.Why?**
 
 The issue seems to be the wrong sub-template.
 
-Open your product list layout menu. In Common options tab -&gt; set the sub-template as Bootstrap3.
+Open your product list layout menu. In Common options tab -> set the sub-template as Bootstrap3.
 
 Save
 
@@ -254,4 +255,3 @@ edit the file and remove the highlighted line fully.
 * Save.
 
 Now the custom module will display the description only in list view.
-

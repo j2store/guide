@@ -10,13 +10,13 @@ PHP version 5.4 or higher Joomla version 3.x or higher J2Store version 3.2.10 or
 
 **Installation**
 
-Download E-commerce Google Analytics app from our site’s extensions section and install it using Joomla installer. After installing the app, go to J2Store &gt; Apps and click Enable on E-commerce Google Analytics to activate the app. Once enabled, click on Open to configure the basic settings of the app.
+Download E-commerce Google Analytics app from our site’s extensions section and install it using Joomla installer. After installing the app, go to J2Store > Apps and click Enable on E-commerce Google Analytics to activate the app. Once enabled, click on Open to configure the basic settings of the app.
 
 **How to get Google Analytics ID ?**
 
 Step 1 :
 
-Login into your google account and go to Google analytics \([https://analytics.google.com/](https://analytics.google.com/)\).
+Login into your google account and go to Google analytics ([https://analytics.google.com/](https://analytics.google.com/)).
 
 Step 2 :
 
@@ -44,7 +44,7 @@ Enter your Google Analytics ID here. You can login into your Google Analytics ac
 
 **Set Domain Name :**
 
-Set the domain name to auto because if your site is in sub-directory \(for example, www.example.com/test\), it automatically detects the absolute url. You can also enter your domain name here.
+Set the domain name to auto because if your site is in sub-directory (for example, www.example.com/test), it automatically detects the absolute url. You can also enter your domain name here.
 
 **Tracking code :**
 
@@ -66,13 +66,13 @@ This feature sets Impression threshold for category page. It sends hit after the
 
 ![eega04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Enhanced%20E-commerce%20Google%20Analytics/eega04.png)
 
-2. In the E-commerce setup page, you have to turn on the Enable E-commerce.
+2\. In the E-commerce setup page, you have to turn on the Enable E-commerce.
 
 3.Then, Turn on the Enable Enhanced Ecommerce Reporting.
 
 ![eega05](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Enhanced%20E-commerce%20Google%20Analytics/eega05.png)
 
-4. After that, it is mandatory to create following checkout lables:
+4\. After that, it is mandatory to create following checkout lables:
 
 a. Cart
 
@@ -90,17 +90,17 @@ g. Confirm order
 
 ![eega06](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Enhanced%20E-commerce%20Google%20Analytics/eega06.png)
 
-5. Once finished configuring our E-commerce Google Analytics app and enabling enhanced eCommerce reporting in your Google Analytics account, go to your site frontend and place the order.
+5\. Once finished configuring our E-commerce Google Analytics app and enabling enhanced eCommerce reporting in your Google Analytics account, go to your site frontend and place the order.
 
-6.Now go to your Google Analytics page &gt; move to Reporting tab
+6.Now go to your Google Analytics page > move to Reporting tab
 
-7. In the reporting page, click Conversions &gt; Ecommerce &gt; Shopping Analysis &gt; Shopping Behavior in the left panel to see the behavior analysis of your eCommerce store.
+7\. In the reporting page, click Conversions > Ecommerce > Shopping Analysis > Shopping Behavior in the left panel to see the behavior analysis of your eCommerce store.
 
 ![eega07](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Enhanced%20E-commerce%20Google%20Analytics/eega07.png)
 
 ![eega08](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Enhanced%20E-commerce%20Google%20Analytics/eega08.png)
 
-8. Click Conversions &gt; Ecommerce &gt; Shopping Analysis &gt; Checkout Behavior to see the behavior analysis of checkout process.
+8\. Click Conversions > Ecommerce > Shopping Analysis > Checkout Behavior to see the behavior analysis of checkout process.
 
 ![eega09](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Enhanced%20E-commerce%20Google%20Analytics/eega09.png)
 
@@ -109,4 +109,3 @@ g. Confirm order
 Still have questions? You can post in our support forum: [http://j2store.org/forum/index.html](http://j2store.org/forum/index.html)
 
 Thank you for using our extension.
-

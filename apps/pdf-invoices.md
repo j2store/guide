@@ -4,7 +4,7 @@ Send a PDF invoice attached to the order notification email that is sent to the 
 
 The app uses DOMPDF library.
 
-You can download the DOMPDF library plugin and install it from here: [https://bitbucket.org/j2store/plg\_lib\_dompdf/downloads/plg\_library\_dompdf.zip](https://bitbucket.org/j2store/plg_lib_dompdf/downloads/plg_library_dompdf.zip)
+You can download the DOMPDF library plugin and install it from here: [https://bitbucket.org/j2store/plg\_lib\_dompdf/downloads/plg\_library\_dompdf.zip](https://bitbucket.org/j2store/plg\_lib\_dompdf/downloads/plg\_library\_dompdf.zip)
 
 **App Requirements**
 
@@ -12,21 +12,21 @@ J2Store 3.1.2 or later Joomla 3.3.x or later
 
 **DomPDF Requirements**
 
-PHP 5.0+ \(5.3+ recommended\) DOM extension GD extension
+PHP 5.0+ (5.3+ recommended) DOM extension GD extension
 
 **DomPDF Recommendations**
 
-MBString extension: provides internationalization support. This extension is not enabled by default. Dompdf has limited internationalization support when this extension is not enabled. opcache \(OPcache, XCache, APC, etc.\): improves performance.
+MBString extension: provides internationalization support. This extension is not enabled by default. Dompdf has limited internationalization support when this extension is not enabled. opcache (OPcache, XCache, APC, etc.): improves performance.
 
 **Installation**
 
 1. Download the DomPDF and install it using joomla installer.
 2. After installing DomPDF, download the PDF invoice app and install it using joomla installer.
-3. In the backend, go to J2Store Dashboard -&gt; Apps
+3. In the backend, go to J2Store Dashboard -> Apps
 4. Click Enable in the PDF Invoices.
 5. Once the app is enabled, click on Open to set the configuration for the app.
 
-![pdf01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Pdf-invoices/pdfinvoice_01.png)
+![pdf01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Pdf-invoices/pdfinvoice\_01.png)
 
 **Parameters**
 
@@ -36,7 +36,7 @@ Text entered here will be added as file name prefix. For example invoice.
 
 * **Send PDF invoice if order status is**
 
-PDF invoice will be sent only if order status\(All, Confirmed, Processed, New, Pending, Failed, Cancelled\) matches the selected.
+PDF invoice will be sent only if order status(All, Confirmed, Processed, New, Pending, Failed, Cancelled) matches the selected.
 
 * **Additional files to be attached**
 
@@ -66,9 +66,7 @@ Enter your custom CSS code to be used for items under this menu
 
 Set this YES will display the download PDF invoice link in order history page in frontend
 
-![](../.gitbook/assets/pdfinvoice_02.png)
+![](../.gitbook/assets/pdfinvoice\_02.png)
 
-{% embed url="https://www.youtube.com/watch?v=5KkqoN\_P508&feature=youtu.be" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=5KkqoN_P508&feature=youtu.be" %}
 

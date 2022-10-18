@@ -2,23 +2,23 @@
 
 The Purpose of this app is to add the users to the user group for selected order status and product selected groups.
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
 * PHP 5.4 or higher
 * Joomla 3.3 or above
 * J2Store 3.2.x or above
 
-## Installation Instructions <a id="installation-instructions"></a>
+## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
 1. Use the joomla installer to install the app.
-2. In the backend, go to J2Store Dashboard -&gt; Apps as shown in the image below.
+2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 3. Click Enable in the Add to User Group app
 
 ![atug01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/Add%20to%20user%20group/atug.png)
 
-4. Once the app is enabled, click an open to select the order status.
+4\. Once the app is enabled, click an open to select the order status.
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 **Order Status**
 
@@ -37,4 +37,3 @@ Go to the product and navigate to the app menu where you should select the user 
 Still have questions? You can post in our support forum: [Click here](http://j2store.org/forum/index.html)
 
 Thank you for using our extension.
-

@@ -32,7 +32,5 @@ The layout offers a number of params. The video just shows how you can simply ar
 
 ## Adding terms and conditions
 
-{% embed url="https://youtu.be/Lha1Ta\_RHoQ" %}
-
-
+{% embed url="https://youtu.be/Lha1Ta_RHoQ" %}
 

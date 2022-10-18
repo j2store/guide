@@ -2,7 +2,7 @@
 
 You can customize the email notifications sent to the customers when they place an order. The email templates offer a wide range of short codes to include dynamic data like order information, customer information in the email notification.
 
-## Customizing the template <a id="customizing-the-template"></a>
+## Customizing the template <a href="#customizing-the-template" id="customizing-the-template"></a>
 
 **Free version**
 
@@ -30,7 +30,7 @@ From the resulting page, click on **New** in the top left corner.
 
 ![Creating a new template using new button](https://raw.githubusercontent.com/j2store/doc-images/master/design/Email%20templates/Email-template-new-button.png)
 
-## How to create email template? <a id="how-to-create-email-template"></a>
+## How to create email template? <a href="#how-to-create-email-template" id="how-to-create-email-template"></a>
 
 You will get two settings tabs to be filled up for creating an email template. They are
 
@@ -98,17 +98,17 @@ If you have selected **Simple Editor** in the **Basic Tab**, then the **Advanced
 
 There are a number of tags listed in the extreme right of the editor from where they can be added to the editor content.
 
-## How to add custom fields inside email template ? <a id="how-to-add-custom-fields-inside-email-template-"></a>
+## How to add custom fields inside email template ? <a href="#how-to-add-custom-fields-inside-email-template" id="how-to-add-custom-fields-inside-email-template"></a>
 
 Also, you can add custom fields you have created in the editor. To add a custom field in the editor for display, you need to follow the format given below:
 
-\[CUSTOM\_BILLING\_FIELD:FIELDNAME\]
+\[CUSTOM\_BILLING\_FIELD:FIELDNAME]
 
 Keep in mind, the following, when you add a custom field to the editor:
 
-* The custom field should be enclosed in \[\]
+* The custom field should be enclosed in \[]
 * All the letters should be in CAPITAL letters
-* ‘CUSTOM’ is the first word inside the \[\]
+* ‘CUSTOM’ is the first word inside the \[]
 * Next, the section in which you have created the field, like, ‘BILLING\_FIELD’
 * And finally, the field name
 
@@ -116,7 +116,7 @@ Refer the image below for more clear understanding.
 
 ![Supported shortcodes for custom fields](https://raw.githubusercontent.com/j2store/doc-images/master/design/Email%20templates/email-template-shortcodes-for-custom-fields.png)
 
-## How to create template override for items table showing in the order email ? <a id="how-to-create-template-override-for-items-table-showing-in-the-order-email-"></a>
+## How to create template override for items table showing in the order email ? <a href="#how-to-create-template-override-for-items-table-showing-in-the-order-email" id="how-to-create-template-override-for-items-table-showing-in-the-order-email"></a>
 
 If you would like to customize the order item table showing in order email notification, that could be possible by creating template override. Carrying out customizations through template override will not overwrite the changes if you update it in future.
 
@@ -136,13 +136,13 @@ Edit
 
 Make your changes and save.
 
-## How to add logo in your Email Template ? <a id="how-to-add-logo-in-your-email-template-"></a>
+## How to add logo in your Email Template ? <a href="#how-to-add-logo-in-your-email-template" id="how-to-add-logo-in-your-email-template"></a>
 
 ![Adding a logo in email templates](https://raw.githubusercontent.com/j2store/doc-images/master/design/Email%20templates/Email-template-logo-for-emails.gif)
 
-## Short codes <a id="short-codes"></a>
+## Short codes <a href="#short-codes" id="short-codes"></a>
 
-```text
+```
 [SITENAME]
 [SITEURL]
 [INVOICE_URL]
@@ -195,5 +195,4 @@ Make your changes and save.
 
 {% embed url="https://youtu.be/CQhtxomct4c" %}
 
-\*\*\*\*
-
+****

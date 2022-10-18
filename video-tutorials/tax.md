@@ -22,7 +22,7 @@
 
 ## Displaying tax information "Excl tax"
 
-{% embed url="https://youtu.be/nhD\_elcvDRY" %}
+{% embed url="https://youtu.be/nhD_elcvDRY" %}
 
 ## Displaying tax information "Incl tax"
 
@@ -35,6 +35,4 @@
 ## Canadian tax profile set up
 
 {% embed url="https://youtu.be/UlnJRsIQ4a0" %}
-
-
 

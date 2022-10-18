@@ -11,12 +11,12 @@ Now you can integrate Trilio in your online store. With Trilio you can send SMS 
 **Installation**
 
 1. Use the joomla installer to install the app.
-2. In the backend, go to J2Store &gt; Dashboard &gt; Apps.
-3. Click Enable in the TwilioSMS app as shown in the image below. 
+2. In the backend, go to J2Store > Dashboard > Apps.
+3. Click Enable in the TwilioSMS app as shown in the image below.&#x20;
 
 ![st01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/twilio-sms/smstwilio01.png)
 
-4. Once app is enabled, click open to setup the Basic settings of the app.
+4\. Once app is enabled, click open to setup the Basic settings of the app.
 
 ![st01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/twilio-sms/smstwilio01.png)
 
@@ -24,11 +24,11 @@ Now you can integrate Trilio in your online store. With Trilio you can send SMS 
 
 **Basic Settings**
 
-**Account id\(SID\):** Enter the valid Account ID provided by the Twilio.
+**Account id(SID):** Enter the valid Account ID provided by the Twilio.
 
 **Token:** Enter the valid token provided by the Twilio.
 
-**From Phone number/ short code:** Enter the value \(Phone number\) from which the message should send to all customers.
+**From Phone number/ short code:** Enter the value (Phone number) from which the message should send to all customers.
 
 **When message will send:** Choose when the message should send. Select either After payment complete or After status update.
 
@@ -45,4 +45,3 @@ Now you can integrate Trilio in your online store. With Trilio you can send SMS 
 ![st03](https://raw.githubusercontent.com/j2store/doc-images/master/apps/twilio-sms/smstwilio03.png)
 
 ![st04](https://raw.githubusercontent.com/j2store/doc-images/master/apps/twilio-sms/smstwilio04.png)
-

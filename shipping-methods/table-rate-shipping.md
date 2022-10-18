@@ -22,10 +22,10 @@ You can define multiple rates based on the customer’s address, have multiple r
 **Installation**
 
 1. Download Table rate shipping plugin from our site and install it via Joomla installer.
-2. After installing the package, go to J2Store &gt; Setup &gt; Shipping methods and enable Table Rate Shipping methods.
+2. After installing the package, go to J2Store > Setup > Shipping methods and enable Table Rate Shipping methods.
 3. Once activated, open the plugin and start configuring shipping method.
 
-**How the table rate shipping works** When a customer checks out items in their cart, the plugin looks at the customer’s destination \(geozone\) and then uses the table of rates you created to calculate total shipping. Each geozone can have its own rules, or multiple sets of rules, based on your shipping requirements.
+**How the table rate shipping works** When a customer checks out items in their cart, the plugin looks at the customer’s destination (geozone) and then uses the table of rates you created to calculate total shipping. Each geozone can have its own rules, or multiple sets of rules, based on your shipping requirements.
 
 You have to create shipping zones and its rules for calculating the shipping correctly.
 
@@ -61,11 +61,11 @@ You have to create shipping zones and its rules for calculating the shipping cor
 
 **Maximum cost per item** Set a maximum cost to the calculated item. The item calculated could be an individual item or shipping class based on above settings.
 
- 
+&#x20;
 
 ![shippingmethod](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shippingmethod.png)
 
-\*\*\*\*
+****
 
 **Creating shipping rule** After filling all the fields on shipping method, click save and you will be asking to create shipping rule for the shipping method you created.
 
@@ -91,15 +91,15 @@ Click on Add Rule button to create shipping rule.
 
 **Weight cost** Enter the cost per weight unit for the products.
 
-**Percentage \(%\) cost** The percentage of the products total should used to calculate shipping.
+**Percentage (%) cost** The percentage of the products total should used to calculate shipping.
 
- **Shipping class** Shipping classes are used to restrict shipping by products. For example, you may have a product that weighs very large and needs special shipping price. In this case, you can use shipping class and create a shipping rule for that specific product. Multiple shipping classes can be created here. For example, special, normal, store pickup.
+&#x20;**Shipping class** Shipping classes are used to restrict shipping by products. For example, you may have a product that weighs very large and needs special shipping price. In this case, you can use shipping class and create a shipping rule for that specific product. Multiple shipping classes can be created here. For example, special, normal, store pickup.
 
 ![createshiprules](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shiprulecreate.png)
 
 You can create tables of rates that apply to different shipping classes. This gives you considerable flexibility when creating shipping methods.
 
- After creating shipping class, you will have to associate this shipping class to the product which needs special shipping charge.
+&#x20;After creating shipping class, you will have to associate this shipping class to the product which needs special shipping charge.
 
 ![shipclass](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shipclass.png)
 
@@ -112,7 +112,7 @@ You can create tables of rates that apply to different shipping classes. This gi
 1. Create a geozone. If you wants to apply a shipping charge to the customers only from United States, then you will have to create a geozone for the country United States.
 2. Then, go inside the plugin and create a shipping method.
 3. Give a name for your shipping method and choose the geozone and user group.
-4. Choose Ship Class as your calculation type and save. \(Note: You should have to create shipping class under the tab Shipping class\).
+4. Choose Ship Class as your calculation type and save. (Note: You should have to create shipping class under the tab Shipping class).
 5. Now create the shipping rule like belowChoose your shipping class. For example, Sample.Condition - Item countMin-Max - 1 to 100Item cost - $2Row cost - $4
 
 See the table below :
@@ -137,8 +137,8 @@ The table setup should be like below:
 
 When customers purchase Teddy bears, they will be charged like below:
 
-* > 2 teddy bears costs $8 for shipping \(2\*2\)+4
-* > 3 teddy bears costs $22 for shipping \(3\*2\)+16
+* > 2 teddy bears costs $8 for shipping (2\*2)+4
+* > 3 teddy bears costs $22 for shipping (3\*2)+16
 
 **3. Calculating shipping cost by weight** The shop owner decided to charge for a shipping based on weight. It’s more cost efficient for him to ship by weight, so he plans to re-structure his shipping rates like below:
 
@@ -173,7 +173,7 @@ Since the shipping cost has to be calculated based on shipping class, there are 
 
 ![trusecase](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-1c.png) Then, assign the shipping class to the products accordingly.
 
-**Cap** - We considered that this product will be shipped from Mumbai. So we assigned the shipping class “Mumbai” to this product. If you edit the product and navigate to J2Store Cart tab &gt; Apps tab, you would see the shipping class associated.
+**Cap** - We considered that this product will be shipped from Mumbai. So we assigned the shipping class “Mumbai” to this product. If you edit the product and navigate to J2Store Cart tab > Apps tab, you would see the shipping class associated.
 
 ![usecase1d](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-1d.png)
 
@@ -194,13 +194,13 @@ The shipping cost 2 has been created similar to the shipping cost 1.
 
 **Frontend screenshots:**
 
-Shipping charge applies when adding product A: 
+Shipping charge applies when adding product A:&#x20;
 
 ![usecasee](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-1e.png)
 
 Shipping charge applies when adding product B
 
- When adding both products, the shipping cost calculated by adding both charge:
+&#x20;When adding both products, the shipping cost calculated by adding both charge:
 
 ![usecasef](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-1f.png)
 
@@ -249,4 +249,3 @@ Now create two shipping rules for this method as per below:
 ![usecasef](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-2f.png)
 
 ![usecase2g](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/table-rate-usecase-2g.png)
-

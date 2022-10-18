@@ -2,22 +2,22 @@
 
 Many a times you might want to display a Store pickup option in the shipping method selection area of your site. Here is how it can be done.
 
-## Methods: <a id="methods"></a>
+## Methods: <a href="#methods" id="methods"></a>
 
 There are two ways in which the local store pick up method could be shown on the store front.
 
 1. Renaming the free shipping.
 2. Creating a shipping method using the standard shipping method.
 
-### Renaming the free shipping: <a id="renaming-the-free-shipping"></a>
+### Renaming the free shipping: <a href="#renaming-the-free-shipping" id="renaming-the-free-shipping"></a>
 
 **Ideal for:** The following method is ideal when you don’t intend to use the free shipping plugin for other purposes.
 
 **Procedure:**
 
-* Navigate to J2Store-&gt;Setup-&gt;Shipping methods-&gt;Free shipping.
+* Navigate to J2Store->Setup->Shipping methods->Free shipping.
 
-![freeshippping](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/how-to-set-up-local-store%3Dpick-up/loacl-store-image%281%29.png)
+![freeshippping](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/how-to-set-up-local-store%3Dpick-up/loacl-store-image\(1\).png)
 
 * Click on the create/edit/view option.
 * Rename the plugin’s display name to Local store pick up.
@@ -33,9 +33,9 @@ There are two ways in which the local store pick up method could be shown on the
 
 {% embed url="https://youtu.be/vYlO4qW-xL8" %}
 
-\*\*\*\*
+****
 
-## Creating a shipping method using the Standard shipping method: <a id="creating-a-shipping-method-using-the-standard-shipping-method"></a>
+## Creating a shipping method using the Standard shipping method: <a href="#creating-a-shipping-method-using-the-standard-shipping-method" id="creating-a-shipping-method-using-the-standard-shipping-method"></a>
 
 **Ideal for:**
 
@@ -43,7 +43,7 @@ This process is ideal when you wish to use the Free shipping to other purposes b
 
 **Procedure:**
 
-* Navigate to J2Store-&gt;Setup-&gt;Shipping methods-&gt; Standard shipping methods.
+* Navigate to J2Store->Setup->Shipping methods-> Standard shipping methods.
 * Click on the Create/edit/view option.
 * Click on the New option.
 
@@ -58,7 +58,7 @@ This process is ideal when you wish to use the Free shipping to other purposes b
 
 ![setrates](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/how-to-set-up-local-store%3Dpick-up/local-store-image6.png)
 
-* Choose the geozone\(you will have to create one already in J2Store-&gt;Localisation-&gt;Geozones\) for which this shipping option should be available.
+* Choose the geozone(you will have to create one already in J2Store->Localisation->Geozones) for which this shipping option should be available.
 * Set the rate as 0.
 * Click on the create button.
 
@@ -74,5 +74,4 @@ This process is ideal when you wish to use the Free shipping to other purposes b
 
 {% embed url="https://youtu.be/enjbI42xbt0" %}
 
-\*\*\*\*
-
+****

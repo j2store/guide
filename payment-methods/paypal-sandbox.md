@@ -11,28 +11,29 @@ Using the PayPal Sandbox is not even half as intuitive as you might think. Since
 
 **A.1. Create a seller account**
 
-1. Go to the main Sandbox page 
+1. Go to the main Sandbox page&#x20;
 2. Click on Create a preconfigured account. Warning: MAJOR SUPER DUPER IMPORTANT PITFALL WARNING!!! Choose a country with the same currency as your site. For example United States for transactions in USD.
 3. Set the account type to Seller
 4. Optional: set the login email to “seller”. It will make it easier for you to remember what you’re doing
 5. Note down your password. This will not be visible anywhere else.
 6. Set Add Bank Account to Yes and set the Account Balance to something like 100.00 USD
-7. Click on Create account Important: Make sure that Payment Review and Negative Test Mode are set to Disabled \(that’s the default\)
+7. Click on Create account Important: Make sure that Payment Review and Negative Test Mode are set to Disabled (that’s the default)
 8. PITFALL: PayPal will modify your email address, appending a random number and biz to it. Please verify it at the Test Accounts section of your Sandbox Account. Note down your email and password, you will need them!
 
 **A.2. Create a buyer account**
 
-1. 2. Click on Create a pre-configured account. Warning: MAJOR SUPER DUPER IMPORTANT PITFALL WARNING!!! Choose a country with the same currency as your site. For example United States for transactions in USD.
-3. Set the account type to Buyer \(not “Buyer In-Store”\)
+1.
+2. Click on Create a pre-configured account. Warning: MAJOR SUPER DUPER IMPORTANT PITFALL WARNING!!! Choose a country with the same currency as your site. For example United States for transactions in USD.
+3. Set the account type to Buyer (not “Buyer In-Store”)
 4. Optional: set the login email to “buyer”. It will make it easier for you to remember what you’re doing
 5. Note down your password. This will not be visible anywhere else.
 6. Set Add Bank Account to Yes and set the Account Balance to something like 1000.00 USD
-7. Click on Create accountImportantMake sure that Payment Review is set to Disabled \(that’s the default\)
+7. Click on Create accountImportantMake sure that Payment Review is set to Disabled (that’s the default)
 8. PITFALL: PayPal will modify your email address. Please verify it at the Test Accounts section of your SandboxAccount. Note down your email and password, you will need them!
 
 **B. Set up PayPal plugin for use with PayPal Sandbox**
 
-1. Go to Extensions, Plug-in Manager or J2Store &gt; Setup &gt; Payment methods
+1. Go to Extensions, Plug-in Manager or J2Store > Setup > Payment methods
 2. Find PayPal standard for J2Store and edit it
 3. Set Sandbox to Yes
 4. In the Sandbox Merchant field enter your seller’s email address
@@ -40,9 +41,9 @@ Using the PayPal Sandbox is not even half as intuitive as you might think. Since
 
 **C. Testing J2Store with PayPal Sandbox**
 
-1. Make sure you have at least one published article\(product\) with price value of AT LEAST 1. Smaller values WILL NOT go through!
+1. Make sure you have at least one published article(product) with price value of AT LEAST 1. Smaller values WILL NOT go through!
 2. Go ahead with buying the product
-3. When you click Confirm and Make Payment button, Make sure the URL begins with \([https://www.sandbox.paypal.com/](https://www.sandbox.paypal.com/)\) . If not, you are doing something wrong and you have to set up the plugin again.
+3. When you click Confirm and Make Payment button, Make sure the URL begins with ([https://www.sandbox.paypal.com/](https://www.sandbox.paypal.com/)) . If not, you are doing something wrong and you have to set up the plugin again.
 4. Make sure that in the top left corner you see the name you registered with Paypal Sandbox followed by the words “Test Store”. If not, you are doing something wrong and you have to set up the plugin again.
 5. Login using the Sandbox buyer email and password and go through with the payment.
 6. Go to your site’s back-end, Components, J2Store, Orders
@@ -61,4 +62,3 @@ Using the PayPal Sandbox is not even half as intuitive as you might think. Since
 9. Wait for 1-5 minutes for the payment notification to be sent to your site
 10. Go to your site’s back-end, Components, J2Store, Orders
 11. The order will have confirmed status now. Awesome! You’re ready to start selling! Remember to set the plugin’s Sandbox to Off and enter your real email address to the Merchant ID field of the plugin.
-

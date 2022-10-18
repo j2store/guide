@@ -23,7 +23,7 @@ It is the secure and easy way to offer a wide range of payment options to  your 
 * Automatic order status updates in WooCommerce, even when the customer closes the page too soon
 * No signup costs required to get started with Rabo OmniKassa
 
-## System Requirements <a id="system-requirements"></a>
+## System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
 * PHP 5.4 or greater
 * Joomla 3.x
@@ -32,13 +32,13 @@ It is the secure and easy way to offer a wide range of payment options to  your 
 ## Installation Instructions
 
 * Use the Joomla installer to install the plugin.
-* In the backend, go to J2store Dashboard -&gt; Payment methods and enable plugin.
-* Open the plugin and enter the parameters \(read the explanation about each parameter given below\)
+* In the backend, go to J2store Dashboard -> Payment methods and enable plugin.
+* Open the plugin and enter the parameters (read the explanation about each parameter given below)
 * Save and close it.
 
 ## To get Started with Rabo Omnikassa:
 
-If you are yet to sign up with Rabo Omnikassa already, you should contact Rabo Bank to open a Business bank account and then apply for the payment gateway service.  
+If you are yet to sign up with Rabo Omnikassa already, you should contact Rabo Bank to open a Business bank account and then apply for the payment gateway service.\
 Once approved, you will get the Merchant ID and the Key.
 
 ## **Configuration:**
@@ -80,7 +80,7 @@ Once approved, you will get the Merchant ID and the Key.
 
 J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 ![RabobankOmnikassa Image2](../.gitbook/assets/rabobankomnikassa-image2.png)
 
@@ -90,7 +90,7 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **Display text on error in payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Payment button text** Text entered here will be added as the name of the payment button. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.
 
@@ -98,10 +98,8 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 ![RabobankOmnikassa Image3](../.gitbook/assets/rabobankomnikassa-image3.png)
 
-  
+\
 
 
-  
-  
-
-
+\
+\

@@ -2,20 +2,20 @@
 
 This plugin integrates Checkout payment Finland with J2store.
 
-## System Requirements <a id="system-requirements"></a>
+## System Requirements <a href="#system-requirements" id="system-requirements"></a>
 
 * PHP 5.4 or greater
 * Joomla 3.x
 * J2Store 3.2.x or greater
 
-## Installation Instructions <a id="installation-instructions"></a>
+## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
 1. Use the Joomla installer to install the plugin.
-2. In the backend, go to J2store Dashboard -&gt; Payment methods and enable plugin.
-3. Open the plugin and enter the parameters \(read the explanation about each parameter given below\)
+2. In the backend, go to J2store Dashboard -> Payment methods and enable plugin.
+3. Open the plugin and enter the parameters (read the explanation about each parameter given below)
 4. Save and close it.
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 The plugin has the following parameters need to be addressed.
 
@@ -31,7 +31,7 @@ The plugin has the following parameters need to be addressed.
 
 **Sandbox Merchant Id** Use your Payment Checkout Finland’s Sandbox merchant ID.
 
-![checkout](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout_payment_finlandone.png)
+![checkout](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout\_payment\_finlandone.png)
 
 **Sandbox security key** Use your Payment Checkout Finland’s Sandbox security key.
 
@@ -43,26 +43,25 @@ The plugin has the following parameters need to be addressed.
 
 J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 **Display text before payment** The text entered here will be displayed to the customer at the order summary screen before he makes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Display text on after payment** The text entered here will be displayed when customer completes the payment. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-![checkoutpayt](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout_payment_finlandtwo.png)
+![checkoutpayt](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout\_payment\_finlandtwo.png)
 
-**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display text if customers cancels payment** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Display text on error in payment** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Debug** Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
 
-**Payment button text** Text entered here will be added as the name of the payment button. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.  
- 
+**Payment button text** Text entered here will be added as the name of the payment button. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override.\
+&#x20;
 
-![checkpay](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout_payment_finlandthree.png)
+![checkpay](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/checkout-fi/checkout\_payment\_finlandthree.png)
 
 **Support** Still have questions? You can post in our support forum: [click here](http://j2store.org/forum/index.html)
 
 Thank you for using our extension.
-

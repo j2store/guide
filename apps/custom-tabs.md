@@ -15,7 +15,7 @@ You can create any number of tabs to display in the product page. You can enter 
 ## Installation:
 
 * Download Custom Tabs app from our site and install it using Joomla installer.
-* After installing, from Joomla backend go to J2Store &gt; Apps and find Custom Tabs app.
+* After installing, from Joomla backend go to J2Store > Apps and find Custom Tabs app.
 * Click on Enable to activate the app.
 * Click on Open to configure basic settings of the app.
 
@@ -33,6 +33,4 @@ Below is a detailed video on setting up the Custom Tab for a Product:
 
 
 
-  
-
-
+\

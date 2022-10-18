@@ -19,16 +19,16 @@ Alternatively, you could turn off the catalog mode and hide the add to cart butt
 **Installation**
 
 1. Use the Joomla installer to install the app.
-2. In the backend, go to J2Store Dashboard -&gt; Apps as shown in the image below.
+2. In the backend, go to J2Store Dashboard -> Apps as shown in the image below.
 3. Click Enable in the Ask question / quote app.
 
 ![Ask quote](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-dashboard.png)
 
-4. Once the app is enabled, open the app to configure the settings.
+4\. Once the app is enabled, open the app to configure the settings.
 
 **Global level:**
 
-In the global settings of the app, you can configure 
+In the global settings of the app, you can configure&#x20;
 
 * How and where the ask quote app would appear at the storefront.
 * The look of the email that is triggered when a user submits the ask quote form.
@@ -56,13 +56,13 @@ POP-UP: Select this to display the ask quote form in a separate pop-up window.
 
 Accordion: Select this to display the ask quote form in an accordian view
 
-* **Display position** 
+* **Display position**&#x20;
 
 Choose whether you wish to have the add to quote form before or after the cart.
 
 * **Display button / link in**
 
-Select the location \(Product view, category view, Both views\) where the Ask Quote button should be displayed.
+Select the location (Product view, category view, Both views) where the Ask Quote button should be displayed.
 
 * **Display button/link**
 
@@ -78,7 +78,7 @@ Use the language constant PLG\_J2STORE\_PRODUCTQUOTE\_LINK\_TEXT to translate th
 
 #### Email Configuration
 
- **Include label for custom fields:** 
+&#x20;**Include label for custom fields:**&#x20;
 
 If you wish that the label of the custom fields you use should be available on the email, then set this to Yes.
 
@@ -90,34 +90,34 @@ You could choose whether the user alone or admin alone or both should receive th
 
 Enter the body of the email here. You can use the below shortcodes in the text editor:
 
-\[SITENAME\]  
- \[FIRST\_NAME\]  
- \[LAST\_NAME\]  
- \[PHONE\_1\]  
- \[PHONE\_2\]  
- \[EMAIL\]  
- \[COMPANY\]  
- \[TAX\_NUMBER\]  
- \[ADDRESS\_1\]  
- \[ADDRESS\_2\]  
- \[CITY\]  
- \[ZIP\]  
- \[COUNTRY\_NAME\]  
- \[ZONE\_NAME\]  
- \[PRODUCT\_NAME\]  
- \[PRODUCT\_SKU\]  
- \[PRODUCT\_PRICE\]  
+\[SITENAME]\
+&#x20;\[FIRST\_NAME]\
+&#x20;\[LAST\_NAME]\
+&#x20;\[PHONE\_1]\
+&#x20;\[PHONE\_2]\
+&#x20;\[EMAIL]\
+&#x20;\[COMPANY]\
+&#x20;\[TAX\_NUMBER]\
+&#x20;\[ADDRESS\_1]\
+&#x20;\[ADDRESS\_2]\
+&#x20;\[CITY]\
+&#x20;\[ZIP]\
+&#x20;\[COUNTRY\_NAME]\
+&#x20;\[ZONE\_NAME]\
+&#x20;\[PRODUCT\_NAME]\
+&#x20;\[PRODUCT\_SKU]\
+&#x20;\[PRODUCT\_PRICE]\
 
 
 **To Display the custom field data**
 
-To display the custom field information entered by the user when filling form in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor. 
+To display the custom field information entered by the user when filling form in an email the customer and admin receive, it is possible by adding the shortcode of respective custom field in the Email body editor.&#x20;
 
-For example, if you are having text area as a custom field in your product quote form, then copy the field name\(you can get it in custom field section J2Store &gt; Setup &gt; Custom fields\) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, \[message\].
+For example, if you are having text area as a custom field in your product quote form, then copy the field name(you can get it in custom field section J2Store > Setup > Custom fields) and paste it in Email body editor. The custom field shortcode should be enclosed with square braces. For example, \[message].
 
- Refer the image below,
+&#x20;Refer the image below,
 
-![](../.gitbook/assets/screenshot-localhost-2020.08.14-17_37_38.png)
+![](../.gitbook/assets/screenshot-localhost-2020.08.14-17\_37\_38.png)
 
 **Email subject**
 
@@ -131,15 +131,15 @@ If you would like to add / remove the fields in product quote form without affec
 
 In this section, you can create the custom form by adding field shortcode given in the top of the layout tab page and display that field in the form.
 
-To add any new fields, go to J2Store &gt; Setup &gt; Custom fields. Click NEW to create new field.
+To add any new fields, go to J2Store > Setup > Custom fields. Click NEW to create new field.
 
 Here is how you could create a new custom field.
 
 Now, in form layout add the shortcodes of fields you want to display in product quote form.
 
-To add the custom field shortcode, copy the field name in J2Store &gt; Setup &gt; Custom fields section and paste it in the form. The field name should be enclosed with square braces. For example, \[message\].
+To add the custom field shortcode, copy the field name in J2Store > Setup > Custom fields section and paste it in the form. The field name should be enclosed with square braces. For example, \[message].
 
-  
+&#x20;&#x20;
 
 ![Ask quote custom field](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-custom-field.png)
 
@@ -160,7 +160,7 @@ That's it! The data entered on this custom field at the ask quote form during qu
 
 **Ask quote enabled on a single product- At the product article**
 
-  
+&#x20;&#x20;
 
 ![Ask quote frontend](https://raw.githubusercontent.com/j2store/doc-images/master/apps/ask-quote/ask-quote-frontend.png)
 
@@ -173,4 +173,3 @@ That's it! The data entered on this custom field at the ask quote form during qu
 **Support**
 
 Still have questions? Reach out to us via the Priority ticket system or the Support Request form.
-

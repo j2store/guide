@@ -8,9 +8,9 @@ This is an example setting for stores in United States. This also applies to man
 
 **NOTE:**The example given below, assumes you have a store in Texas and you charge 8.5% tax on the goods sold to customers in Texas. All customers coming from other states are NOT taxed
 
-## Step 1 : Create a geozone for Texas <a id="step-1--create-a-geozone-for-texas"></a>
+## Step 1 : Create a geozone for Texas <a href="#step-1--create-a-geozone-for-texas" id="step-1--create-a-geozone-for-texas"></a>
 
-Go to Localisation -&gt; Geozones -&gt; New
+Go to Localisation -> Geozones -> New
 
 **Geozone Name:** Texas Zone
 
@@ -18,11 +18,11 @@ Go to Localisation -&gt; Geozones -&gt; New
 
 **Zone :** Texas
 
-## Step 2: Create a tax rate <a id="step-2-create-a-tax-rate"></a>
+## Step 2: Create a tax rate <a href="#step-2-create-a-tax-rate" id="step-2-create-a-tax-rate"></a>
 
-Go to Localisation -&gt; Tax Rates -&gt; New
+Go to Localisation -> Tax Rates -> New
 
-**Name :** Sales Tax \(you can give any name here\)
+**Name :** Sales Tax (you can give any name here)
 
 **Tax Percent :** 8.5
 
@@ -30,9 +30,9 @@ Go to Localisation -&gt; Tax Rates -&gt; New
 
 **Status :** Published
 
-## Step 3: Create a tax profile and rules <a id="step-3-create-a-tax-profile-and-rules"></a>
+## Step 3: Create a tax profile and rules <a href="#step-3-create-a-tax-profile-and-rules" id="step-3-create-a-tax-profile-and-rules"></a>
 
-Go to Localisation -&gt; Tax Profiles -&gt; New
+Go to Localisation -> Tax Profiles -> New
 
 **Name:** Default Tax Class
 
@@ -46,9 +46,9 @@ Click Add
 
 \*\*Associated Address: \*\* Shipping
 
-## Step 4: Configure tax settings <a id="step-4-configure-tax-settings"></a>
+## Step 4: Configure tax settings <a href="#step-4-configure-tax-settings" id="step-4-configure-tax-settings"></a>
 
-Go to Set up -&gt; Configuration -&gt; Tax
+Go to Set up -> Configuration -> Tax
 
 **Prices Entered with Tax:** No, i will enter prices EXCLUSIVE of tax
 
@@ -64,15 +64,15 @@ Go to Set up -&gt; Configuration -&gt; Tax
 
 Save.
 
-## Step 5: Create a product and choose the tax profile <a id="step-5-create-a-product-and-choose-the-tax-profile"></a>
+## Step 5: Create a product and choose the tax profile <a href="#step-5-create-a-product-and-choose-the-tax-profile" id="step-5-create-a-product-and-choose-the-tax-profile"></a>
 
-J2Store uses Joomla articles as products. So go to Article Manager and create a New Article / Product \(If you sue any other catalog source like Zoo or Sebold, you should head there\).
+J2Store uses Joomla articles as products. So go to Article Manager and create a New Article / Product (If you sue any other catalog source like Zoo or Sebold, you should head there).
 
 Product creation steps are explained under the topic **Products**.
 
 Here let us just see how to choose the tax profile
 
-Go to J2Store Cart tab -&gt; General tab
+Go to J2Store Cart tab -> General tab
 
 **Tax Profile :** Default tax class
 
@@ -84,5 +84,4 @@ Go to J2Store Cart tab -&gt; General tab
 
 {% embed url="https://youtu.be/n1sZ5Udbm3Q" %}
 
-\*\*\*\*
-
+****

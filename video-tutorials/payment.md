@@ -18,11 +18,11 @@
 
 ## Terms and conditions in checkout
 
-{% embed url="https://youtu.be/Lha1Ta\_RHoQ" %}
+{% embed url="https://youtu.be/Lha1Ta_RHoQ" %}
 
 ## Re - order checkout fields
 
-{% embed url="https://youtu.be/KLn\_u3CgUzc" %}
+{% embed url="https://youtu.be/KLn_u3CgUzc" %}
 
 ## Getting a delivery date input from customer during checkout
 
@@ -43,6 +43,4 @@
 ## Accepting credit card payments in your online store
 
 {% embed url="https://youtu.be/v6pRKkg9Ldk" %}
-
-
 

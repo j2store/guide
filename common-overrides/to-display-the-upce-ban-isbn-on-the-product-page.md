@@ -4,7 +4,7 @@ Navigate to **“/templates/your template/html/com\_j2store/templates/your site�
 
 
 
-```text
+```
 <?php
 /**
 * @package J2Store
@@ -31,10 +31,10 @@ defined('_JEXEC') or die;
 <?php endif; ?>
 ```
 
-Create another file called ”**view\_sku.php**” and paste the following content there:  
+Create another file called ”**view\_sku.php**” and paste the following content there:\
 
 
-```text
+```
 <?php
 /**
 * @package J2Store
@@ -56,4 +56,3 @@ defined('_JEXEC') or die;
 ```
 
 This would display the EBAN in the list view and item view pages.
-

@@ -2,7 +2,7 @@
 
 The following use cases will explain you briefly about how to setup subscription product based on auto renewals payments, manual renewal, one time subscription, etc
 
-## 1. Accepting recurring payments in Joomla <a id="1-accepting-recurring-payments-in-joomla"></a>
+## 1. Accepting recurring payments in Joomla <a href="#1-accepting-recurring-payments-in-joomla" id="1-accepting-recurring-payments-in-joomla"></a>
 
 Recurring payments are transactions that occur on a repetitious basis, such as a subscription service where payments are charged for a pre-determined duration of time.
 
@@ -22,7 +22,7 @@ Still have doubts? Lets watch the video here:
 
 
 
-## 2. Selling one-time subscriptions with manual renewals <a id="2-selling-one-time-subscriptions-with-manual-renewals"></a>
+## 2. Selling one-time subscriptions with manual renewals <a href="#2-selling-one-time-subscriptions-with-manual-renewals" id="2-selling-one-time-subscriptions-with-manual-renewals"></a>
 
 A Non Recurring Charge is a one time invoice, whether an admin manually creates it or someone registers online.
 
@@ -42,13 +42,13 @@ Still have doubts? Lets watch the video here:
 
 
 
-## 3. Selling subscriptions on a monthly or yearly basis in your Joomla website <a id="3-selling-subscriptions-on-a-monthly-or-yearly-basis-in-your-joomla-website"></a>
+## 3. Selling subscriptions on a monthly or yearly basis in your Joomla website <a href="#3-selling-subscriptions-on-a-monthly-or-yearly-basis-in-your-joomla-website" id="3-selling-subscriptions-on-a-monthly-or-yearly-basis-in-your-joomla-website"></a>
 
 Allow your customer to choose either monthly or yearly basis subscription service. This is possible by creating product with type variable subscription product.
 
 For example, now we are going to create a varaible subscription product “Love and care book crate”. The customer can subscribe for this service either on monthly or yearly basis. Follow the instructions given below to setup the renewal subscription product:
 
-* Go to J2Store &gt; Catalog &gt; Options
+* Go to J2Store > Catalog > Options
 * Create a new option named “Subscription period” and add option values 6-months and 1-year.
 * Save.
 * Now go to article manager and create a new product with type Variable subscription.
@@ -58,11 +58,11 @@ For example, now we are going to create a varaible subscription product “Love 
 
 Still have doubts? Lets watch the video here:
 
-{% embed url="https://youtu.be/C9U0uePm\_zs" %}
+{% embed url="https://youtu.be/C9U0uePm_zs" %}
 
 
 
-## 4. Selling memberships in your Joomla website <a id="4-selling-memberships-in-your-joomla-website"></a>
+## 4. Selling memberships in your Joomla website <a href="#4-selling-memberships-in-your-joomla-website" id="4-selling-memberships-in-your-joomla-website"></a>
 
 Lets consider you are selling online courses. While selling online courses, you may wants users to limit their access to whole site. This can be possible by providing membership. For example, setup membership like free, professional and Gold.
 
@@ -78,19 +78,17 @@ Lets watch the video here to learn how to create membership plans:
 
 
 
- Here are more videos that could be of help while setting up a subscription product:
+&#x20;Here are more videos that could be of help while setting up a subscription product:
 
 {% embed url="https://youtu.be/RtcGiQg6PG8" %}
 
-{% embed url="https://youtu.be/5BNGktLk\_6k" %}
+{% embed url="https://youtu.be/5BNGktLk_6k" %}
 
 
 
 {% embed url="https://youtu.be/hmKYkqBQHA8" %}
 
 {% embed url="https://youtu.be/3yahWVZ-u3c" %}
-
-
 
 
 

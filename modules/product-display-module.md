@@ -4,7 +4,7 @@ The module which helps you to display the products wherever you want in your sit
 
 **Installation**
 
-Download the product display module package from our site and install it via Joomla installer. After installing, go to Extensions &gt; Modules and create a new module with type J2Store products display and configure it.
+Download the product display module package from our site and install it via Joomla installer. After installing, go to Extensions > Modules and create a new module with type J2Store products display and configure it.
 
 **Basic settings**
 
@@ -18,13 +18,13 @@ The module comes with three following sub-templates:
 
 **J2Store menu id**
 
-If you have atleast one menu item with type as J2Store &gt; Product list view, the links on the product will take the id of that menu. If you don’t have any menu, then the link will use the non-sef url for the title and image on the product.
+If you have atleast one menu item with type as J2Store > Product list view, the links on the product will take the id of that menu. If you don’t have any menu, then the link will use the non-sef url for the title and image on the product.
 
-If you wants to use sef url, then create atleast one menu item with type J2Store &gt; Product list view and then choose this menu in this option.
+If you wants to use sef url, then create atleast one menu item with type J2Store > Product list view and then choose this menu in this option.
 
 **Display product based on following sort**
 
-You can sort out the arrangement of product by using this option. For example, if you would like to display the products based on SKU, then you can choose either SKU \(A_Z\) or SKU \(Z_A\).
+You can sort out the arrangement of product by using this option. For example, if you would like to display the products based on SKU, then you can choose either SKU (A_Z) or SKU (Z_A).
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/modules/product-dispaly-module/pdm01.png)
 
@@ -40,7 +40,7 @@ If you have chosen Product tags as your product source, then you will have to se
 
 **Category**
 
-If you have chosen the categories as your product source \(to the above parameter\), then you must select product categories here. Product under the selected categories here will be displayed.
+If you have chosen the categories as your product source (to the above parameter), then you must select product categories here. Product under the selected categories here will be displayed.
 
 **Include Subcategory**
 
@@ -75,9 +75,7 @@ This tab has options to show/hide the several things displaying on module as per
 
 **Video Tutorial:** To configure the products display module, follow the below video:
 
-{% embed url="https://www.youtube.com/watch?v=Pov6SPpQI\_k" %}
-
-
+{% embed url="https://www.youtube.com/watch?v=Pov6SPpQI_k" %}
 
 
 

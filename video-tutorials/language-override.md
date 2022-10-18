@@ -20,7 +20,5 @@ The video explains how to create a language override particularly in the context
 
 ## Translating product options in J2Store
 
-{% embed url="https://youtu.be/snZgc3Fd\_3Y" %}
-
-
+{% embed url="https://youtu.be/snZgc3Fd_3Y" %}
 

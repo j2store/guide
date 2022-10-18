@@ -10,16 +10,15 @@ description: Payment Sense payment gateway is integrated with J2Store using this
 2. Joomla 3.x and above
 3. J2Store 3.2.7 +
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 1. Download PaymentSense plugin package from our site’s extensions section and install it using Joomla installer.
-2. After installing plugin, go to J2Store &gt; Setup &gt; Payment methods and enable PaymentSense 
+2.  After installing plugin, go to J2Store > Setup > Payment methods and enable PaymentSense&#x20;
 
-   for J2Store.
-
+    for J2Store.
 3. Once enabled, open / edit the plugin and configure the basic settings of the app.
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
 **Payment option title:** You may enter the title of the payment method you wish to display at the frontend in checkout here. If left blank, the default payment text will be displayed.
 
@@ -35,7 +34,7 @@ description: Payment Sense payment gateway is integrated with J2Store using this
 
 **PaymentSense Communication:** You may select the payment response method here from the provided options.
 
-**Article ID for Thankyou page:** This article is displayed after the payment is processed. It can include anything \(including the plugins\) and should at the very least tell your customer what to do next.
+**Article ID for Thankyou page:** This article is displayed after the payment is processed. It can include anything (including the plugins) and should at the very least tell your customer what to do next.
 
 **Display Text on Selection:** The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the tips below.
 
@@ -45,7 +44,7 @@ For example, enter a language constant:
 
 J2STORE\__TEXT\__TO\__DISPLAY\__ON\_SELECTION
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 ![Paymentsense Configuration- Image1](../.gitbook/assets/paymentsense-configuration-image1.png)
 
@@ -55,7 +54,7 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 
 **Display Text on Error in Payment:** The text entered here will be displayed to the customer when there is an error in the payment process. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
-**Display Text if customer Cancels Payment:** The text entered here will be displayed to the customer when he cancels the payment at the gateway \(NOT in your site\). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
+**Display Text if customer Cancels Payment:** The text entered here will be displayed to the customer when he cancels the payment at the gateway (NOT in your site). You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. Refer the Display text on selection parameter.
 
 **Payment Button Text:** The text of the payment button. The button will be displayed at the final checkout step.
 
@@ -65,7 +64,6 @@ Thus, once you have mentioned the necessary details for the above parameters, yo
 
 ![Paymentsense Configuration- Image2](../.gitbook/assets/paymentsense-configuration-image2.png)
 
-\*\*\*\*
+****
 
-\*\*\*\*
-
+****

@@ -11,17 +11,17 @@ Apart form the default options that are available for all the product types, the
 * Persons
 * Availability
 
-## General Tab <a id="general-tab"></a>
+## General Tab <a href="#general-tab" id="general-tab"></a>
 
 **Booking duration**
 
-This options determines how long a booking is available. The duration can be defined by store admin \(fixed block\) or by customer \(they need to input on the front-end\). Duration can be set based on Hours, Minutes, Days or Months.
+This options determines how long a booking is available. The duration can be defined by store admin (fixed block) or by customer (they need to input on the front-end). Duration can be set based on Hours, Minutes, Days or Months.
 
 **Fixed blocks**
 
 You can define a fixed block of dates that are to be allowed for booking while the others are being disabled in the frontend. For example: If you set up the booking duration parameter to be Fixed block of 1 day, then the user will be allowed to choose a single date for booking. That is, if customer books Dec 28, then the start date is Dec 28 and the End date is Dec 28.
 
-![booking day](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/booking_day.png)
+![booking day](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/booking\_day.png)
 
 * Fixed block of 1 Month - For example, if you are providing flats for a rent on monthly basis, you can choose the Booking duration Fixed block of 12 months
 
@@ -39,11 +39,11 @@ On frontend, the blocks will be displayed like
 
 If you select the booking duration to Customer-defined blocks of 1 days, you would be prompted to choose the minimum and maximum duration allowed. If you choose 2 and 4 respectively, then the users will get a message if they choose dates that are more than 4 days or less than 2 days.
 
-![booking duration](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingbookingdurationfixedback.png)
+![booking duration](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingbookingdurationfixedback.png)
 
 The frontend will be like this:
 
-![booking duration front](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingbookingdurationfixedfront.png)
+![booking duration front](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingbookingdurationfixedfront.png)
 
 When the booking duration is chosen to be Customer-defined blocks of 1 days, the following options pop up:
 
@@ -52,15 +52,15 @@ When the booking duration is chosen to be Customer-defined blocks of 1 days, the
 
 The frontend will be like this:
 
-![booking duration front1](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingbookingdurationcusfront1.png)
+![booking duration front1](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingbookingdurationcusfront1.png)
 
 When the user chooses more blocks than the specified limit, error occurs as follows:
 
-![booking duration front2](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingbookingdurationcusfront2.png) 
+![booking duration front2](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingbookingdurationcusfront2.png)&#x20;
 
 When the maximum duration is exceeded, the following error occurs:
 
-![booking duration front3](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingbookingdurationcusfront3.png)
+![booking duration front3](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingbookingdurationcusfront3.png)
 
 **Calendar display mode**
 
@@ -68,13 +68,13 @@ Choose when to display the calendar. You can choose to display the calendar by d
 
 The following video demonstrates the use of the calendar display mode option:
 
-![calender review](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingcalendarviewbehav.gif)
+![calender review](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingcalendarviewbehav.gif)
 
 **Allowing booking cancellation**
 
 It is possible to choose whether the store admin want his/her user to have the option to cancel their booking. Setting YES to Can be cancelled? will allow customer to cancel the booking after it has been purchased.
 
-## Pricing tab <a id="pricing-tab"></a>
+## Pricing tab <a href="#pricing-tab" id="pricing-tab"></a>
 
 The pricing tab for a booking type product has one extra option in addition to the default options as follows:
 
@@ -82,11 +82,11 @@ The pricing tab for a booking type product has one extra option in addition to t
 
 Here is a screenshot to showcase the use of the block pricing option:
 
-![booking pricing](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingpricingback.png) Now that we have set up block pricing, the users will be charged in this way:
+![booking pricing](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingpricingback.png) Now that we have set up block pricing, the users will be charged in this way:
 
-![booking pricing front](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app_bookingpricingfront.png)
+![booking pricing front](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/app\_bookingpricingfront.png)
 
-## Persons <a id="persons"></a>
+## Persons <a href="#persons" id="persons"></a>
 
 This tab allows you to make the booking for multiple persons. To enable this feature, select YES. It is also possible to set a minimum and maximum number of persons.
 
@@ -104,20 +104,20 @@ Multiply block price by person count: If this option is enabled, all costs are m
 
 Once you enabled person types, you have the option to add multiple types.
 
-Give your Person type a name \(for example: Adult, Children\) and define the cost \(Base cost and Block cost\) for the type. Adding a description is optional.
+Give your Person type a name (for example: Adult, Children) and define the cost (Base cost and Block cost) for the type. Adding a description is optional.
 
 You can define a minimum and a maximum number for each person type. For example, you could require upto 2 adults and maximum 3 children for each booking. If you leave Max blank, there are no other restrictions than those of the bookable product itself.
 
 ![person type frontend](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/person-type-frontend.png)
 
-## Availability <a id="availability"></a>
+## Availability <a href="#availability" id="availability"></a>
 
-This tab controls the availability of blocks \(i.e.\) what blocks can be booked. Availability of blocks can be defined based on following time frame:
+This tab controls the availability of blocks (i.e.) what blocks can be booked. Availability of blocks can be defined based on following time frame:
 
-* Day\(s\)
-* Month\(s\)
-* Hour\(s\)
-* Minute\(s\)
+* Day(s)
+* Month(s)
+* Hour(s)
+* Minute(s)
 
 **Max bookings per block :** By using this option, you could define the number of bookings per block. For example, if you enter 2, more than 2 bookings on individual blocks are not allowed.
 
@@ -132,9 +132,9 @@ To add a custom date range, click the Add Range button:
 On the new row created, choose a range type, From / to range and choose whether it is bookable or not and a priority number. The following are the several date ranges:
 
 * Date range – from and to will show a datepicker field
-* Range of days – from and to will show a dropdown of days of the week \(Monday to Sunday\)
-* Range of months – from and to will show a dropdown of months \(January to December\)
-* Range of weeks – from and to will show a dropdown of weeks \(1 to 52\)
+* Range of days – from and to will show a dropdown of days of the week (Monday to Sunday)
+* Range of months – from and to will show a dropdown of months (January to December)
+* Range of weeks – from and to will show a dropdown of weeks (1 to 52)
 * Time ranges – from and to will show time inputs
 * Date Range with time – a time range can be set based on a custom date range
 
@@ -144,9 +144,9 @@ For example, if you would like to make the days from March 20 to March 22 to be 
 
 ![non available dates](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/non-available-dates.png)
 
-## More examples <a id="more-examples"></a>
+## More examples <a href="#more-examples" id="more-examples"></a>
 
-### 1. Rent a car for a day <a id="1-rent-a-car-for-a-day"></a>
+### 1. Rent a car for a day <a href="#1-rent-a-car-for-a-day" id="1-rent-a-car-for-a-day"></a>
 
 **Scenario:**
 
@@ -162,7 +162,7 @@ For example, if you would like to make the days from March 20 to March 22 to be 
 
 **General tab** After creating the product, navigate to general tab.
 
-**Booking duration** In our sample scenario, we are renting the car on a daily basis. So Set the Booking duration to Fixed blocks of 1 day\(s\).
+**Booking duration** In our sample scenario, we are renting the car on a daily basis. So Set the Booking duration to Fixed blocks of 1 day(s).
 
 ![car rent](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/car-rent-general.png)
 
@@ -178,7 +178,7 @@ Min persons = 1 Max persons = 5
 
 Max bookings per block = 4
 
-Minimum block bookable= 1 day\(s\) into the future Maximum block bookable= 30 day\(s\) into the future
+Minimum block bookable= 1 day(s) into the future Maximum block bookable= 30 day(s) into the future
 
 To restrict the availability of the hall only to week days and block the availability on weekends:
 
@@ -188,7 +188,7 @@ Range type = Range of days Range = Saturday to Sunday Bookable = No
 
 Following is the screenshot of frontend:
 
- 
+&#x20;
 
 ![car rent front](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/car-rent-front.png)
 
@@ -196,9 +196,9 @@ Following is the screenshot of frontend:
 
 {% embed url="https://youtu.be/ZhnE1eLYO8s" %}
 
-\*\*\*\*
+****
 
-### 2. Renting the flats on monthly basis <a id="2-renting-the-flats-on-monthly-basis"></a>
+### 2. Renting the flats on monthly basis <a href="#2-renting-the-flats-on-monthly-basis" id="2-renting-the-flats-on-monthly-basis"></a>
 
 **Scenario:**
 
@@ -213,13 +213,13 @@ Following is the screenshot of frontend:
 
 **General tab** After creating the product, navigate to general tab.
 
-**Booking duration** In our sample scenario, we are renting the flats on a monthly basis. So Set the Booking duration to Fixed blocks of 12 month\(s\).
+**Booking duration** In our sample scenario, we are renting the flats on a monthly basis. So Set the Booking duration to Fixed blocks of 12 month(s).
 
 ![house rent general](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/house-rent-general.png)
 
 **Pricing**
 
-Set pricing for car renting and move to next tab. There is no restriction for the capacity \(persons\) so navigate to the availability tab.
+Set pricing for car renting and move to next tab. There is no restriction for the capacity (persons) so navigate to the availability tab.
 
 **Availability**
 
@@ -228,27 +228,27 @@ Set pricing for car renting and move to next tab. There is no restriction for th
 * The flats would be rendted on monthly basis.
 * Restrict multiple booking per block because multiple persons could not be booked for a single flat.
 
-Max bookings per block = 1 Minimum block bookable= 1 month\(s\) into the future Maximum block bookable= 11 month\(s\) into the future
+Max bookings per block = 1 Minimum block bookable= 1 month(s) into the future Maximum block bookable= 11 month(s) into the future
 
 ![house rent availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/house-rent-availability.png)
 
 **Screenshot of frontend**
 
- 
+&#x20;
 
 ![house rent frontend](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/house-rent-frontend.png)
 
 **Video Tutorial:**
 
-{% embed url="https://youtu.be/b\_Gtt8G2xAQ" %}
+{% embed url="https://youtu.be/b_Gtt8G2xAQ" %}
 
-\*\*\*\*
+****
 
-### 3. Rent a sports helmet on hourly basis <a id="3-rent-a-sports-helmet-on-hourly-basis"></a>
+### 3. Rent a sports helmet on hourly basis <a href="#3-rent-a-sports-helmet-on-hourly-basis" id="3-rent-a-sports-helmet-on-hourly-basis"></a>
 
 **Scenario:**
 
-* Bookings will be opened daily for hourly basis\(say 3 hours\).
+* Bookings will be opened daily for hourly basis(say 3 hours).
 * 10 bookings will only be taken per day.
 * The availability time range is 12:00 am to 09:00 pm.
 
@@ -260,19 +260,19 @@ Max bookings per block = 1 Minimum block bookable= 1 month\(s\) into the future 
 
 **General tab** After creating the product, navigate to general tab.
 
-**Booking duration** Set this parameter to Fixed blocks of 3 Hour\(s\) to make the block available with custom time range.
+**Booking duration** Set this parameter to Fixed blocks of 3 Hour(s) to make the block available with custom time range.
 
 ![sports helmet general](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/sports-helmet-general.png)
 
 **Pricing tab** Set the pricing accordingly and navigate to the availability tab.
 
-**Availability tab** Max bookings per block = 10 Minimum block bookable = 0 days into the future Maximum block bookable = 1 month into the future Range type = Time range\(all weeks\) Range = 12:00 AM to 09:00 PM Bookable = Yes
+**Availability tab** Max bookings per block = 10 Minimum block bookable = 0 days into the future Maximum block bookable = 1 month into the future Range type = Time range(all weeks) Range = 12:00 AM to 09:00 PM Bookable = Yes
 
 ![sports helemt availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/sports-helmet-availability.png)
 
 **Frontend screenshot**
 
- 
+&#x20;
 
 ![sports helemt front](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/sports-helmet-front.png)
 
@@ -280,14 +280,14 @@ Max bookings per block = 1 Minimum block bookable= 1 month\(s\) into the future 
 
 {% embed url="https://youtu.be/ZK9pXTPiOzM" %}
 
-\*\*\*\*
+****
 
-### 4. Tool kit rental in minutes: <a id="4-tool-kit-rental-in-minutes"></a>
+### 4. Tool kit rental in minutes: <a href="#4-tool-kit-rental-in-minutes" id="4-tool-kit-rental-in-minutes"></a>
 
 **Scenario:**
 
 * We are about to offer toolkit rental in terms of 90 minutes.
-* Only 5 bookings would be possible per block\(here let us suppose we have 5 tool kits\).
+* Only 5 bookings would be possible per block(here let us suppose we have 5 tool kits).
 
 **Creating the product:**
 
@@ -299,25 +299,24 @@ Max bookings per block = 1 Minimum block bookable= 1 month\(s\) into the future 
 
 **Booking duration:** The booking duration should be set to Fixed blocks of 90 minutes.
 
-![Booking Minutes](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/Bookingminutes_general.png)
+![Booking Minutes](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/Bookingminutes\_general.png)
 
- **Pricing tab:** Set the pricing accordingly and navigate to the availability tab.
+&#x20;**Pricing tab:** Set the pricing accordingly and navigate to the availability tab.
 
-**Availability tab:** Max bookings per block = 5 Minimum block bookable = 0 minutes into the future Maximum block bookable = 1 month\(s\) into the future
+**Availability tab:** Max bookings per block = 5 Minimum block bookable = 0 minutes into the future Maximum block bookable = 1 month(s) into the future
 
- 
+&#x20;
 
-![booking minutes availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/Bookingminutes_availability.png)
+![booking minutes availablity](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/Bookingminutes\_availability.png)
 
 **Frontend:**
 
- 
+&#x20;
 
-![booking minutes frontend](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/bookingmintes_frontend.png)
+![booking minutes frontend](https://raw.githubusercontent.com/j2store/doc-images/master/booking-and-reservations/creating-a-bookable-product/bookingmintes\_frontend.png)
 
 **Video Tutorial:**
 
 {% embed url="https://youtu.be/AfEe46mVujI" %}
 
-\*\*\*\*
-
+****

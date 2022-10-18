@@ -2,7 +2,7 @@
 
 With J2Store you can let the customer choose for a Free shipping option in the shipping method selection area of your site. Here is how you can configure the Free shipping for the store.
 
-## Free Shipping Method: <a id="methods"></a>
+## Free Shipping Method: <a href="#methods" id="methods"></a>
 
 The Free shipping method is by default available with J2Store shipping methods.
 
@@ -10,7 +10,7 @@ To set the Free shipping method for the store please Follow the below steps:
 
 **Step:1**
 
-Navigate to J2Store-&gt;Setup-&gt;Shipping method-&gt;Free shipping and click on Create/Edit/Link
+Navigate to J2Store->Setup->Shipping method->Free shipping and click on Create/Edit/Link
 
 **Step:2**
 
@@ -40,7 +40,6 @@ For Example: If you wish to apply the Free shipping charge to order of total bel
 
 ![Free Shipping Parms](../../.gitbook/assets/freeshipping.png)
 
-## \*\*\*\* <a id="methods"></a>
+## **** <a href="#methods" id="methods"></a>
 
-\*\*\*\*
-
+****

@@ -10,7 +10,7 @@ The video describes how to create simple products with product options and price
 
 Learn to create dependent or chained product options in J2Store joomla shopping cart. For example, a pizza will have different toppings chained to their size or their preparation.
 
-{% embed url="https://youtu.be/E347z\_OOj4U" %}
+{% embed url="https://youtu.be/E347z_OOj4U" %}
 
 ## Selling a digital product
 
@@ -56,7 +56,7 @@ Learn how to allow your customers to send you a file when purchasing a product i
 
 ## Product Display Module
 
-{% embed url="https://youtu.be/Pov6SPpQI\_k" %}
+{% embed url="https://youtu.be/Pov6SPpQI_k" %}
 
 ## Promote discount and offers using J2Store advance pricing
 
@@ -66,7 +66,7 @@ Learn how to allow your customers to send you a file when purchasing a product i
 
 {% embed url="https://youtu.be/xV94OQWvpuY" %}
 
-## How to add related products\(upsell products\)
+## How to add related products(upsell products)
 
 {% embed url="https://youtu.be/X4QtLzaBPI0" %}
 
@@ -148,11 +148,9 @@ Learn how to allow your customers to send you a file when purchasing a product i
 
 ## SP Page Builder using product shortcode
 
-{% embed url="https://youtu.be/5YSv2\_QsEbs" %}
+{% embed url="https://youtu.be/5YSv2_QsEbs" %}
 
 ## Creating a flexible variable product
 
 {% embed url="https://youtu.be/yu1JKOjPba8" %}
-
-
 

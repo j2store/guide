@@ -1,6 +1,6 @@
 # Translating Product Options
 
-## Translating product options <a id="translating-product-options"></a>
+## Translating product options <a href="#translating-product-options" id="translating-product-options"></a>
 
 Do yo want to translate your product option to site’s languages? Yes, it is possible in J2Store by using Joomla’s default language oveerride method.
 
@@ -8,9 +8,9 @@ All you have to do is give the language string as your option name and create th
 
 Let’s see below how to translate the product options.
 
-## Creating product options <a id="creating-product-options"></a>
+## Creating product options <a href="#creating-product-options" id="creating-product-options"></a>
 
-1. Go to J2Store &gt; Catalog &gt; Options and click new
+1. Go to J2Store > Catalog > Options and click new
 
 ![translating options](https://raw.githubusercontent.com/j2store/doc-images/master/translation/translating-product-options/translate-option-1.png)
 
@@ -18,19 +18,19 @@ Let’s see below how to translate the product options.
 
 ![translation option2](https://raw.githubusercontent.com/j2store/doc-images/master/translation/translating-product-options/translate-option-2.png)
 
-## Creating language override <a id="creating-language-override"></a>
+## Creating language override <a href="#creating-language-override" id="creating-language-override"></a>
 
-1. Go to Extensions &gt; Languages &gt; Overrides and set the filter to Administrator location and then click New.
+1. Go to Extensions > Languages > Overrides and set the filter to Administrator location and then click New.
 
 ![translate option 3](https://raw.githubusercontent.com/j2store/doc-images/master/translation/translating-product-options/translate-option-3.png)
 
-2. Enter the language string \(which is given as a option name\) and give its value in the Text box. Choose For Both locations and save.
+2\. Enter the language string (which is given as a option name) and give its value in the Text box. Choose For Both locations and save.
 
 ![translation option4](https://raw.githubusercontent.com/j2store/doc-images/master/translation/translating-product-options/translate-option-4.png)
 
-3. Likewise, create language override option values.
+3\. Likewise, create language override option values.
 
-## Adding options to the product <a id="adding-options-to-the-product"></a>
+## Adding options to the product <a href="#adding-options-to-the-product" id="adding-options-to-the-product"></a>
 
 1. Go to Article manager and edit your product
 2. Move to J2Store Cart tab and then navigate to Options tab
@@ -38,11 +38,10 @@ Let’s see below how to translate the product options.
 
 ![translationoption5](https://raw.githubusercontent.com/j2store/doc-images/master/translation/translating-product-options/translate-option-5.png)
 
-4. Click on Set values to create the option values for the product and save.
+4\. Click on Set values to create the option values for the product and save.
 
 ![translate option 6](https://raw.githubusercontent.com/j2store/doc-images/master/translation/translating-product-options/translate-option-6.png)
 
 **Relevant screenshot of frontend:**
 
 ![translate option 7](https://raw.githubusercontent.com/j2store/doc-images/master/translation/translating-product-options/translate-option-7.png)
-

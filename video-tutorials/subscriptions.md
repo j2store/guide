@@ -26,7 +26,7 @@
 
 ## Creating 6 months subscription plan
 
-{% embed url="https://youtu.be/5BNGktLk\_6k" %}
+{% embed url="https://youtu.be/5BNGktLk_6k" %}
 
 ## Accepting recurring payments in Joomla
 
@@ -38,11 +38,9 @@
 
 ## Selling subscriptions on a monthly or yearly basis in your Joomla website
 
-{% embed url="https://youtu.be/C9U0uePm\_zs" %}
+{% embed url="https://youtu.be/C9U0uePm_zs" %}
 
 ## Selling one-time subscriptions with manual renewals
 
 {% embed url="https://youtu.be/D7-7EOzovqM" %}
-
-
 

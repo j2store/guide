@@ -14,7 +14,7 @@
 
 ## Quantity based per order
 
-{% embed url="https://youtu.be/7sm\_nQjN3as" %}
+{% embed url="https://youtu.be/7sm_nQjN3as" %}
 
 ## Weight based per item
 
@@ -26,7 +26,7 @@
 
 ## Free shipping configuration on certain condition
 
-{% embed url="https://youtu.be/3LHLKQ\_Gez4" %}
+{% embed url="https://youtu.be/3LHLKQ_Gez4" %}
 
 ## USPS Shipping
 
@@ -39,6 +39,4 @@
 ## Adding shipping tracking ID
 
 {% embed url="https://youtu.be/Se17Y3AZGV4" %}
-
-
 

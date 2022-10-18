@@ -11,12 +11,12 @@ Joomla 3.x J2Store 3.2.14 or higher PHP version 5.4 or higher
 **Installation**
 
 1. Download Pay later app from our site and install it using Joomla installer.
-2. After the installating, go to J2Store &gt; Apps and find Pay Later / Pay against Invoice app.
+2. After the installating, go to J2Store > Apps and find Pay Later / Pay against Invoice app.
 3. Click Enable to activate Pay Later / Pay against Invoice app.
 
 ![plpa01](https://raw.githubusercontent.com/j2store/doc-images/master/apps/pay-later-pay-against-invoice/plpa01.png)
 
-4. Click Open to get started with app.
+4\. Click Open to get started with app.
 
 ![plpa02](https://raw.githubusercontent.com/j2store/doc-images/master/apps/pay-later-pay-against-invoice/plpa02.png)
 
@@ -24,9 +24,9 @@ Joomla 3.x J2Store 3.2.14 or higher PHP version 5.4 or higher
 
 It is very simple and easier to get started with this app. There is no complex settings needs to be configured. You just enter the time interval between which the re-order link should be appeared/disappeared.
 
-**Profile Reorder enable after this time interval\(in seconds\)** : Enter the time \(in seconds\) at which the re-order link should appear on customer’s order history page. For example, 60 seconds. Re-order link will appear after 60 seconds from the time when customer abandoned the order.
+**Profile Reorder enable after this time interval(in seconds)** : Enter the time (in seconds) at which the re-order link should appear on customer’s order history page. For example, 60 seconds. Re-order link will appear after 60 seconds from the time when customer abandoned the order.
 
-**Profile Reorder link expired \(in days\) :** Define when the re-order link should disappear from customer’s order history page. For example, 5. Re-order link will get expired after 5 days.
+**Profile Reorder link expired (in days) :** Define when the re-order link should disappear from customer’s order history page. For example, 5. Re-order link will get expired after 5 days.
 
 **Pay button text :** Text entered here will be displayed in order history page. If you are using multilingual site, enter value as language string.
 
@@ -63,4 +63,3 @@ Sometimes, customers abandon the order and leave your site without making paymen
 **Order summary**
 
 ![plpa06](https://raw.githubusercontent.com/j2store/doc-images/master/apps/pay-later-pay-against-invoice/plpa06.png)
-

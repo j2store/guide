@@ -11,19 +11,17 @@ The app will redirect the customer directly to checkout when they add an item to
 ## **Installation:**
 
 1. Download the **Checkout Redirect** App and install it using Joomla installer.
-2. After installing the app, go to J2Store &gt; Apps and enable Change Password app.
+2. After installing the app, go to J2Store > Apps and enable Change Password app.
 3. Click Enable in the Checkout Redirect App.
 4. Once the app is enabled, click on Open to set the configuration for the app.
 5. Once enabled, when you add an item to cart the store will redirect you to the Checkout page and thus hide the Cart page from customer view.
 
-**NOTE:** You should set the Cart behavior to Redirect in J2Store -&gt;Set up-&gt; Configuration-&gt;Cart tab
+**NOTE:** You should set the Cart behavior to Redirect in J2Store ->Set up-> Configuration->Cart tab
 
 ![Cart Configuration - Checkout Redirect](../.gitbook/assets/cartconfiguration-redirect-checkout.png)
 
 
 
-\*\*\*\*
+****
 
-  
-
-
+\
