@@ -217,7 +217,6 @@
   * [Open hours (time based restriction)](apps/open-hours-time-based-restriction.md)
   * [Pay later/Pay against invoice](apps/pay-later-pay-against-invoice.md)
   * [Points and Rewards](apps/points-and-rewards.md)
-  * [Price Suffix Texts](apps/price-suffix-texts.md)
   * [Re-Order](apps/re-order.md)
   * [Shipstation](apps/shipstation.md)
   * [Simple CSV import and export tool](apps/simple-csv-import-and-export.md)
