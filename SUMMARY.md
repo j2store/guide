@@ -144,7 +144,6 @@
   * [Paybox Payment plugin](payment-methods/paybox-payment-plugin.md)
   * [Payeezy](payment-methods/payeezy.md)
   * [Payfast Payment plugin](payment-methods/payfast-payment-plugin.md)
-  * [Payflow Pro Payment plugin](payment-methods/payflow-pro-payment-plugin.md)
   * [Paygate Payment](payment-methods/paygate-payment.md)
   * [Paymate](payment-methods/paymate.md)
   * [Paypal Sandbox](payment-methods/paypal-sandbox.md)
