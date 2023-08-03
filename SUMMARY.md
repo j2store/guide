@@ -9,6 +9,7 @@
   * [Update](getting-started/update.md)
   * [Upgrade from FREE version to PRO version of J2Store](getting-started/upgrade-free-version-to-pro-version.md)
   * [Migrating from 2.x to3.x](getting-started/migrating-from-2x-to-3x.md)
+* [Migration from J2Store 3 to 4](migration-from-j2store-3-to-4.md)
 * [Set up](set-up/README.md)
   * [Content plugin settings](set-up/content-plugin-settings.md)
   * [Configuration](set-up/configuration.md)
