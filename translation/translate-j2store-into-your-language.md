@@ -68,7 +68,7 @@ Translate all the language resources in the same fashion.
 
 {% embed url="https://youtu.be/lqwO0ANPURQ" %}
 
-****
+
 
 Once you have translated, inform us. We will make an installable package and make it available for download at [click here](https://docs.j2store.org/translation/\[http://J2Store.org/translations.html]\(%3Chttp:/J2Store.org/translations.html%3E\)) immediately.
 

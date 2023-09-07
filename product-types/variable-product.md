@@ -279,7 +279,7 @@ To know how to manage inventory for variable products, follow the instructions g
 
 
 
-****
+
 
 
 

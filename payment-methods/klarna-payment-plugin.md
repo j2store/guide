@@ -48,7 +48,7 @@ So make sure that you have obtained the correct EID and Shared Secret from Klarn
 
 **Use Klarna Sandbox:** This option allows you to test the Klarna gateway using Klarna server instead of the live one. Use this option to test the plugin, if you do not have an Klarna account yet. If the option is set to Yes then please enter the Klarna Test Merchant ID and Secret key as mentioned below.
 
-**Klarna Test Merchant ID(KC0-2) / API username(KCO-3):** **** Please enter Klrana Test Merchant ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
+**Klarna Test Merchant ID(KC0-2) / API username(KCO-3):**  Please enter Klrana Test Merchant ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
 
 **Klarna Test shared Secret(KCO-2) / API(KCO-3):**  Please enter Klrana Test shared secret ID(KCO-2) / API username (KCO-3) associated with your Klarna account.
 

@@ -84,4 +84,3 @@ Go to J2Store Cart tab -> General tab
 
 {% embed url="https://youtu.be/n1sZ5Udbm3Q" %}
 
-****

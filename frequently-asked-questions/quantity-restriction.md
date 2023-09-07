@@ -45,4 +45,3 @@ When you try to set a global quantity restriction for all of your products, then
 
 {% embed url="https://youtu.be/aHpO-o1Wfrk" %}
 
-****

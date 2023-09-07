@@ -196,7 +196,7 @@ Following is the screenshot of frontend:
 
 {% embed url="https://youtu.be/ZhnE1eLYO8s" %}
 
-****
+
 
 ### 2. Renting the flats on monthly basis <a href="#2-renting-the-flats-on-monthly-basis" id="2-renting-the-flats-on-monthly-basis"></a>
 
@@ -242,7 +242,7 @@ Max bookings per block = 1 Minimum block bookable= 1 month(s) into the future Ma
 
 {% embed url="https://youtu.be/b_Gtt8G2xAQ" %}
 
-****
+
 
 ### 3. Rent a sports helmet on hourly basis <a href="#3-rent-a-sports-helmet-on-hourly-basis" id="3-rent-a-sports-helmet-on-hourly-basis"></a>
 
@@ -280,7 +280,7 @@ Max bookings per block = 1 Minimum block bookable= 1 month(s) into the future Ma
 
 {% embed url="https://youtu.be/ZK9pXTPiOzM" %}
 
-****
+
 
 ### 4. Tool kit rental in minutes: <a href="#4-tool-kit-rental-in-minutes" id="4-tool-kit-rental-in-minutes"></a>
 
@@ -319,4 +319,3 @@ Max bookings per block = 1 Minimum block bookable= 1 month(s) into the future Ma
 
 {% embed url="https://youtu.be/AfEe46mVujI" %}
 
-****

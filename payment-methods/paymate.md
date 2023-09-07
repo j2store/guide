@@ -60,7 +60,7 @@ Thus, once you have mentioned the necessary details for the above parameters, yo
 
 ![Paymate payment-Img2](../.gitbook/assets/paymate-payment-img2.png)
 
-****
+
 
 
 

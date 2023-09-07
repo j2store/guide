@@ -40,6 +40,5 @@ For Example: If you wish to apply the Free shipping charge to order of total bel
 
 ![Free Shipping Parms](../../.gitbook/assets/freeshipping.png)
 
-## **** <a href="#methods" id="methods"></a>
+## &#x20;<a href="#methods" id="methods"></a>
 
-****

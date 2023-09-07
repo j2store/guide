@@ -56,4 +56,3 @@ Prices should also be entered with the . (DOT) as the decimal separator. In the 
 How to change decimal separator using currency settings
 {% endembed %}
 
-****

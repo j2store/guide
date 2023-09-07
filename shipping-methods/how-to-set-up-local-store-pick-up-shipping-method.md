@@ -33,7 +33,7 @@ There are two ways in which the local store pick up method could be shown on the
 
 {% embed url="https://youtu.be/vYlO4qW-xL8" %}
 
-****
+
 
 ## Creating a shipping method using the Standard shipping method: <a href="#creating-a-shipping-method-using-the-standard-shipping-method" id="creating-a-shipping-method-using-the-standard-shipping-method"></a>
 
@@ -74,4 +74,3 @@ This process is ideal when you wish to use the Free shipping to other purposes b
 
 {% embed url="https://youtu.be/enjbI42xbt0" %}
 
-****

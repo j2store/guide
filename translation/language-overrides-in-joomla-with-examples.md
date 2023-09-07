@@ -41,16 +41,15 @@ You can create as many overrides as you like in this method.
 
 {% embed url="https://youtu.be/q-QXbSPLiA0" %}
 
-****
+
 
 **Method 2:**
 
 {% embed url="https://youtu.be/xrLXBHnFASc" %}
 
-****
+
 
 ## How to translate product options: <a href="#how-to-translate-product-options" id="how-to-translate-product-options"></a>
 
 {% embed url="https://youtu.be/snZgc3Fd_3Y" %}
 
-****

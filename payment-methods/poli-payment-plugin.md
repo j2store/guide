@@ -70,6 +70,6 @@ Thus, once you have mentioned the necessary details for the above parameters, yo
 
 ![POLi Payment Configuration-Image2](../.gitbook/assets/poli-payment-configuration-img2.png)
 
-****
+
 
 \

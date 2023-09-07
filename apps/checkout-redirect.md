@@ -22,6 +22,6 @@ The app will redirect the customer directly to checkout when they add an item to
 
 
 
-****
+
 
 \

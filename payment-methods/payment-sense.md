@@ -64,6 +64,5 @@ Thus, once you have mentioned the necessary details for the above parameters, yo
 
 ![Paymentsense Configuration- Image2](../.gitbook/assets/paymentsense-configuration-image2.png)
 
-****
 
-****
+

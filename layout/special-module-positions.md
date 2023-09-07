@@ -55,7 +55,7 @@ J2store offers special module positions to place the Joomla’s custom HTML modu
 
 {% embed url="https://youtu.be/aiTvXII33fg" %}
 
-****
+
 
 ## Checkout page <a href="#checkout-page" id="checkout-page"></a>
 

@@ -33,7 +33,7 @@ Finally, set the minimum and maximum subtotals that are required for availing th
 
 {% embed url="https://youtu.be/KwmTp3guAq0" %}
 
-****
+
 
 ### Quantity based per order <a href="#quantity-based-per-order" id="quantity-based-per-order"></a>
 
@@ -53,7 +53,7 @@ And make sure to **Enable** this shipping type to be available for shipping sele
 
 {% embed url="https://youtu.be/7sm_nQjN3as" %}
 
-****
+
 
 ### Weight based per order <a href="#weight-based-per-order" id="weight-based-per-order"></a>
 
@@ -71,7 +71,7 @@ And that’s it.
 
 {% embed url="https://www.youtube.com/watch?v=kffd0TsempA&feature=emb_logo" %}
 
-****
+
 
 ### Weight based per item <a href="#weight-based-per-item" id="weight-based-per-item"></a>
 
@@ -101,7 +101,7 @@ Select the shipping type to be ’**Weight based per item**’ for this item to 
 
 {% embed url="https://www.youtube.com/watch?time_continue=1&v=YjpfXdXmVBs&feature=emb_logo" %}
 
-****
+
 
 ### Price based per order <a href="#price-based-per-order" id="price-based-per-order"></a>
 
@@ -139,7 +139,7 @@ Say for example, if a product or item falls under the price range of $ 100 to 10
 
 {% embed url="https://www.youtube.com/watch?v=JdcL-wbaE90&feature=emb_logo" %}
 
-****
+
 
 For configuration of this shipping method, refer the image below.&#x20;
 

@@ -73,7 +73,7 @@ Let us learn how this ordering can be achieved.
 
 ![](../.gitbook/assets/ordering6.png)
 
-8\) Now at the frontend, all the products should be displayed as per the categories **** and products in ascending order.
+8\) Now at the frontend, all the products should be displayed as per the categories and products in ascending order.
 
 #### Video Tutorial
 

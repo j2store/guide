@@ -32,4 +32,3 @@ Now a free shipping coupon is created . You can customize the coupon by limiting
 
 {% embed url="https://www.youtube.com/watch?v=h5gbYqtpmP0&feature=youtu.be" %}
 
-****

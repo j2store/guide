@@ -65,7 +65,7 @@ You have to create shipping zones and its rules for calculating the shipping cor
 
 ![shippingmethod](https://raw.githubusercontent.com/j2store/doc-images/master/shipping-methods/table-rate-shipping/tablerate-shippingmethod.png)
 
-****
+
 
 **Creating shipping rule** After filling all the fields on shipping method, click save and you will be asking to create shipping rule for the shipping method you created.
 

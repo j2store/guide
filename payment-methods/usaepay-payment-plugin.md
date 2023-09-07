@@ -66,4 +66,3 @@ Thus, once you have mentioned the necessary details for the above parameters, yo
 
 ![USA E-PAY Payment Img2](../.gitbook/assets/usa-e-pay-img2.png)
 
-****

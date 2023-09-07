@@ -46,4 +46,3 @@ Now you can go to Joomla admin-> Language Manager->Overrides and create override
 
 ![SEPA Payment configuration-Image2](../.gitbook/assets/sepa-payment-configuration-imag2.png)
 
-****

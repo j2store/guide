@@ -32,7 +32,7 @@ This update would be rolled out before September, when the regulations come into
 
 &#x20;   **3) Stripe:**
 
-&#x20;   ****    As far as Stripe is concerned, the latest version of Stripe the **In-built mode** supports SCA regulations.
+&#x20;   As far as Stripe is concerned, the latest version of Stripe the **In-built mode** supports SCA regulations.
 
 &#x20;   You will have to update Stripe to the latest version(1.53) and set the option **Enable payment intent in in-built form to YES in the plugin settings.**
 

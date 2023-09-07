@@ -10,18 +10,18 @@ Now edit the file under the overridden path and around line 39, you would find t
 
 
 
-```text
+````
 <?php echo J2Store::product()->displayImage($this->product,array('type'=>'ViewMain','params' => $this->params)); ?>
 <?php endif; ?>
 </div>
 <?php endif; ?>```
-```
+````
 
- `Change it to:` 
+&#x20;`Change it to:`&#x20;
 
-\`\`
 
-```text
+
+````
 ```    <?php elseif(!empty($this->product->main_image)):?>
     <?php echo J2Store::product()->displayImage($this->product,array('type'=>'ViewMain','params' => $this->params)); ?>
     <?php endif; ?>
@@ -35,9 +35,8 @@ Now edit the file under the overridden path and around line 39, you would find t
     <?php echo J2Store::product()->displayImage($this->product,array('type'=>'Thumb','params' => $this->params)); ?>
     <?php endif; ?>
     </div>          
-```
+````
 
 Save.
 
 Now the main image as well as the thumbnail image should appear on the product view page.
-
