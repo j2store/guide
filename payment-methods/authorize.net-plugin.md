@@ -22,7 +22,7 @@ This Plugin enables you to receive payments via Authorize.Net Payment Gateway. V
 
 3\. Enable the plugin.
 
-![](../.gitbook/assets/authorize.net-installation4.png)
+![](<../.gitbook/assets/Screenshot from 2023-09-07 16-49-37.png>)
 
 4\. Enter the parameters (read the explanation about each parameter given below).
 
@@ -32,6 +32,8 @@ Now you can see the Authorize.net Payments as an option during the Checkout proc
 
 ## Parameters <a href="#parameters" id="parameters"></a>
 
+**License Key** Enter your license key here.\
+\
 **Payment option Title:**
 
 Enter the payment title that you wish to display at the Frontend of your site.
@@ -76,7 +78,7 @@ You can select the desired credit card type that you wish to display at the Fron
 
 You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
 
-![](../.gitbook/assets/authorize.net-sc2.png)
+![](../.gitbook/assets/Authorize1.png)
 
 **Display text on selection**
 
