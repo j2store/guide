@@ -1,36 +1,40 @@
 # Mollie payment plugin
 
-This plugin integrates mollie payment gateway with J2Store Joomla eCommerce solution.
+This plugin integrates Mollie payment gateway with J2Store Joomla eCommerce solution.
 
 Process secure iDEAL, credit card, bank transfer, SOFORT payments, paysafecard, Belfius Direct and other more payments with J2Store’s Mollie payment plugin.
 
-## Requirements <a id="requirements"></a>
+## Requirements <a href="#requirements" id="requirements"></a>
 
 1. PHP version 5.4 or higher
-2. Joomla 3.x and above
-3. J2Store 3.2.7 +
+2. Joomla 4.0.0 or the latest version.
+3. J2Store4 4.0.2-PRO
 
-## Installation <a id="installation"></a>
+## Installation <a href="#installation" id="installation"></a>
 
 1. Download Mollie payment plugin package from our site’s extensions section and install it using Joomla installer.
-2. After installing plugin, go to J2Store &gt; Setup &gt; Payment methods and enable Mollie for J2Store.
+2. After installing plugin, go to J2Store > Setup > Payment methods and enable Mollie for J2Store.
 3. Once enabled, open / edit the plugin and configure the basic settings of the app.
 
 **Setup Mollie API key**
 
-1. Log in to your Mollie account herehttps://www.mollie.nl/“target = ¨\_blank”rel = ¨noopener¨&gt; click here
+1. Log in to your Mollie account herehttps://www.mollie.nl/“target = ¨\_blank”rel = ¨noopener¨> click here
 2. After log in, click on “Settings” under your profile name on top right of the page.
 3. In the resulting page, you will have to look at your website profile details or to create a new website profile if you don’t have any existing web profiles. Click on Create new website profile.
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/website-profiles.png)
 
 1. If you are creating a new website profile enter your store’s details including your website URL and company name and select your payments and click save.
-2. Your website profile page has all the information needed to integrate your mollie account with J2Store’s Mollie payment plugin. Copy your live or Test API key \(depending on the environment you are using\) and paste it in plugin’s settings.
+2. Your website profile page has all the information needed to integrate your Mollie account with J2Store’s Mollie payment plugin. Copy your live or Test API key (depending on the environment you are using) and paste it in plugin’s settings.
 
-![api](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/mollie-api.png)
+![API](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/mollie-api.png)
 
-## Configuration <a id="configuration"></a>
+## Configuration <a href="#configuration" id="configuration"></a>
 
+**Licence key**&#x20;
+
+Enter your license key here to receive upcoming updates for the plugin.\
+\
 **Payment option title**
 
 The text entered here will be displayed at checkout payment steps.
@@ -45,7 +49,7 @@ Find and enter the API key associated with your Mollie payment account and click
 
 **Order**
 
-This is the place to add a description. The description will appear on the bank / card statement of your customer. You may use a maximum of 29 characters. You can use the following tag to get the invoice number in the description \[INVOICE\]
+This is the place to add a description. The description will appear on the bank / card statement of your customer. You may use a maximum of 29 characters. You can use the following tag to get the invoice number in the description \[INVOICE]
 
 **Mollie methods**
 
@@ -61,11 +65,11 @@ Do you want to apply a additional fee for choosing mollie as payment ? If yes, e
 
 **Percentage**
 
- If you would like to apply surcharge in percentage \(for example, 5%\), enter your charge\(5\) in this text box.
+&#x20;If you would like to apply surcharge in percentage (for example, 5%), enter your charge(5) in this text box.
 
 **Fixed value**
 
- If you would like to apply surcharge as fixed value \(for examplem $5\), enter your charge\(5\)in this text box.
+&#x20;If you would like to apply surcharge as fixed value (for examplem $5), enter your charge(5)in this text box.
 
 **Display text on selection**
 
@@ -73,7 +77,7 @@ The text entered here will be displayed when customer selects this payment metho
 
 J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
 **Display text before payment**
 
@@ -107,13 +111,12 @@ You can enter a language constant as a value here if you are using a multi-lingu
 
 Choose YES to enable the debug mode. If you set this to yes, then debug messages will be logged and saved in the cache folder in your Joomla root directory. DO NOT select YES in the live site.
 
-![mollie settings](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/mollie-settings.png)
+![mollie settings](../.gitbook/assets/Plugins-Mollie.png)
 
 **Frontend screen shots**
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/frontend-mollie.png)
+![](<../.gitbook/assets/Screenshot from 2023-09-08 10-34-30.png>)
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/mollie-order.png)
+![](<../.gitbook/assets/Screenshot from 2023-09-08 10-38-37.png>)
 
-![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/mollie%20payment%20plugin/mollie-payment.png)
-
+![](../.gitbook/assets/Mollie2.png)
