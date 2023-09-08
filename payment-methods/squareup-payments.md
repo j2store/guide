@@ -4,29 +4,29 @@ This plugin integrates Square API with J2Store Joomla eCommerce solution. Our pl
 
 Square eCommerce payments is only available in the US and Canada
 
-Your website should have SSL enabled \(https\). Its a requirement enforced by Square
+Your website should have SSL enabled (https). Its a requirement enforced by Square
 
 The plugin ONLY implements the payments API of Square. That means it does not sync inventory between your Offline POS and the Online store.
 
 **Requirements**
 
 1. PHP 5.4 or higher
-2. Joomla 3.x or higher
-3. J2Store 3.2.12 or higher
+2. Joomla 4.0.0 or the latest version.
+3. J2Store4 4.0.2-PRO
 4. SSL Certificate
 
 **Installation**
 
 1. Download our Squareup payment plugin from our site and install it using Joomla installer.
-2. After installing plugin, go to J2Store &gt; Setup &gt; Payment methods and enable Squareup Payment.
+2. After installing plugin, go to J2Store > Setup > Payment methods and enable Squareup Payment.
 3. Once enabled, open the payment plugin and configure the basic settings of the payment plugin.
 
 **Where to find your Application ID and Access token for your sandbox account ?**
 
-1. Log into Squareup application dashboardhttps://connect.squareup.com/apps”target = ¨\_blank”rel = ¨noopener¨&gt; click here
+1. Log into Squareup application dashboardhttps://connect.squareup.com/apps”target = ¨\_blank”rel = ¨noopener¨> click here
 2. If you don’t have any existing application, click on New Application to create new application.
 
-![appalication](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/squareup-payments/square-create-app.png)
+![application](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/squareup-payments/square-create-app.png)
 
 1. If applications exists, Click the application you want sandbox credentials for, then refer to the Sandbox section at the bottom.
 
@@ -36,17 +36,21 @@ The plugin ONLY implements the payments API of Square. That means it does not sy
 
 **Configuration**
 
+**Licence key** \
+\
+Enter your license key here to receive upcoming updates for the plugin.\
+\
 **Payment option title** Enter the payment title here. Title entered here will be displayed at checkout payment methods section. If you leave this empty, default payment title Squareup Payment will be displayed.
 
 **Image or logo** Add logo image for your payment option here. Image added here will be displayed at checkout payment methods section.
 
-**Applicaton ID** Enter the Applicaton ID associated with your Squareup payment account.
+**Application ID** Enter the Application ID associated with your Squareup payment account.
 
-**Access Token** Enter the Access token associated with your Squareup payment account. Once entered Applicaton ID and Access Token, save. After saving, the Location parameter will show the list of locations available.
+**Access Token** Enter the Access token associated with your Squareup payment account. Once entered Application ID and Access Token, save. After saving, the Location parameter will show the list of locations available.
 
-**Locations** Choose your desired location from the availble list and save.
+**Locations** Choose your desired location from the available list and save.
 
-![square1](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/squareup-payments/square-01.png)
+![square1](../.gitbook/assets/Plugins-Squareup.png)
 
 **Sandbox / Test mode** Squareup payment offers you the sandbox feature to test your store in test mode. Choose YES to use Squareup payments in test mode.
 
@@ -58,15 +62,15 @@ The plugin ONLY implements the payments API of Square. That means it does not sy
 
 **Article ID for custom thanks message** You can create a Joomla Article to say thanks to the users, who purchased in your online store. Enter the article ID here.
 
-**Geozone** By selecting a geozone here, you can restrict this payment method to only customers of that geo-region. Choose All geozones to show this method to all customers.
+**Geozone** By selecting a geozone here, you can restrict this payment method to only customers of that Geo-region. Choose All geozones to show this method to all customers.
 
 **Display text on selection** The text entered here will be displayed when customer selects this payment method. You can enter a language constant as a value here if you are using a multi-lingual site and then write a language override. For example, enter a language constant:
 
 J2STORE_TEXT_TO_DISPLAY_ON\_SELECTION.
 
-Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create overrides for the language constant in all your languages.
+Now you can go to Joomla admin-> Language Manager->Overrides and create overrides for the language constant in all your languages.
 
- 
+&#x20;
 
 ![square2](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/squareup-payments/square-02.png)
 
@@ -87,4 +91,3 @@ Now you can go to Joomla admin-&gt; Language Manager-&gt;Overrides and create ov
 ![test](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/squareup-payments/squareup-step-2.png)
 
 ![step3](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/squareup-payments/squareup-step-3.png)
-
