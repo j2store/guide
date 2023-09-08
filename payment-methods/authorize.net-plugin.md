@@ -5,8 +5,8 @@ This Plugin enables you to receive payments via Authorize.Net Payment Gateway. V
 ## Requirements <a href="#requirements" id="requirements"></a>
 
 * PHP 5.2 or higher
-* Joomla 2.5.x
-* J2Store 1.0 or above
+* Joomla 4.0.0 or the latest version.
+* J2Store4 4.0.2-PRO
 
 ## Installation Instructions <a href="#installation-instructions" id="installation-instructions"></a>
 
@@ -32,7 +32,10 @@ Now you can see the Authorize.net Payments as an option during the Checkout proc
 
 ## Parameters <a href="#parameters" id="parameters"></a>
 
-**License Key** Enter your license key here.\
+**License Key** \
+\
+Enter your license key here to receive upcoming updates for the plugin.
+
 \
 **Payment option Title:**
 
