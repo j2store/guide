@@ -58,7 +58,9 @@ The plugin has following options:&#x20;
 
 ![](https://raw.githubusercontent.com/j2store/doc-images/master/payment-methods/stripe/stripe-direct-params.png)
 
-**License key** Enter your licence key here.\
+**License key**\
+\
+&#x20;Enter your license key here to receive upcoming updates for the plugin.\
 \
 **Payment option title** The value entered here will be used as the title for this payment method. Customer will see this value when he checks out. If you have a multi-lingual site and wish to translate the title in other languages of your site, you could mention a custom language constant like **J2STORE\_**_**PAYMENT\_**_**METHOD\_**_**STRIPE\_**_**TITLE** and create a [language override](https://docs.j2store.org/translation/language-overrides-in-joomla-with-examples-using-j2store/) to translate it into the other languages.
 
